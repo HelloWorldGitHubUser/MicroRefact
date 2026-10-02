@@ -1,0 +1,16 @@
+module	status	javac_errors	first_error
+monolith (control)	OK	0	
+favourite-service	javac	1	[ERROR] COMPILATION ERROR : 
+inventory-service	javac	1	[ERROR] COMPILATION ERROR : 
+media-service	javac	49	[ERROR] COMPILATION ERROR : 
+notification-service	javac	2	[ERROR] COMPILATION ERROR : 
+order-service	javac	3	[ERROR] COMPILATION ERROR : 
+payment-service	javac	3	[ERROR] COMPILATION ERROR : 
+product-service	javac	5	[ERROR] COMPILATION ERROR : 
+promotion-service	javac	3	[ERROR] COMPILATION ERROR : 
+rating-service	javac	24	[ERROR] COMPILATION ERROR : 
+search-service	javac	18	[ERROR] COMPILATION ERROR : 
+shared	javac	1	[ERROR] COMPILATION ERROR : 
+shipping-service	javac	2	[ERROR] COMPILATION ERROR : 
+tax-service	javac	100	[ERROR] COMPILATION ERROR : 
+user-service	javac	16	[ERROR] COMPILATION ERROR : 
