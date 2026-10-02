@@ -1,0 +1,8 @@
+module	status	javac_errors	first_error
+monolith (control)	OK	0	
+file-center	javac	4	com/central/DTO/Result.java: <identifier> expected
+log-center	javac	6	com/central/Interface/IAggregationServiceImpl.java: <identifier> expected
+search-center	javac	4	com/central/DTO/Result.java: <identifier> expected
+shared	javac	56	com/central/constant/CommonConstant.java: = expected
+user-center	javac	8	com/central/DTO/Result.java: <identifier> expected
+zlt-uaa	javac	91	com/central/controller/ClientController.java: cannot find symbol

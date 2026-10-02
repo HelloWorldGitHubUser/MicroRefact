@@ -1,6 +1,6 @@
 module	status	javac_errors	first_error
 monolith (control)	OK	0	
-booking-service	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
-flight-service	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
-passenger-service	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
-shared	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+booking-service	pom	0	[ERROR] Child module /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/booking/svc-booking-service/buildingblocks of /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/booking/svc-booking-service/pom.xml does not exist @ 
+flight-service	pom	0	[ERROR] Child module /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/booking/svc-flight-service/buildingblocks of /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/booking/svc-flight-service/pom.xml does not exist @ 
+passenger-service	pom	0	[ERROR] Child module /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/booking/svc-passenger-service/buildingblocks of /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/booking/svc-passenger-service/pom.xml does not exist @ 
+shared	pom	0	[ERROR] Child module /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/booking/svc-shared/buildingblocks of /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/booking/svc-shared/pom.xml does not exist @ 

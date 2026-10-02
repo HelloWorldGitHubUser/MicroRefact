@@ -1,9 +1,9 @@
 module	status	javac_errors	first_error
-monolith (control)	OK	0	[ERROR] 'dependencies.dependency.groupId' for $com.google.protobuf:protobuf-java:jar with value '$com.google.protobuf' does not match a valid id pattern. @ 
-goodskill-ai	javac	4	[ERROR] 'dependencies.dependency.groupId' for $com.google.protobuf:protobuf-java:jar with value '$com.google.protobuf' does not match a valid id pattern. @ 
-goodskill-auth	javac	8	[ERROR] 'dependencies.dependency.groupId' for $com.google.protobuf:protobuf-java:jar with value '$com.google.protobuf' does not match a valid id pattern. @ 
-goodskill-chat	javac	2	[ERROR] 'dependencies.dependency.groupId' for $com.google.protobuf:protobuf-java:jar with value '$com.google.protobuf' does not match a valid id pattern. @ 
-goodskill-order	javac	4	[ERROR] 'dependencies.dependency.groupId' for $com.google.protobuf:protobuf-java:jar with value '$com.google.protobuf' does not match a valid id pattern. @ 
-goodskill-seckill	javac	5	[ERROR] 'dependencies.dependency.groupId' for $com.google.protobuf:protobuf-java:jar with value '$com.google.protobuf' does not match a valid id pattern. @ 
-goodskill-web	javac	89	[ERROR] 'dependencies.dependency.groupId' for $com.google.protobuf:protobuf-java:jar with value '$com.google.protobuf' does not match a valid id pattern. @ 
-shared	javac	27	[ERROR] 'dependencies.dependency.groupId' for $com.google.protobuf:protobuf-java:jar with value '$com.google.protobuf' does not match a valid id pattern. @ 
+monolith (control)	OK	0	
+goodskill-ai	javac	4	com/goodskill/Interface/SeckillMockControllerImpl.java: <identifier> expected
+goodskill-auth	javac	8	com/goodskill/DTO/Result.java: <identifier> expected
+goodskill-chat	javac	2	com/goodskill/client/ChatClient.java: ';' expected
+goodskill-order	javac	4	com/goodskill/DTO/Result.java: <identifier> expected
+goodskill-seckill	javac	5	com/goodskill/DTO/Result.java: <identifier> expected
+goodskill-web	javac	89	com/goodskill/Main.java: method seckillservice() is already defined in class com.goodskill.Main
+shared	javac	27	com/goodskill/GoodskillMonoApplication.java: cannot find symbol

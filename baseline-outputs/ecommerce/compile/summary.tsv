@@ -1,16 +1,16 @@
 module	status	javac_errors	first_error
 monolith (control)	OK	0	
-favourite-service	javac	1	[ERROR] COMPILATION ERROR : 
-inventory-service	javac	1	[ERROR] COMPILATION ERROR : 
-media-service	javac	49	[ERROR] COMPILATION ERROR : 
-notification-service	javac	2	[ERROR] COMPILATION ERROR : 
-order-service	javac	3	[ERROR] COMPILATION ERROR : 
-payment-service	javac	3	[ERROR] COMPILATION ERROR : 
-product-service	javac	5	[ERROR] COMPILATION ERROR : 
-promotion-service	javac	3	[ERROR] COMPILATION ERROR : 
-rating-service	javac	24	[ERROR] COMPILATION ERROR : 
-search-service	javac	18	[ERROR] COMPILATION ERROR : 
-shared	javac	1	[ERROR] COMPILATION ERROR : 
-shipping-service	javac	2	[ERROR] COMPILATION ERROR : 
-tax-service	javac	100	[ERROR] COMPILATION ERROR : 
-user-service	javac	16	[ERROR] COMPILATION ERROR : 
+favourite-service	javac	1	com/hoangtien2k3/ecommerce/model/favourite/Favourite.java: '.' expected
+inventory-service	javac	1	com/hoangtien2k3/ecommerce/dto/InventoryResponse.java: '.' expected
+media-service	javac	49	com/hoangtien2k3/ecommerce/controller/MediaController.java: cannot find symbol
+notification-service	javac	2	com/hoangtien2k3/ecommerce/dto/PaymentRecordDto.java: '.' expected
+order-service	javac	3	com/hoangtien2k3/ecommerce/dto/order/CartDto.java: '.' expected
+payment-service	javac	3	com/hoangtien2k3/ecommerce/dto/PaymentDto.java: '.' expected
+product-service	javac	5	com/hoangtien2k3/ecommerce/dto/ProductDto.java: '.' expected
+promotion-service	javac	3	com/hoangtien2k3/ecommerce/validation/PromotionValidator.java: not a statement
+rating-service	javac	24	com/hoangtien2k3/ecommerce/controller/RatingController.java: package com.hoangtien2k3.ecommerce.dto does not exist
+search-service	javac	18	com/hoangtien2k3/ecommerce/controller/CatalogSearchController.java: cannot find symbol
+shared	javac	1	com/hoangtien2k3/ecommerce/dto/PaymentEventDto.java: '.' expected
+shipping-service	javac	2	com/hoangtien2k3/ecommerce/model/shipping/OrderItem.java: '{' expected
+tax-service	javac	100	com/hoangtien2k3/ecommerce/controller/TaxClassController.java: package com.hoangtien2k3.ecommerce.constants does not exist
+user-service	javac	16	com/hoangtien2k3/ecommerce/dto/request/Login.java: '.' expected

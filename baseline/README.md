@@ -89,3 +89,41 @@ gulimall、newbee-mall 各有部分多服务共有的类型是注解类型，已
 - 候选代码不含任何资源文件（`application.properties`、mapper XML、静态资源等）。
 - 6 个 MyBatis 应用（goodskill、gulimall、newbee-mall、passjava、youlai-mall、zlt-platform）没有
   `@Entity`，MicroRefact 的数据库重构阶段不会触发，只做类划分和跨服务调用的 REST 代理生成。
+
+## 编译检查
+
+```bash
+baseline/compile_all.sh [app ...]     # 需要 /usr/lib/jvm/java-{8,17,21}-openjdk-amd64
+```
+
+对每个应用，先编译原单体作为对照，再对每个候选服务目录原样执行 `mvn compile`，使用该应用自己的 JDK
+（`apps.tsv` 第 4 列）。所有构建使用同一组开关，只跳过需要 git 仓库或前端工具链的插件
+（`-Dmaven.gitcommitid.skip=true -Dskip.npm ...`），不影响 Java 编译。构建在仓库外的副本上进行。
+结果在 `baseline-outputs/<app>/compile/`：`summary.tsv`（状态、javac 错误数、第一条错误）和各模块的 Maven 日志。
+`summarize_compile.py` 可从日志重新生成汇总。
+
+| app | 单体（对照） | 候选服务通过 | 失败阶段 | 各服务 javac 错误数 |
+|---|---|---|---|---|
+| booking | 通过 | 0/4 | pom | - |
+| ecommerce | 通过 | 0/14 | javac | 1–100 |
+| goodskill | 通过 | 0/7 | javac | 2–89 |
+| gulimall | 通过 | 0/11 | javac | 1–100 |
+| lakeside-mutual | 通过 | 0/5 | javac | 2–65 |
+| newbee-mall | 通过 | 0/6 | javac | 1–100 |
+| passjava | 通过 | 0/8 | javac | 12–87 |
+| spring-petclinic | 通过 | 0/5 | pom | - |
+| youlai-mall | 通过 | 0/7 | javac | 6–16 |
+| zlt-platform | 通过 | 0/6 | javac | 4–91 |
+
+10 个单体全部编译通过；73 个候选服务全部失败：9 个卡在 pom（聚合 pom 的 `<modules>` 不存在），64 个是 javac 错误。
+javac 错误数是下限：遇到语法错误后 javac 不再做类型检查，且每个模块最多报 100 个错误。
+
+最常见的 javac 错误（所有候选服务合计）：
+
+| 错误 | 次数 | 出现的服务数 |
+|---|---|---|
+| cannot find symbol | 956 | 27 |
+| package … does not exist | 395 | 23 |
+| `<identifier> expected`（如 `List<X>.class`） | 48 | 23 |
+| `'.' expected`（如 `import lombok;`，原为 `import lombok.*;`） | 24 | 10 |
+| non-static … cannot be referenced from a static context（`static` 丢失） | 37 | 10 |

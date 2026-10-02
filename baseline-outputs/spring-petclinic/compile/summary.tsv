@@ -1,7 +1,7 @@
 module	status	javac_errors	first_error
 monolith (control)	OK	0	
-api-gateway	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
-customers-service	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
-shared	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
-vets-service	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
-visits-service	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+api-gateway	pom	0	[ERROR] Child module /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/spring-petclinic/svc-api-gateway/spring-petclinic-server of /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/spring-petclinic/svc-api-gateway/pom.xml does not exist @
+customers-service	pom	0	[ERROR] Child module /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/spring-petclinic/svc-customers-service/spring-petclinic-server of /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/spring-petclinic/svc-customers-service/pom.xml does
+shared	pom	0	[ERROR] Child module /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/spring-petclinic/svc-shared/spring-petclinic-server of /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/spring-petclinic/svc-shared/pom.xml does not exist @ 
+vets-service	pom	0	[ERROR] Child module /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/spring-petclinic/svc-vets-service/spring-petclinic-server of /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/spring-petclinic/svc-vets-service/pom.xml does not exist
+visits-service	pom	0	[ERROR] Child module /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/spring-petclinic/svc-visits-service/spring-petclinic-server of /tmp/claude-0/-home-user/69126c3a-2e40-5aaa-93a9-3bc0d0afca02/scratchpad/compile/spring-petclinic/svc-visits-service/pom.xml does not e

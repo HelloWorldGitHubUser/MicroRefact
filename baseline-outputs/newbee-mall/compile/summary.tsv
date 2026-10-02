@@ -1,8 +1,8 @@
 module	status	javac_errors	first_error
 monolith (control)	OK	0	
-newbee-mall-cloud-goods-service	javac	100	[ERROR] COMPILATION ERROR : 
-newbee-mall-cloud-order-service	javac	2	[ERROR] COMPILATION ERROR : 
-newbee-mall-cloud-recommend-service	javac	1	[ERROR] COMPILATION ERROR : 
-newbee-mall-cloud-shop-cart-service	javac	1	[ERROR] COMPILATION ERROR : 
-newbee-mall-cloud-user-service	javac	100	[ERROR] COMPILATION ERROR : 
-shared	javac	1	[ERROR] COMPILATION ERROR : 
+newbee-mall-cloud-goods-service	javac	100	ltd/newbee/mall/api/NEWInstance/NewBeeMallGoodsMapperController.java: cannot find symbol
+newbee-mall-cloud-order-service	javac	2	ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl.java: <identifier> expected
+newbee-mall-cloud-recommend-service	javac	1	ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl.java: <identifier> expected
+newbee-mall-cloud-shop-cart-service	javac	1	ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl.java: <identifier> expected
+newbee-mall-cloud-user-service	javac	100	ltd/newbee/mall/api/DTO/Result.java: cannot find symbol
+shared	javac	1	ltd/newbee/mall/util/BeanUtil.java: ';' expected

@@ -1,7 +1,7 @@
 module	status	javac_errors	first_error
 monolith (control)	OK	0	
-customer-core	javac	65	[ERROR] COMPILATION ERROR : 
-customer-management-backend	javac	4	[ERROR] COMPILATION ERROR : 
-customer-self-service-backend	javac	6	[ERROR] COMPILATION ERROR : 
-policy-management-backend	javac	2	[ERROR] COMPILATION ERROR : 
-shared	javac	2	[ERROR] COMPILATION ERROR : 
+customer-core	javac	65	com/lakesidemutual/DTO/CustomerId.java: cannot find symbol
+customer-management-backend	javac	4	com/lakesidemutual/Interface/CustomerServiceImpl.java: <identifier> expected
+customer-self-service-backend	javac	6	com/lakesidemutual/Interface/CityLookupServiceImpl.java: <identifier> expected
+policy-management-backend	javac	2	com/lakesidemutual/Interface/CustomerServiceImpl.java: <identifier> expected
+shared	javac	2	com/lakesidemutual/NEWInstance/CustomerIdController.java: cannot find symbol

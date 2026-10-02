@@ -1,10 +1,10 @@
 module	status	javac_errors	first_error
 monolith (control)	OK	0	
-passjava-channel	javac	42	[ERROR] COMPILATION ERROR : 
-passjava-content	javac	42	[ERROR] COMPILATION ERROR : 
-passjava-member	javac	64	[ERROR] COMPILATION ERROR : 
-passjava-question	javac	87	[ERROR] COMPILATION ERROR : 
-passjava-search	javac	43	[ERROR] COMPILATION ERROR : 
-passjava-study	javac	51	[ERROR] COMPILATION ERROR : 
-passjava-thirdparty	javac	12	[ERROR] COMPILATION ERROR : 
-shared	javac	45	[ERROR] COMPILATION ERROR : 
+passjava-channel	javac	42	com/passjava/conDTO/R.java: cannot find symbol
+passjava-content	javac	42	com/passjava/conDTO/R.java: cannot find symbol
+passjava-member	javac	64	com/passjava/conDTO/R.java: cannot find symbol
+passjava-question	javac	87	com/passjava/conDTO/R.java: cannot find symbol
+passjava-search	javac	43	com/passjava/conDTO/R.java: cannot find symbol
+passjava-study	javac	51	com/passjava/conDTO/R.java: cannot find symbol
+passjava-thirdparty	javac	12	com/passjava/conDTO/R.java: cannot find symbol
+shared	javac	45	com/passjava/conMain.java: class Main is public, should be declared in a file named Main.java
