@@ -1,0 +1,13 @@
+module	status	javac_errors	first_error
+monolith (control)	OK	0	
+gulimall-auth-server	javac	100	[ERROR] COMPILATION ERROR : 
+gulimall-cart	javac	1	[ERROR] COMPILATION ERROR : 
+gulimall-coupon	javac	100	[ERROR] COMPILATION ERROR : 
+gulimall-member	javac	1	[ERROR] COMPILATION ERROR : 
+gulimall-order	javac	100	[ERROR] COMPILATION ERROR : 
+gulimall-product	javac	100	[ERROR] COMPILATION ERROR : 
+gulimall-search	javac	100	[ERROR] COMPILATION ERROR : 
+gulimall-seckill	javac	1	[ERROR] COMPILATION ERROR : 
+gulimall-third-party	javac	6	[ERROR] COMPILATION ERROR : 
+gulimall-ware	javac	100	[ERROR] COMPILATION ERROR : 
+shared	javac	61	[ERROR] COMPILATION ERROR : 
