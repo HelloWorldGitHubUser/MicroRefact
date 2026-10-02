@@ -1,0 +1,8 @@
+module	status	javac_errors	first_error
+monolith (control)	OK	0	
+newbee-mall-cloud-goods-service	javac	100	[ERROR] COMPILATION ERROR : 
+newbee-mall-cloud-order-service	javac	2	[ERROR] COMPILATION ERROR : 
+newbee-mall-cloud-recommend-service	javac	1	[ERROR] COMPILATION ERROR : 
+newbee-mall-cloud-shop-cart-service	javac	1	[ERROR] COMPILATION ERROR : 
+newbee-mall-cloud-user-service	javac	100	[ERROR] COMPILATION ERROR : 
+shared	javac	1	[ERROR] COMPILATION ERROR : 
