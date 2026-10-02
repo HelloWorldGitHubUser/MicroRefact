@@ -1,0 +1,7 @@
+module	status	javac_errors	first_error
+monolith (control)	OK	0	
+customer-core	javac	65	[ERROR] COMPILATION ERROR : 
+customer-management-backend	javac	4	[ERROR] COMPILATION ERROR : 
+customer-self-service-backend	javac	6	[ERROR] COMPILATION ERROR : 
+policy-management-backend	javac	2	[ERROR] COMPILATION ERROR : 
+shared	javac	2	[ERROR] COMPILATION ERROR : 
