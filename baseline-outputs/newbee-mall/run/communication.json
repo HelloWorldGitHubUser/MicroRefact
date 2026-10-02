@@ -1,0 +1,353 @@
+[
+  {
+    "client_service": "newbee-mall-cloud-order-service",
+    "client_file": "src/main/java/ltd/newbee/mall/api/DTO/Result.java",
+    "method": "setData",
+    "verb": "PUT",
+    "host": "5",
+    "path": "/setData",
+    "query": [
+      "data"
+    ],
+    "query_types": [
+      "T"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "shared",
+    "server_endpoint": null,
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: no PUT /setData in shared"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "newbee-mall-cloud-order-service",
+    "client_file": "src/main/java/ltd/newbee/mall/api/Interface/NewBeeMallShoppingCartServiceImpl.java",
+    "method": "getCartItemsForSettle",
+    "verb": "GET",
+    "host": "3",
+    "path": "/getCartItemsForSettle",
+    "query": [
+      "cartItemIds",
+      "newBeeMallUserId"
+    ],
+    "query_types": [
+      "List<Long>",
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "List<NewBeeMallShoppingCartItemVO>",
+    "target_service": "newbee-mall-cloud-shop-cart-service",
+    "server_endpoint": "src/main/java/ltd/newbee/mall/api/NEWInstance/NewBeeMallShoppingCartServiceController.java#getCartItemsForSettle",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "newbee-mall-cloud-order-service",
+    "client_file": "src/main/java/ltd/newbee/mall/api/Interface/NewBeeMallShoppingCartItemMapperImpl.java",
+    "method": "deleteBatch",
+    "verb": "GET",
+    "host": "3",
+    "path": "/deleteBatch",
+    "query": [
+      "ids"
+    ],
+    "query_types": [
+      "List<Long>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "int",
+    "target_service": "newbee-mall-cloud-shop-cart-service",
+    "server_endpoint": "src/main/java/ltd/newbee/mall/api/NEWInstance/NewBeeMallShoppingCartItemMapperController.java#deleteBatch",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "newbee-mall-cloud-order-service",
+    "client_file": "src/main/java/ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl.java",
+    "method": "selectByPrimaryKeys",
+    "verb": "GET",
+    "host": "1",
+    "path": "/selectByPrimaryKeys",
+    "query": [
+      "goodsIds"
+    ],
+    "query_types": [
+      "List<Long>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "List<NewBeeMallGoods>",
+    "target_service": "newbee-mall-cloud-goods-service",
+    "server_endpoint": "src/main/java/ltd/newbee/mall/api/NEWInstance/NewBeeMallGoodsMapperController.java#selectByPrimaryKeys",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "newbee-mall-cloud-order-service",
+    "client_file": "src/main/java/ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl.java",
+    "method": "updateStockNum",
+    "verb": "GET",
+    "host": "1",
+    "path": "/updateStockNum",
+    "query": [
+      "stockNumDTOS"
+    ],
+    "query_types": [
+      "List<StockNumDTO>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "int",
+    "target_service": "newbee-mall-cloud-goods-service",
+    "server_endpoint": "src/main/java/ltd/newbee/mall/api/NEWInstance/NewBeeMallGoodsMapperController.java#updateStockNum",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "List object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "newbee-mall-cloud-order-service",
+    "client_file": "src/main/java/ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl.java",
+    "method": "recoverStockNum",
+    "verb": "GET",
+    "host": "1",
+    "path": "/recoverStockNum",
+    "query": [
+      "stockNumDTOS"
+    ],
+    "query_types": [
+      "List<StockNumDTO>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "int",
+    "target_service": "newbee-mall-cloud-goods-service",
+    "server_endpoint": "src/main/java/ltd/newbee/mall/api/NEWInstance/NewBeeMallGoodsMapperController.java#recoverStockNum",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "List object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "newbee-mall-cloud-recommend-service",
+    "client_file": "src/main/java/ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl.java",
+    "method": "selectByPrimaryKey",
+    "verb": "GET",
+    "host": "1",
+    "path": "/selectByPrimaryKey",
+    "query": [
+      "goodsId"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "NewBeeMallGoods",
+    "target_service": "newbee-mall-cloud-goods-service",
+    "server_endpoint": "src/main/java/ltd/newbee/mall/api/NEWInstance/NewBeeMallGoodsMapperController.java#selectByPrimaryKey",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "newbee-mall-cloud-recommend-service",
+    "client_file": "src/main/java/ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl.java",
+    "method": "selectByPrimaryKeys",
+    "verb": "GET",
+    "host": "1",
+    "path": "/selectByPrimaryKeys",
+    "query": [
+      "goodsIds"
+    ],
+    "query_types": [
+      "List<Long>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "List<NewBeeMallGoods>",
+    "target_service": "newbee-mall-cloud-goods-service",
+    "server_endpoint": "src/main/java/ltd/newbee/mall/api/NEWInstance/NewBeeMallGoodsMapperController.java#selectByPrimaryKeys",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "newbee-mall-cloud-shop-cart-service",
+    "client_file": "src/main/java/ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl.java",
+    "method": "selectByPrimaryKey",
+    "verb": "GET",
+    "host": "1",
+    "path": "/selectByPrimaryKey",
+    "query": [
+      "goodsId"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "NewBeeMallGoods",
+    "target_service": "newbee-mall-cloud-goods-service",
+    "server_endpoint": "src/main/java/ltd/newbee/mall/api/NEWInstance/NewBeeMallGoodsMapperController.java#selectByPrimaryKey",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "newbee-mall-cloud-shop-cart-service",
+    "client_file": "src/main/java/ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl.java",
+    "method": "selectByPrimaryKeys",
+    "verb": "GET",
+    "host": "1",
+    "path": "/selectByPrimaryKeys",
+    "query": [
+      "goodsIds"
+    ],
+    "query_types": [
+      "List<Long>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "List<NewBeeMallGoods>",
+    "target_service": "newbee-mall-cloud-goods-service",
+    "server_endpoint": "src/main/java/ltd/newbee/mall/api/NEWInstance/NewBeeMallGoodsMapperController.java#selectByPrimaryKeys",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "newbee-mall-cloud-user-service",
+    "client_file": "src/main/java/ltd/newbee/mall/api/DTO/Result.java",
+    "method": "setData",
+    "verb": "PUT",
+    "host": "5",
+    "path": "/setData",
+    "query": [
+      "data"
+    ],
+    "query_types": [
+      "T"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "shared",
+    "server_endpoint": null,
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: no PUT /setData in shared"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/ltd/newbee/mall/api/Interface/NewBeeMallUserTokenMapperImpl.java",
+    "method": "selectByToken",
+    "verb": "GET",
+    "host": "0",
+    "path": "/selectByToken",
+    "query": [
+      "token"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "MallUserToken",
+    "target_service": "newbee-mall-cloud-user-service",
+    "server_endpoint": "src/main/java/ltd/newbee/mall/api/NEWInstance/NewBeeAdminUserTokenMapperController.java#selectByToken",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /selectByToken in newbee-mall-cloud-user-service",
+      "types: client reads MallUserToken, server returns AdminUserToken"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/ltd/newbee/mall/api/Interface/MallUserMapperImpl.java",
+    "method": "selectByPrimaryKey",
+    "verb": "GET",
+    "host": "0",
+    "path": "/selectByPrimaryKey",
+    "query": [
+      "userId"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "MallUser",
+    "target_service": "newbee-mall-cloud-user-service",
+    "server_endpoint": "src/main/java/ltd/newbee/mall/api/NEWInstance/MallUserMapperController.java#selectByPrimaryKey",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/ltd/newbee/mall/api/Interface/NewBeeAdminUserTokenMapperImpl.java",
+    "method": "selectByToken",
+    "verb": "GET",
+    "host": "0",
+    "path": "/selectByToken",
+    "query": [
+      "token"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "AdminUserToken",
+    "target_service": "newbee-mall-cloud-user-service",
+    "server_endpoint": "src/main/java/ltd/newbee/mall/api/NEWInstance/NewBeeAdminUserTokenMapperController.java#selectByToken",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /selectByToken in newbee-mall-cloud-user-service"
+    ],
+    "runtime_problems": []
+  }
+]

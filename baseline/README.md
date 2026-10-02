@@ -127,3 +127,37 @@ javac 错误数是下限：遇到语法错误后 javac 不再做类型检查，�
 | `<identifier> expected`（如 `List<X>.class`） | 48 | 23 |
 | `'.' expected`（如 `import lombok;`，原为 `import lombok.*;`） | 24 | 10 |
 | non-static … cannot be referenced from a static context（`static` 丢失） | 37 | 10 |
+
+## 服务间通信核对
+
+```bash
+python3 baseline/analyze_communication.py   # 写出 baseline-outputs/<app>/run/communication.json
+```
+
+MicroRefact 生成的通信只有一种：用 `RestTemplate` 发同步 HTTP 请求（`getForObject` 或 `put`），由被调服务里生成的
+`NEW*/…Controller` 接收。脚本找出全部 181 处调用，按调用地址中的簇序号找到目标服务，再与目标服务中的
+接口逐一比对（不考虑能否编译）：目标服务存在且不是自己；恰好有一个 HTTP 方法和路径都相同的接口；
+查询参数名、路径变量个数、是否带请求体一致；两端都没有退化成 `Object` 类型，参数和返回类型一致。
+对比对一致的调用，再检查不涉及编译、但运行时仍会失败的原因。
+
+| app | 调用数 | 两端对得上 | 其中目标是原 static 方法 | 且服务端无运行时阻断 |
+|---|---|---|---|---|
+| booking | 0 | 0 | 0 | 0 |
+| ecommerce | 9 | 5 | 0 | 0 |
+| goodskill | 11 | 11 | 5 | 0 |
+| gulimall | 35 | 32 | 14 | 0 |
+| lakeside-mutual | 31 | 26 | 0 | 0 |
+| newbee-mall | 14 | 10 | 0 | 0 |
+| passjava | 18 | 18 | 10 | 0 |
+| spring-petclinic | 27 | 19 | 0 | 0 |
+| youlai-mall | 24 | 11 | 6 | 0 |
+| zlt-platform | 12 | 11 | 6 | 0 |
+| 合计 | 181 | 143 | 41 | 0 |
+
+对不上的 38 处：16 处参数或返回类型退化为 `Object`（方法继承自 Spring Data 等外部类，MicroRefact 不知道签名），
+19 处目标服务里有多个同路径接口（如两个 Repository 都暴露 `/findById`），9 处目标服务里根本没有对应接口，
+10 处参数名不一致，7 处返回类型不一致（一处可同时有多个问题）。
+
+对得上的 143 处运行时仍全部失败：138 处服务端 Controller 的字段没有 `@Autowired`（空指针）；54 处把对象
+作为查询字符串参数发送（无法绑定回对象）；5 处落到 MicroRefact 新加、没有实现的 Repository 方法。
+另外所有调用的地址都是 `http://<簇序号>`，不是可解析的服务地址。

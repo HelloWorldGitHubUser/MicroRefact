@@ -1,0 +1,864 @@
+[
+  {
+    "client_service": "gulimall-auth-server",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "error",
+    "verb": "GET",
+    "host": "10",
+    "path": "/error",
+    "query": [
+      "code",
+      "msg"
+    ],
+    "query_types": [
+      "int",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#error",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-auth-server",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "10",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-auth-server",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "10",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-auth-server",
+    "client_file": "src/main/java/io/gulimall/Interface/SmsComponentImpl.java",
+    "method": "sendCode",
+    "verb": "PUT",
+    "host": "9",
+    "path": "/sendCode",
+    "query": [
+      "phone",
+      "code"
+    ],
+    "query_types": [
+      "String",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "gulimall-third-party",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/SmsComponentController.java#sendCode",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-auth-server",
+    "client_file": "src/main/java/io/gulimall/Interface/MemberServiceImpl.java",
+    "method": "login",
+    "verb": "GET",
+    "host": "3",
+    "path": "/login",
+    "query": [
+      "socialUser"
+    ],
+    "query_types": [
+      "SocialUser"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "MemberEntity",
+    "target_service": "gulimall-member",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/MemberServiceController.java#login",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "SocialUser object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-cart",
+    "client_file": "src/main/java/io/gulimall/Interface/SkuInfoServiceImpl.java",
+    "method": "getById",
+    "verb": "GET",
+    "host": "5",
+    "path": "/getById",
+    "query": [
+      "Object"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Object",
+    "target_service": "gulimall-product",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/SkuInfoServiceController.java#getById",
+    "contract_ok": false,
+    "contract_issues": [
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "gulimall-cart",
+    "client_file": "src/main/java/io/gulimall/Interface/SkuSaleAttrValueServiceImpl.java",
+    "method": "getSkuSaleAttrValuesAsString",
+    "verb": "GET",
+    "host": "5",
+    "path": "/getSkuSaleAttrValuesAsString",
+    "query": [
+      "skuId"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "List<String>",
+    "target_service": "gulimall-product",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/SkuSaleAttrValueServiceController.java#getSkuSaleAttrValuesAsString",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-coupon",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "10",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-coupon",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "10",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-coupon",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "setData",
+    "verb": "GET",
+    "host": "10",
+    "path": "/setData",
+    "query": [
+      "data"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#setData",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-member",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "10",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-member",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "10",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-member",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "error",
+    "verb": "GET",
+    "host": "10",
+    "path": "/error",
+    "query": [
+      "code",
+      "msg"
+    ],
+    "query_types": [
+      "int",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#error",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-member",
+    "client_file": "src/main/java/io/gulimall/Interface/CouponServiceImpl.java",
+    "method": "listMemberCoupons",
+    "verb": "GET",
+    "host": "2",
+    "path": "/listMemberCoupons",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "List<CouponEntity>",
+    "target_service": "gulimall-coupon",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/CouponServiceController.java#listMemberCoupons",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-order",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "10",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-order",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "10",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-product",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "10",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-product",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "10",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-product",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "setData",
+    "verb": "GET",
+    "host": "10",
+    "path": "/setData",
+    "query": [
+      "data"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#setData",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-product",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "error",
+    "verb": "GET",
+    "host": "10",
+    "path": "/error",
+    "query": [
+      "code",
+      "msg"
+    ],
+    "query_types": [
+      "int",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#error",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-product",
+    "client_file": "src/main/java/io/gulimall/DTO/PageUtils.java",
+    "method": "setList",
+    "verb": "PUT",
+    "host": "10",
+    "path": "/setList",
+    "query": [
+      "list"
+    ],
+    "query_types": [
+      "List<?>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "shared",
+    "server_endpoint": null,
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: no PUT /setList in shared"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "gulimall-product",
+    "client_file": "src/main/java/io/gulimall/Interface/CartServiceImpl.java",
+    "method": "getCart",
+    "verb": "GET",
+    "host": "1",
+    "path": "/getCart",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "CartVo",
+    "target_service": "gulimall-cart",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/CartServiceController.java#getCart",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-search",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "error",
+    "verb": "GET",
+    "host": "10",
+    "path": "/error",
+    "query": [
+      "code",
+      "msg"
+    ],
+    "query_types": [
+      "int",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#error",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-search",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "10",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-search",
+    "client_file": "src/main/java/io/gulimall/Interface/AttrServiceImpl.java",
+    "method": "getAttrInfo",
+    "verb": "GET",
+    "host": "5",
+    "path": "/getAttrInfo",
+    "query": [
+      "attrId"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "AttrRespVo",
+    "target_service": "gulimall-product",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/AttrServiceController.java#getAttrInfo",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-seckill",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "10",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-seckill",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "setData",
+    "verb": "GET",
+    "host": "10",
+    "path": "/setData",
+    "query": [
+      "data"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#setData",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-seckill",
+    "client_file": "src/main/java/io/gulimall/Interface/SkuInfoServiceImpl.java",
+    "method": "getById",
+    "verb": "GET",
+    "host": "5",
+    "path": "/getById",
+    "query": [
+      "Object"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Object",
+    "target_service": "gulimall-product",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/SkuInfoServiceController.java#getById",
+    "contract_ok": false,
+    "contract_issues": [
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "gulimall-seckill",
+    "client_file": "src/main/java/io/gulimall/Interface/OrderServiceImpl.java",
+    "method": "createSeckillOrder",
+    "verb": "PUT",
+    "host": "4",
+    "path": "/createSeckillOrder",
+    "query": [
+      "orderTo"
+    ],
+    "query_types": [
+      "SeckillOrderTo"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "gulimall-order",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/OrderServiceController.java#createSeckillOrder",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "SeckillOrderTo object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-seckill",
+    "client_file": "src/main/java/io/gulimall/Interface/SeckillSessionServiceImpl.java",
+    "method": "getSeckillSessionsIn3Days",
+    "verb": "GET",
+    "host": "2",
+    "path": "/getSeckillSessionsIn3Days",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "List<SeckillSessionEntity>",
+    "target_service": "gulimall-coupon",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/SeckillSessionServiceController.java#getSeckillSessionsIn3Days",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-third-party",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "10",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-third-party",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "10",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-ware",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "10",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "gulimall-ware",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "10",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "gulimall-ware",
+    "client_file": "src/main/java/io/gulimall/DTO/R.java",
+    "method": "error",
+    "verb": "GET",
+    "host": "10",
+    "path": "/error",
+    "query": [
+      "code",
+      "msg"
+    ],
+    "query_types": [
+      "int",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/io/gulimall/NEWInstance/RController.java#error",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "client_service": "file-center",
+    "client_file": "src/main/java/com/central/DTO/Result.java",
+    "method": "failed",
+    "verb": "GET",
+    "host": "5",
+    "path": "/failed",
+    "query": [
+      "model",
+      "msg"
+    ],
+    "query_types": [
+      "T",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/central/NEWInstance/ResultController.java#failed",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "T object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "file-center",
+    "client_file": "src/main/java/com/central/DTO/Result.java",
+    "method": "succeed",
+    "verb": "GET",
+    "host": "5",
+    "path": "/succeed",
+    "query": [
+      "model"
+    ],
+    "query_types": [
+      "T"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/central/NEWInstance/ResultController.java#succeed",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "T object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "log-center",
+    "client_file": "src/main/java/com/central/Interface/ISearchServiceImpl.java",
+    "method": "strQuery",
+    "verb": "GET",
+    "host": "4",
+    "path": "/strQuery",
+    "query": [
+      "indexName",
+      "searchDto",
+      "logicDelDto"
+    ],
+    "query_types": [
+      "String",
+      "SearchDto",
+      "LogicDelDto"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "PageResult<JsonNode>",
+    "target_service": "search-center",
+    "server_endpoint": "src/main/java/com/central/NEWInstance/ISearchServiceController.java#strQuery",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "LogicDelDto object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "log-center",
+    "client_file": "src/main/java/com/central/Interface/IAggregationServiceImpl.java",
+    "method": "getDefaultStatData",
+    "verb": "GET",
+    "host": "4",
+    "path": "/getDefaultStatData",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Map<String,Object>",
+    "target_service": "search-center",
+    "server_endpoint": "src/main/java/com/central/NEWInstance/IAggregationServiceController.java#getDefaultStatData",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "log-center",
+    "client_file": "src/main/java/com/central/Interface/IAggregationServiceImpl.java",
+    "method": "requestStatAgg",
+    "verb": "GET",
+    "host": "4",
+    "path": "/requestStatAgg",
+    "query": [
+      "indexName",
+      "routing"
+    ],
+    "query_types": [
+      "String",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Map<String,Object>",
+    "target_service": "search-center",
+    "server_endpoint": "src/main/java/com/central/NEWInstance/IAggregationServiceController.java#requestStatAgg",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "search-center",
+    "client_file": "src/main/java/com/central/DTO/Result.java",
+    "method": "succeed",
+    "verb": "GET",
+    "host": "5",
+    "path": "/succeed",
+    "query": [
+      "model"
+    ],
+    "query_types": [
+      "T"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/central/NEWInstance/ResultController.java#succeed",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "T object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "search-center",
+    "client_file": "src/main/java/com/central/DTO/Result.java",
+    "method": "failed",
+    "verb": "GET",
+    "host": "5",
+    "path": "/failed",
+    "query": [
+      "model",
+      "msg"
+    ],
+    "query_types": [
+      "T",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/central/NEWInstance/ResultController.java#failed",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "T object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/com/central/Interface/ISysUserServiceImpl.java",
+    "method": "getById",
+    "verb": "GET",
+    "host": "0",
+    "path": "/getById",
+    "query": [
+      "Object"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Object",
+    "target_service": "user-center",
+    "server_endpoint": "src/main/java/com/central/NEWInstance/ISysUserServiceController.java#getById",
+    "contract_ok": false,
+    "contract_issues": [
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/com/central/Interface/ISysUserServiceImpl.java",
+    "method": "setUserPermission",
+    "verb": "PUT",
+    "host": "0",
+    "path": "/setUserPermission",
+    "query": [
+      "sysUser"
+    ],
+    "query_types": [
+      "SysUser"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "user-center",
+    "server_endpoint": "src/main/java/com/central/NEWInstance/ISysUserServiceController.java#setUserPermission",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "SysUser object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "user-center",
+    "client_file": "src/main/java/com/central/DTO/Result.java",
+    "method": "succeed",
+    "verb": "GET",
+    "host": "5",
+    "path": "/succeed",
+    "query": [
+      "model"
+    ],
+    "query_types": [
+      "T"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/central/NEWInstance/ResultController.java#succeed",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "T object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "user-center",
+    "client_file": "src/main/java/com/central/DTO/Result.java",
+    "method": "failed",
+    "verb": "GET",
+    "host": "5",
+    "path": "/failed",
+    "query": [
+      "model",
+      "msg"
+    ],
+    "query_types": [
+      "T",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/central/NEWInstance/ResultController.java#failed",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "T object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "user-center",
+    "client_file": "src/main/java/com/central/Interface/ISearchServiceImpl.java",
+    "method": "strQuery",
+    "verb": "GET",
+    "host": "4",
+    "path": "/strQuery",
+    "query": [
+      "indexName",
+      "searchDto",
+      "logicDelDto"
+    ],
+    "query_types": [
+      "String",
+      "SearchDto",
+      "LogicDelDto"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "PageResult<JsonNode>",
+    "target_service": "search-center",
+    "server_endpoint": "src/main/java/com/central/NEWInstance/ISearchServiceController.java#strQuery",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "LogicDelDto object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  }
+]

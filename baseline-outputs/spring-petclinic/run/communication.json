@@ -1,0 +1,640 @@
+[
+  {
+    "client_service": "api-gateway",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "findOwnerById",
+    "verb": "GET",
+    "host": "4",
+    "path": "/findOwnerById",
+    "query": [
+      "id"
+    ],
+    "query_types": [
+      "int"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Owner",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#findOwnerById",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customers-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "findPetTypes",
+    "verb": "GET",
+    "host": "4",
+    "path": "/findPetTypes",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Collection<PetType>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#findPetTypes",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customers-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "stream",
+    "verb": "GET",
+    "host": "4",
+    "path": "/stream",
+    "query": [
+      "Object"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Object",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#stream",
+    "contract_ok": false,
+    "contract_issues": [
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "customers-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "map",
+    "verb": "GET",
+    "host": "4",
+    "path": "/map",
+    "query": [
+      "Object"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Object",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#map",
+    "contract_ok": false,
+    "contract_issues": [
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "customers-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "findOwnerById",
+    "verb": "GET",
+    "host": "4",
+    "path": "/findOwnerById",
+    "query": [
+      "id"
+    ],
+    "query_types": [
+      "int"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Owner",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#findOwnerById",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customers-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "findPetById",
+    "verb": "GET",
+    "host": "4",
+    "path": "/findPetById",
+    "query": [
+      "id"
+    ],
+    "query_types": [
+      "int"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Pet",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#findPetById",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customers-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "savePet",
+    "verb": "PUT",
+    "host": "4",
+    "path": "/savePet",
+    "query": [
+      "pet"
+    ],
+    "query_types": [
+      "Pet"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#savePet",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Pet object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customers-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Request/Impl/VisitRequestImpl.java",
+    "method": "getVisitsInternal",
+    "verb": "GET",
+    "host": "1",
+    "path": "/Pet/{id}/Visit/getVisitsInternal",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 1,
+    "body": false,
+    "return": "Set<Visit>",
+    "target_service": "visits-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEW/VisitPetController.java#getVisitsInternal",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "repository method getVisitsInternal has no query or implementation"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customers-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Request/Impl/VisitRequestImpl.java",
+    "method": "setVisitsInternal",
+    "verb": "PUT",
+    "host": "1",
+    "path": "/Pet/{id}/Visit/setVisitsInternal",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 1,
+    "body": true,
+    "return": "void",
+    "target_service": "visits-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEW/VisitPetController.java#setVisitsInternal",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "repository method setVisitsInternal has no query or implementation"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customers-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Request/Impl/VisitRequestImpl.java",
+    "method": "addVisit",
+    "verb": "PUT",
+    "host": "1",
+    "path": "/Pet/{id}/Visit/addVisit",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 1,
+    "body": true,
+    "return": "void",
+    "target_service": "visits-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEW/VisitPetController.java#addVisit",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "repository method addVisit has no query or implementation"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/VetRepositoryImpl.java",
+    "method": "findAll",
+    "verb": "GET",
+    "host": "2",
+    "path": "/findAll",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Collection<Vet>",
+    "target_service": "vets-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/VetRepositoryController.java#findAll",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/VisitRepositoryImpl.java",
+    "method": "save",
+    "verb": "PUT",
+    "host": "1",
+    "path": "/save",
+    "query": [
+      "visit"
+    ],
+    "query_types": [
+      "Visit"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "visits-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/VisitRepositoryController.java#save",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Visit object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/VisitRepositoryImpl.java",
+    "method": "findByPetIdIn",
+    "verb": "GET",
+    "host": "1",
+    "path": "/findByPetIdIn",
+    "query": [
+      "petIds"
+    ],
+    "query_types": [
+      "Collection<Integer>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "List<Visit>",
+    "target_service": "visits-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/VisitRepositoryController.java#findByPetIdIn",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/PetRepositoryImpl.java",
+    "method": "findPetTypes",
+    "verb": "GET",
+    "host": "0",
+    "path": "/findPetTypes",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "List<PetType>",
+    "target_service": "customers-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/PetRepositoryController.java#findPetTypes",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/PetRepositoryImpl.java",
+    "method": "findById",
+    "verb": "GET",
+    "host": "0",
+    "path": "/findById",
+    "query": [
+      "id"
+    ],
+    "query_types": [
+      "int"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Pet",
+    "target_service": "customers-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/OwnerRepositoryController.java#findById",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /findById in customers-service",
+      "params: client sends ['id'], server expects ['Object']",
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/PetRepositoryImpl.java",
+    "method": "save",
+    "verb": "PUT",
+    "host": "0",
+    "path": "/save",
+    "query": [
+      "pet"
+    ],
+    "query_types": [
+      "Pet"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "customers-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/PetRepositoryController.java#save",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Pet object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/OwnerRepositoryImpl.java",
+    "method": "findById",
+    "verb": "GET",
+    "host": "0",
+    "path": "/findById",
+    "query": [
+      "Object"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Object",
+    "target_service": "customers-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/OwnerRepositoryController.java#findById",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /findById in customers-service",
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/OwnerRepositoryImpl.java",
+    "method": "findAll",
+    "verb": "GET",
+    "host": "0",
+    "path": "/findAll",
+    "query": [
+      "Object"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Object",
+    "target_service": "customers-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/OwnerRepositoryController.java#findAll",
+    "contract_ok": false,
+    "contract_issues": [
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "shared",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/OwnerRepositoryImpl.java",
+    "method": "save",
+    "verb": "GET",
+    "host": "0",
+    "path": "/save",
+    "query": [
+      "Object"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Object",
+    "target_service": "customers-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/OwnerRepositoryController.java#save",
+    "contract_ok": false,
+    "contract_issues": [
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "vets-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "findVets",
+    "verb": "GET",
+    "host": "4",
+    "path": "/findVets",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Collection<Vet>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#findVets",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "vets-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "stream",
+    "verb": "GET",
+    "host": "4",
+    "path": "/stream",
+    "query": [
+      "Object"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Object",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#stream",
+    "contract_ok": false,
+    "contract_issues": [
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "vets-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "map",
+    "verb": "GET",
+    "host": "4",
+    "path": "/map",
+    "query": [
+      "Object"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Object",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#map",
+    "contract_ok": false,
+    "contract_issues": [
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "visits-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "findPetById",
+    "verb": "GET",
+    "host": "4",
+    "path": "/findPetById",
+    "query": [
+      "id"
+    ],
+    "query_types": [
+      "int"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Pet",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#findPetById",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "visits-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "saveVisit",
+    "verb": "PUT",
+    "host": "4",
+    "path": "/saveVisit",
+    "query": [
+      "visit"
+    ],
+    "query_types": [
+      "Visit"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#saveVisit",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Visit object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "visits-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Interface/ClinicServiceImpl.java",
+    "method": "findVisitsByPetIds",
+    "verb": "GET",
+    "host": "4",
+    "path": "/findVisitsByPetIds",
+    "query": [
+      "petIds"
+    ],
+    "query_types": [
+      "Collection<Integer>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "List<Visit>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEWInstance/ClinicServiceController.java#findVisitsByPetIds",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "visits-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Request/Impl/PetRequestImpl.java",
+    "method": "getPet",
+    "verb": "GET",
+    "host": "0",
+    "path": "/Visit/{id}/Pet/getPet",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 1,
+    "body": false,
+    "return": "Pet",
+    "target_service": "customers-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEW/PetVisitController.java#getPet",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "repository method getPet has no query or implementation"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "visits-service",
+    "client_file": "src/main/java/org/springframework/samples/petclinic/Request/Impl/PetRequestImpl.java",
+    "method": "setPet",
+    "verb": "PUT",
+    "host": "0",
+    "path": "/Visit/{id}/Pet/setPet",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 1,
+    "body": true,
+    "return": "void",
+    "target_service": "customers-service",
+    "server_endpoint": "src/main/java/org/springframework/samples/petclinic/NEW/PetVisitController.java#setPet",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "repository method setPet has no query or implementation"
+    ],
+    "original_method_static": false
+  }
+]

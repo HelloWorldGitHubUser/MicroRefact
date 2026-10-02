@@ -1,0 +1,451 @@
+[
+  {
+    "client_service": "passjava-channel",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "7",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "passjava-channel",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "7",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "passjava-content",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "7",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "passjava-content",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "7",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "passjava-member",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "7",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "passjava-member",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "7",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "passjava-member",
+    "client_file": "src/main/java/com/passjava/conInterface/StudyTimeServiceImpl.java",
+    "method": "getMemberStudyTimeListTest",
+    "verb": "GET",
+    "host": "5",
+    "path": "/getMemberStudyTimeListTest",
+    "query": [
+      "id"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "passjava-study",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/StudyTimeServiceController.java#getMemberStudyTimeListTest",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "passjava-question",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "7",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "passjava-question",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "7",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "passjava-question",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "error",
+    "verb": "GET",
+    "host": "7",
+    "path": "/error",
+    "query": [
+      "code",
+      "msg"
+    ],
+    "query_types": [
+      "int",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#error",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "passjava-search",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "error",
+    "verb": "GET",
+    "host": "7",
+    "path": "/error",
+    "query": [
+      "code",
+      "msg"
+    ],
+    "query_types": [
+      "int",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#error",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "passjava-search",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "7",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "passjava-search",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "7",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "passjava-study",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "7",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "passjava-study",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "7",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "passjava-thirdparty",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "error",
+    "verb": "GET",
+    "host": "7",
+    "path": "/error",
+    "query": [
+      "code",
+      "msg"
+    ],
+    "query_types": [
+      "int",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#error",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "passjava-thirdparty",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "7",
+    "path": "/ok",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "passjava-thirdparty",
+    "client_file": "src/main/java/com/passjava/conDTO/R.java",
+    "method": "put",
+    "verb": "GET",
+    "host": "7",
+    "path": "/put",
+    "query": [
+      "key",
+      "value"
+    ],
+    "query_types": [
+      "String",
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "R",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/passjava/conNEWInstance/RController.java#put",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  }
+]

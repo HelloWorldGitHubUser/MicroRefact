@@ -1,0 +1,608 @@
+[
+  {
+    "client_service": "mall-oms",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "judge",
+    "verb": "GET",
+    "host": "6",
+    "path": "/judge",
+    "query": [
+      "status"
+    ],
+    "query_types": [
+      "boolean"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/ResultController.java#judge",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "mall-oms",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "success",
+    "verb": "GET",
+    "host": "6",
+    "path": "/success",
+    "query": [
+      "data"
+    ],
+    "query_types": [
+      "T"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/PageResultController.java#success",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /success in shared",
+      "params: client sends ['data'], server expects ['page']",
+      "types: client reads Result<T>, server returns PageResult<T>"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "mall-oms",
+    "client_file": "src/main/java/com/youlai/mall/DTO/PageResult.java",
+    "method": "success",
+    "verb": "GET",
+    "host": "6",
+    "path": "/success",
+    "query": [
+      "page"
+    ],
+    "query_types": [
+      "IPage<T>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "PageResult<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/PageResultController.java#success",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /success in shared"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "mall-pms",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "success",
+    "verb": "GET",
+    "host": "6",
+    "path": "/success",
+    "query": [
+      "data"
+    ],
+    "query_types": [
+      "T"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/PageResultController.java#success",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /success in shared",
+      "params: client sends ['data'], server expects ['page']",
+      "types: client reads Result<T>, server returns PageResult<T>"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "mall-pms",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "judge",
+    "verb": "GET",
+    "host": "6",
+    "path": "/judge",
+    "query": [
+      "status"
+    ],
+    "query_types": [
+      "boolean"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/ResultController.java#judge",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "mall-pms",
+    "client_file": "src/main/java/com/youlai/mall/DTO/PageResult.java",
+    "method": "success",
+    "verb": "GET",
+    "host": "6",
+    "path": "/success",
+    "query": [
+      "page"
+    ],
+    "query_types": [
+      "IPage<T>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "PageResult<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/PageResultController.java#success",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /success in shared"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "mall-sms",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "judge",
+    "verb": "GET",
+    "host": "6",
+    "path": "/judge",
+    "query": [
+      "status"
+    ],
+    "query_types": [
+      "boolean"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/ResultController.java#judge",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "mall-sms",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "success",
+    "verb": "GET",
+    "host": "6",
+    "path": "/success",
+    "query": [
+      "data"
+    ],
+    "query_types": [
+      "T"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/PageResultController.java#success",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /success in shared",
+      "params: client sends ['data'], server expects ['page']",
+      "types: client reads Result<T>, server returns PageResult<T>"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "mall-sms",
+    "client_file": "src/main/java/com/youlai/mall/DTO/PageResult.java",
+    "method": "success",
+    "verb": "GET",
+    "host": "6",
+    "path": "/success",
+    "query": [
+      "page"
+    ],
+    "query_types": [
+      "IPage<T>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "PageResult<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/PageResultController.java#success",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /success in shared"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "mall-ums",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "judge",
+    "verb": "GET",
+    "host": "6",
+    "path": "/judge",
+    "query": [
+      "status"
+    ],
+    "query_types": [
+      "boolean"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/ResultController.java#judge",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "mall-ums",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "success",
+    "verb": "GET",
+    "host": "6",
+    "path": "/success",
+    "query": [
+      "data"
+    ],
+    "query_types": [
+      "T"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/PageResultController.java#success",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /success in shared",
+      "params: client sends ['data'], server expects ['page']",
+      "types: client reads Result<T>, server returns PageResult<T>"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "mall-ums",
+    "client_file": "src/main/java/com/youlai/mall/DTO/PageResult.java",
+    "method": "success",
+    "verb": "GET",
+    "host": "6",
+    "path": "/success",
+    "query": [
+      "page"
+    ],
+    "query_types": [
+      "IPage<T>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "PageResult<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/PageResultController.java#success",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /success in shared"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "youlai-auth",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "failed",
+    "verb": "GET",
+    "host": "6",
+    "path": "/failed",
+    "query": [
+      "resultCode",
+      "msg"
+    ],
+    "query_types": [
+      "IResultCode",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": null,
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: no GET /failed in shared"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "youlai-auth",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "judge",
+    "verb": "GET",
+    "host": "6",
+    "path": "/judge",
+    "query": [
+      "status"
+    ],
+    "query_types": [
+      "boolean"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/ResultController.java#judge",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "youlai-auth",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "success",
+    "verb": "GET",
+    "host": "6",
+    "path": "/success",
+    "query": [
+      "data"
+    ],
+    "query_types": [
+      "T"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/PageResultController.java#success",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /success in shared",
+      "params: client sends ['data'], server expects ['page']",
+      "types: client reads Result<T>, server returns PageResult<T>"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "youlai-auth",
+    "client_file": "src/main/java/com/youlai/mall/Interface/AliyunSmsPropertiesImpl.java",
+    "method": "getTemplateCodes",
+    "verb": "GET",
+    "host": "6",
+    "path": "/getTemplateCodes",
+    "query": [
+      "Object"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Object",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/AliyunSmsPropertiesController.java#getTemplateCodes",
+    "contract_ok": false,
+    "contract_issues": [
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "youlai-auth",
+    "client_file": "src/main/java/com/youlai/mall/Interface/UmsMemberServiceImpl.java",
+    "method": "loadUserByMobile",
+    "verb": "GET",
+    "host": "3",
+    "path": "/loadUserByMobile",
+    "query": [
+      "mobile"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "MemberAuthDTO",
+    "target_service": "mall-ums",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/UmsMemberServiceController.java#loadUserByMobile",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "youlai-auth",
+    "client_file": "src/main/java/com/youlai/mall/Interface/UmsMemberServiceImpl.java",
+    "method": "loadUserByOpenId",
+    "verb": "GET",
+    "host": "3",
+    "path": "/loadUserByOpenId",
+    "query": [
+      "openid"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "MemberAuthDTO",
+    "target_service": "mall-ums",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/UmsMemberServiceController.java#loadUserByOpenId",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "youlai-auth",
+    "client_file": "src/main/java/com/youlai/mall/Interface/UmsMemberServiceImpl.java",
+    "method": "registerMember",
+    "verb": "GET",
+    "host": "3",
+    "path": "/registerMember",
+    "query": [
+      "dto"
+    ],
+    "query_types": [
+      "MemberRegisterDto"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Long",
+    "target_service": "mall-ums",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/UmsMemberServiceController.java#registerMember",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "MemberRegisterDto object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "youlai-auth",
+    "client_file": "src/main/java/com/youlai/mall/Interface/SmsServiceImpl.java",
+    "method": "sendSms",
+    "verb": "GET",
+    "host": "6",
+    "path": "/sendSms",
+    "query": [
+      "mobile",
+      "templateCode",
+      "templateParam"
+    ],
+    "query_types": [
+      "String",
+      "String",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "boolean",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/SmsServiceController.java#sendSms",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "youlai-auth",
+    "client_file": "src/main/java/com/youlai/mall/Interface/SysUserServiceImpl.java",
+    "method": "getUserAuthInfo",
+    "verb": "GET",
+    "host": "5",
+    "path": "/getUserAuthInfo",
+    "query": [
+      "username"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "UserAuthInfo",
+    "target_service": "youlai-system",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/SysUserServiceController.java#getUserAuthInfo",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "youlai-system",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "judge",
+    "verb": "GET",
+    "host": "6",
+    "path": "/judge",
+    "query": [
+      "status"
+    ],
+    "query_types": [
+      "boolean"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/ResultController.java#judge",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "youlai-system",
+    "client_file": "src/main/java/com/youlai/mall/DTO/Result.java",
+    "method": "success",
+    "verb": "GET",
+    "host": "6",
+    "path": "/success",
+    "query": [
+      "data"
+    ],
+    "query_types": [
+      "T"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/PageResultController.java#success",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /success in shared",
+      "params: client sends ['data'], server expects ['page']",
+      "types: client reads Result<T>, server returns PageResult<T>"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "youlai-system",
+    "client_file": "src/main/java/com/youlai/mall/DTO/PageResult.java",
+    "method": "success",
+    "verb": "GET",
+    "host": "6",
+    "path": "/success",
+    "query": [
+      "page"
+    ],
+    "query_types": [
+      "IPage<T>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "PageResult<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/youlai/mall/NEWInstance/PageResultController.java#success",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /success in shared"
+    ],
+    "runtime_problems": []
+  }
+]

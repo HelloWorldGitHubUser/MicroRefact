@@ -1,0 +1,230 @@
+[
+  {
+    "client_service": "favourite-service",
+    "client_file": "src/main/java/com/hoangtien2k3/ecommerce/Interface/ProductServiceImpl.java",
+    "method": "findById",
+    "verb": "GET",
+    "host": "2",
+    "path": "/findById",
+    "query": [
+      "productId"
+    ],
+    "query_types": [
+      "Integer"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "ProductDto",
+    "target_service": "product-service",
+    "server_endpoint": "src/main/java/com/hoangtien2k3/ecommerce/NEWInstance/ProductRepositoryController.java#findById",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /findById in product-service",
+      "params: client sends ['productId'], server expects ['Object']",
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "favourite-service",
+    "client_file": "src/main/java/com/hoangtien2k3/ecommerce/Interface/UserServiceImpl.java",
+    "method": "findById",
+    "verb": "GET",
+    "host": "0",
+    "path": "/findById",
+    "query": [
+      "userId"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "User",
+    "target_service": "user-service",
+    "server_endpoint": "src/main/java/com/hoangtien2k3/ecommerce/NEWInstance/UserServiceController.java#findById",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "order-service",
+    "client_file": "src/main/java/com/hoangtien2k3/ecommerce/Interface/ProductServiceImpl.java",
+    "method": "findById",
+    "verb": "GET",
+    "host": "2",
+    "path": "/findById",
+    "query": [
+      "productId"
+    ],
+    "query_types": [
+      "Integer"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "ProductDto",
+    "target_service": "product-service",
+    "server_endpoint": "src/main/java/com/hoangtien2k3/ecommerce/NEWInstance/ProductRepositoryController.java#findById",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /findById in product-service",
+      "params: client sends ['productId'], server expects ['Object']",
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "order-service",
+    "client_file": "src/main/java/com/hoangtien2k3/ecommerce/Interface/UserServiceImpl.java",
+    "method": "findById",
+    "verb": "GET",
+    "host": "0",
+    "path": "/findById",
+    "query": [
+      "userId"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "User",
+    "target_service": "user-service",
+    "server_endpoint": "src/main/java/com/hoangtien2k3/ecommerce/NEWInstance/UserServiceController.java#findById",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "payment-service",
+    "client_file": "src/main/java/com/hoangtien2k3/ecommerce/Interface/OrderServiceImpl.java",
+    "method": "findById",
+    "verb": "GET",
+    "host": "1",
+    "path": "/findById",
+    "query": [
+      "orderId"
+    ],
+    "query_types": [
+      "Integer"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "OrderDto",
+    "target_service": "order-service",
+    "server_endpoint": "src/main/java/com/hoangtien2k3/ecommerce/NEWInstance/OrderServiceController.java#findById",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "payment-service",
+    "client_file": "src/main/java/com/hoangtien2k3/ecommerce/Interface/UserServiceImpl.java",
+    "method": "findById",
+    "verb": "GET",
+    "host": "0",
+    "path": "/findById",
+    "query": [
+      "userId"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "User",
+    "target_service": "user-service",
+    "server_endpoint": "src/main/java/com/hoangtien2k3/ecommerce/NEWInstance/UserServiceController.java#findById",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "search-service",
+    "client_file": "src/main/java/com/hoangtien2k3/ecommerce/Interface/ProductRepositoryImpl.java",
+    "method": "findById",
+    "verb": "GET",
+    "host": "2",
+    "path": "/findById",
+    "query": [
+      "Object"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Object",
+    "target_service": "product-service",
+    "server_endpoint": "src/main/java/com/hoangtien2k3/ecommerce/NEWInstance/ProductRepositoryController.java#findById",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /findById in product-service",
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "shipping-service",
+    "client_file": "src/main/java/com/hoangtien2k3/ecommerce/Interface/OrderServiceImpl.java",
+    "method": "findById",
+    "verb": "GET",
+    "host": "1",
+    "path": "/findById",
+    "query": [
+      "orderId"
+    ],
+    "query_types": [
+      "Integer"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "OrderDto",
+    "target_service": "order-service",
+    "server_endpoint": "src/main/java/com/hoangtien2k3/ecommerce/NEWInstance/OrderServiceController.java#findById",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "shipping-service",
+    "client_file": "src/main/java/com/hoangtien2k3/ecommerce/Interface/ProductServiceImpl.java",
+    "method": "findById",
+    "verb": "GET",
+    "host": "2",
+    "path": "/findById",
+    "query": [
+      "productId"
+    ],
+    "query_types": [
+      "Integer"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "ProductDto",
+    "target_service": "product-service",
+    "server_endpoint": "src/main/java/com/hoangtien2k3/ecommerce/NEWInstance/ProductRepositoryController.java#findById",
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: 2 endpoints share GET /findById in product-service",
+      "params: client sends ['productId'], server expects ['Object']",
+      "types: Object placeholder (method signature unknown to MicroRefact)"
+    ],
+    "runtime_problems": []
+  }
+]

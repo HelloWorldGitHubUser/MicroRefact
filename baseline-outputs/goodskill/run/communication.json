@@ -1,0 +1,292 @@
+[
+  {
+    "client_service": "goodskill-ai",
+    "client_file": "src/main/java/com/goodskill/Interface/SeckillMockControllerImpl.java",
+    "method": "doWithSychronized",
+    "verb": "GET",
+    "host": "5",
+    "path": "/doWithSychronized",
+    "query": [
+      "dto"
+    ],
+    "query_types": [
+      "SeckillWebMockRequestDTO"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<Long>",
+    "target_service": "goodskill-web",
+    "server_endpoint": "src/main/java/com/goodskill/NEWInstance/SeckillMockControllerController.java#doWithSychronized",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "SeckillWebMockRequestDTO object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "goodskill-ai",
+    "client_file": "src/main/java/com/goodskill/Interface/SeckillMockControllerImpl.java",
+    "method": "getTaskTimeInfo",
+    "verb": "GET",
+    "host": "5",
+    "path": "/getTaskTimeInfo",
+    "query": [
+      "seckillId"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<String>",
+    "target_service": "goodskill-web",
+    "server_endpoint": "src/main/java/com/goodskill/NEWInstance/SeckillMockControllerController.java#getTaskTimeInfo",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "goodskill-auth",
+    "client_file": "src/main/java/com/goodskill/DTO/Result.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "6",
+    "path": "/ok",
+    "query": [
+      "data",
+      "msg"
+    ],
+    "query_types": [
+      "T",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/goodskill/NEWInstance/ResultController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "T object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "goodskill-order",
+    "client_file": "src/main/java/com/goodskill/DTO/Result.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "6",
+    "path": "/ok",
+    "query": [
+      "data",
+      "msg"
+    ],
+    "query_types": [
+      "T",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/goodskill/NEWInstance/ResultController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "T object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "goodskill-order",
+    "client_file": "src/main/java/com/goodskill/DTO/Result.java",
+    "method": "fail",
+    "verb": "GET",
+    "host": "6",
+    "path": "/fail",
+    "query": [
+      "code",
+      "msg"
+    ],
+    "query_types": [
+      "int",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/goodskill/NEWInstance/ResultController.java#fail",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "goodskill-seckill",
+    "client_file": "src/main/java/com/goodskill/DTO/Result.java",
+    "method": "fail",
+    "verb": "GET",
+    "host": "6",
+    "path": "/fail",
+    "query": [
+      "code",
+      "msg"
+    ],
+    "query_types": [
+      "int",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/goodskill/NEWInstance/ResultController.java#fail",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "goodskill-seckill",
+    "client_file": "src/main/java/com/goodskill/DTO/Result.java",
+    "method": "ok",
+    "verb": "GET",
+    "host": "6",
+    "path": "/ok",
+    "query": [
+      "data",
+      "msg"
+    ],
+    "query_types": [
+      "T",
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Result<T>",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/goodskill/NEWInstance/ResultController.java#ok",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "T object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": true
+  },
+  {
+    "client_service": "goodskill-seckill",
+    "client_file": "src/main/java/com/goodskill/Interface/SeckillMockResponseListenerImpl.java",
+    "method": "handleSeckillResult",
+    "verb": "PUT",
+    "host": "5",
+    "path": "/handleSeckillResult",
+    "query": [
+      "responseDto"
+    ],
+    "query_types": [
+      "SeckillMockResponseDTO"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "goodskill-web",
+    "server_endpoint": "src/main/java/com/goodskill/NEWInstance/SeckillMockResponseListenerController.java#handleSeckillResult",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "SeckillMockResponseDTO object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "goodskill-seckill",
+    "client_file": "src/main/java/com/goodskill/Interface/OrderServiceImplImpl.java",
+    "method": "count",
+    "verb": "GET",
+    "host": "3",
+    "path": "/count",
+    "query": [
+      "seckillId"
+    ],
+    "query_types": [
+      "long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Long",
+    "target_service": "goodskill-order",
+    "server_endpoint": "src/main/java/com/goodskill/NEWInstance/OrderServiceImplController.java#count",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "goodskill-web",
+    "client_file": "src/main/java/com/goodskill/Interface/SeckillServiceImpl.java",
+    "method": "getSuccessKillCount",
+    "verb": "GET",
+    "host": "4",
+    "path": "/getSuccessKillCount",
+    "query": [
+      "seckillId"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "long",
+    "target_service": "goodskill-seckill",
+    "server_endpoint": "src/main/java/com/goodskill/NEWInstance/SeckillServiceController.java#getSuccessKillCount",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "goodskill-web",
+    "client_file": "src/main/java/com/goodskill/Interface/SeckillServiceImpl.java",
+    "method": "endSeckill",
+    "verb": "GET",
+    "host": "4",
+    "path": "/endSeckill",
+    "query": [
+      "seckillId"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "boolean",
+    "target_service": "goodskill-seckill",
+    "server_endpoint": "src/main/java/com/goodskill/NEWInstance/SeckillServiceController.java#endSeckill",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  }
+]

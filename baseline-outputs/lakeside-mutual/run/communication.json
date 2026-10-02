@@ -1,0 +1,794 @@
+[
+  {
+    "client_service": "customer-core",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/CustomerId.java",
+    "method": "random",
+    "verb": "GET",
+    "host": "4",
+    "path": "/random",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "CustomerId",
+    "target_service": "shared",
+    "server_endpoint": null,
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: no GET /random in shared"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "customer-management-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/CustomerId.java",
+    "method": "toString",
+    "verb": "GET",
+    "host": "4",
+    "path": "/toString",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "String",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CustomerIdController.java#toString",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-management-backend",
+    "client_file": "src/main/java/com/lakesidemutual/Interface/CustomerServiceImpl.java",
+    "method": "getCustomers",
+    "verb": "GET",
+    "host": "0",
+    "path": "/getCustomers",
+    "query": [
+      "filter",
+      "limit",
+      "offset"
+    ],
+    "query_types": [
+      "String",
+      "int",
+      "int"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Page<CustomerAggregateRoot>",
+    "target_service": "customer-core",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CustomerServiceController.java#getCustomers",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-management-backend",
+    "client_file": "src/main/java/com/lakesidemutual/Interface/CustomerServiceImpl.java",
+    "method": "updateCustomerProfile",
+    "verb": "GET",
+    "host": "0",
+    "path": "/updateCustomerProfile",
+    "query": [
+      "customerId",
+      "updatedCustomerProfile"
+    ],
+    "query_types": [
+      "CustomerId",
+      "CustomerProfileEntity"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Optional<CustomerAggregateRoot>",
+    "target_service": "customer-core",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CustomerServiceController.java#updateCustomerProfile",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "CustomerId object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/CustomerId.java",
+    "method": "equals",
+    "verb": "GET",
+    "host": "4",
+    "path": "/equals",
+    "query": [
+      "obj"
+    ],
+    "query_types": [
+      "Object"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "boolean",
+    "target_service": "shared",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CustomerIdController.java#equals",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Object object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/AddressDto.java",
+    "method": "setStreetAddress",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setStreetAddress",
+    "query": [
+      "streetAddress"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": null,
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: no PUT /setStreetAddress in policy-management-backend"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/AddressDto.java",
+    "method": "setPostalCode",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setPostalCode",
+    "query": [
+      "postalCode"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/AddressDtoController.java#setPostalCode",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/AddressDto.java",
+    "method": "setCity",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setCity",
+    "query": [
+      "city"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/AddressDtoController.java#setCity",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/InsuranceQuoteRequestDto.java",
+    "method": "setId",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setId",
+    "query": [
+      "id"
+    ],
+    "query_types": [
+      "Long"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": null,
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: no PUT /setId in policy-management-backend"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/InsuranceQuoteRequestDto.java",
+    "method": "setDate",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setDate",
+    "query": [
+      "date"
+    ],
+    "query_types": [
+      "Date"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/InsuranceQuoteRequestDtoController.java#setDate",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Date object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/InsuranceQuoteRequestDto.java",
+    "method": "setStatusHistory",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setStatusHistory",
+    "query": [
+      "statusHistory"
+    ],
+    "query_types": [
+      "List<RequestStatusChangeDto>"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/InsuranceQuoteRequestDtoController.java#setStatusHistory",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "List object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/InsuranceQuoteRequestDto.java",
+    "method": "setCustomerInfo",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setCustomerInfo",
+    "query": [
+      "customerInfo"
+    ],
+    "query_types": [
+      "CustomerInfoDto"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/InsuranceQuoteRequestDtoController.java#setCustomerInfo",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "CustomerInfoDto object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/InsuranceQuoteRequestDto.java",
+    "method": "setInsuranceOptions",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setInsuranceOptions",
+    "query": [
+      "insuranceOptions"
+    ],
+    "query_types": [
+      "InsuranceOptionsDto"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/InsuranceQuoteRequestDtoController.java#setInsuranceOptions",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "InsuranceOptionsDto object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/CustomerInfoDto.java",
+    "method": "setCustomerId",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setCustomerId",
+    "query": [
+      "customerId"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": null,
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: no PUT /setCustomerId in policy-management-backend"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/CustomerInfoDto.java",
+    "method": "setFirstname",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setFirstname",
+    "query": [
+      "firstname"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CustomerInfoDtoController.java#setFirstname",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/CustomerInfoDto.java",
+    "method": "setLastname",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setLastname",
+    "query": [
+      "lastname"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CustomerInfoDtoController.java#setLastname",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/CustomerInfoDto.java",
+    "method": "setContactAddress",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setContactAddress",
+    "query": [
+      "contactAddress"
+    ],
+    "query_types": [
+      "AddressDto"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CustomerInfoDtoController.java#setContactAddress",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "AddressDto object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/CustomerInfoDto.java",
+    "method": "setBillingAddress",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setBillingAddress",
+    "query": [
+      "billingAddress"
+    ],
+    "query_types": [
+      "AddressDto"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CustomerInfoDtoController.java#setBillingAddress",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "AddressDto object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/InsuranceQuoteResponseApplicationEvent.java",
+    "method": "isRequestAccepted",
+    "verb": "GET",
+    "host": "3",
+    "path": "/isRequestAccepted",
+    "query": [],
+    "query_types": [],
+    "uri_vars": 0,
+    "body": false,
+    "return": "boolean",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/InsuranceQuoteResponseApplicationEventController.java#isRequestAccepted",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/InsuranceOptionsDto.java",
+    "method": "setStartDate",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setStartDate",
+    "query": [
+      "startDate"
+    ],
+    "query_types": [
+      "Date"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": null,
+    "contract_ok": false,
+    "contract_issues": [
+      "endpoint: no PUT /setStartDate in policy-management-backend"
+    ],
+    "runtime_problems": []
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/InsuranceOptionsDto.java",
+    "method": "setInsuranceType",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setInsuranceType",
+    "query": [
+      "insuranceType"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/InsuranceOptionsDtoController.java#setInsuranceType",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/InsuranceOptionsDto.java",
+    "method": "setDeductible",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setDeductible",
+    "query": [
+      "deductible"
+    ],
+    "query_types": [
+      "MoneyAmountDto"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/InsuranceOptionsDtoController.java#setDeductible",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "MoneyAmountDto object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/RequestStatusChangeDto.java",
+    "method": "setDate",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setDate",
+    "query": [
+      "date"
+    ],
+    "query_types": [
+      "Date"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/InsuranceQuoteRequestDtoController.java#setDate",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Date object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/DTO/RequestStatusChangeDto.java",
+    "method": "setStatus",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/setStatus",
+    "query": [
+      "status"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/RequestStatusChangeDtoController.java#setStatus",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/Interface/CustomerServiceImpl.java",
+    "method": "updateAddress",
+    "verb": "GET",
+    "host": "0",
+    "path": "/updateAddress",
+    "query": [
+      "customerId",
+      "updatedAddress"
+    ],
+    "query_types": [
+      "CustomerId",
+      "Address"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Optional<CustomerAggregateRoot>",
+    "target_service": "customer-core",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CustomerServiceController.java#updateAddress",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "CustomerId object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/Interface/CustomerServiceImpl.java",
+    "method": "getCustomers",
+    "verb": "GET",
+    "host": "0",
+    "path": "/getCustomers",
+    "query": [
+      "filter",
+      "limit",
+      "offset"
+    ],
+    "query_types": [
+      "String",
+      "int",
+      "int"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Page<CustomerAggregateRoot>",
+    "target_service": "customer-core",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CustomerServiceController.java#getCustomers",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/Interface/CustomerServiceImpl.java",
+    "method": "createCustomer",
+    "verb": "GET",
+    "host": "0",
+    "path": "/createCustomer",
+    "query": [
+      "customerProfile"
+    ],
+    "query_types": [
+      "CustomerProfileEntity"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "CustomerAggregateRoot",
+    "target_service": "customer-core",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CustomerServiceController.java#createCustomer",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "CustomerProfileEntity object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/Interface/CityLookupServiceImpl.java",
+    "method": "getCitiesForPostalCode",
+    "verb": "GET",
+    "host": "0",
+    "path": "/getCitiesForPostalCode",
+    "query": [
+      "postalCode"
+    ],
+    "query_types": [
+      "String"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "List<String>",
+    "target_service": "customer-core",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CityLookupServiceController.java#getCitiesForPostalCode",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/Interface/PolicyQuoteServiceImpl.java",
+    "method": "receiveInsuranceQuoteRequest",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/receiveInsuranceQuoteRequest",
+    "query": [
+      "insuranceQuoteRequestDto"
+    ],
+    "query_types": [
+      "InsuranceQuoteRequestDto"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/PolicyQuoteServiceController.java#receiveInsuranceQuoteRequest",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "InsuranceQuoteRequestDto object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "customer-self-service-backend",
+    "client_file": "src/main/java/com/lakesidemutual/Interface/PolicyQuoteServiceImpl.java",
+    "method": "handleCustomerDecision",
+    "verb": "PUT",
+    "host": "3",
+    "path": "/handleCustomerDecision",
+    "query": [
+      "insuranceQuoteRequestId",
+      "quoteAccepted",
+      "decisionDate"
+    ],
+    "query_types": [
+      "Long",
+      "boolean",
+      "Date"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "void",
+    "target_service": "policy-management-backend",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/PolicyQuoteServiceController.java#handleCustomerDecision",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "Date object sent as a query-string parameter (cannot be bound)",
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  },
+  {
+    "client_service": "policy-management-backend",
+    "client_file": "src/main/java/com/lakesidemutual/Interface/CustomerServiceImpl.java",
+    "method": "getCustomers",
+    "verb": "GET",
+    "host": "0",
+    "path": "/getCustomers",
+    "query": [
+      "filter",
+      "limit",
+      "offset"
+    ],
+    "query_types": [
+      "String",
+      "int",
+      "int"
+    ],
+    "uri_vars": 0,
+    "body": false,
+    "return": "Page<CustomerAggregateRoot>",
+    "target_service": "customer-core",
+    "server_endpoint": "src/main/java/com/lakesidemutual/NEWInstance/CustomerServiceController.java#getCustomers",
+    "contract_ok": true,
+    "contract_issues": [],
+    "runtime_problems": [
+      "delegate field not injected (@Autowired missing)"
+    ],
+    "original_method_static": false
+  }
+]
