@@ -1,0 +1,6 @@
+module	status	javac_errors	first_error
+monolith (control)	OK	0	
+booking-service	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+flight-service	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+passenger-service	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+shared	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:

@@ -1,0 +1,7 @@
+module	status	javac_errors	first_error
+monolith (control)	OK	0	
+api-gateway	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+customers-service	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+shared	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+vets-service	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
+visits-service	pom	0	[ERROR] [ERROR] Some problems were encountered while processing the POMs:
