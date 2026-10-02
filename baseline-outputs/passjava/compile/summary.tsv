@@ -1,0 +1,10 @@
+module	status	javac_errors	first_error
+monolith (control)	OK	0	
+passjava-channel	javac	42	[ERROR] COMPILATION ERROR : 
+passjava-content	javac	42	[ERROR] COMPILATION ERROR : 
+passjava-member	javac	64	[ERROR] COMPILATION ERROR : 
+passjava-question	javac	87	[ERROR] COMPILATION ERROR : 
+passjava-search	javac	43	[ERROR] COMPILATION ERROR : 
+passjava-study	javac	51	[ERROR] COMPILATION ERROR : 
+passjava-thirdparty	javac	12	[ERROR] COMPILATION ERROR : 
+shared	javac	45	[ERROR] COMPILATION ERROR : 
