@@ -1,0 +1,1 @@
+{"clusters": {"customer-core": 16, "customer-management-backend": 21, "customer-self-service-backend": 54, "policy-management-backend": 61, "shared": 7}, "dropped": 3, "moved_to_shared": 4}

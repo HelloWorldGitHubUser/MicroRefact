@@ -1,0 +1,17 @@
+package com.hoangtien2k3.ecommerce.exception.wrapper;
+ import java.io.Serial;
+public class CategoryNotFoundException extends RuntimeException{
+
+@Serial
+ private  long serialVersionUID;
+
+public CategoryNotFoundException() {
+    super();
+}public CategoryNotFoundException(String message, Throwable cause) {
+    super(message, cause);
+}public CategoryNotFoundException(String message) {
+    super(message);
+}public CategoryNotFoundException(Throwable cause) {
+    super(cause);
+}
+}

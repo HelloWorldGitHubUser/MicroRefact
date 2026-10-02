@@ -1,0 +1,70 @@
+{
+  "cluster_index_to_service": {
+    "0": "gulimall-auth-server",
+    "1": "gulimall-cart",
+    "2": "gulimall-coupon",
+    "3": "gulimall-member",
+    "4": "gulimall-order",
+    "5": "gulimall-product",
+    "6": "gulimall-search",
+    "7": "gulimall-seckill",
+    "8": "gulimall-ware",
+    "9": "gulimall-third-party",
+    "10": "shared"
+  },
+  "cluster_sizes": {
+    "gulimall-auth-server": 6,
+    "gulimall-cart": 8,
+    "gulimall-coupon": 75,
+    "gulimall-member": 49,
+    "gulimall-order": 55,
+    "gulimall-product": 96,
+    "gulimall-search": 14,
+    "gulimall-seckill": 7,
+    "gulimall-ware": 35,
+    "gulimall-third-party": 3,
+    "shared": 39
+  },
+  "dropped_not_emitted_by_parser": [
+    {
+      "class": "io.gulimall.constraints.ListValue",
+      "kind": "@interface"
+    },
+    {
+      "class": "io.gulimall.enume.OrderStatusEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "io.gulimall.enume.WareTaskStatusEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "io.gulimall.exception.BizCodeEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "io.gulimall.security.LoginRequired",
+      "kind": "@interface"
+    }
+  ],
+  "moved_to_shared": {
+    "io.gulimall.GulimallApplication": "not listed in decomposition",
+    "io.gulimall.config.GulimallWebConfig": "owned by several services: gulimall-cart, gulimall-order, gulimall-seckill",
+    "io.gulimall.config.SecurityConfig": "not listed in decomposition",
+    "io.gulimall.config.ThymeleafConfig": "not listed in decomposition",
+    "io.gulimall.config.product.MyThreadPoolConfig": "owned by several services: gulimall-cart, gulimall-order, gulimall-product",
+    "io.gulimall.config.product.ThreadPoolConfigProperties": "owned by several services: gulimall-cart, gulimall-order, gulimall-product",
+    "io.gulimall.config.search.GulimallElasticSearchConfig": "not listed in decomposition",
+    "io.gulimall.interceptor.LoginInterceptor": "owned by several services: gulimall-order, gulimall-seckill",
+    "io.gulimall.to.es.SkuEsModel.Attr": "inner class of io.gulimall.to.es.SkuEsModel"
+  },
+  "inner_classes_following_outer": {
+    "io.gulimall.service.ware.impl.WareSkuServiceImpl.SkuLockVo": "gulimall-ware",
+    "io.gulimall.to.es.SkuEsModel.Attr": "shared",
+    "io.gulimall.vo.product.Catalog2Vo.Catalog3Vo": "gulimall-product",
+    "io.gulimall.vo.search.SearchResult.AttrVo": "gulimall-search",
+    "io.gulimall.vo.search.SearchResult.BrandVo": "gulimall-search",
+    "io.gulimall.vo.search.SearchResult.CatalogVo": "gulimall-search",
+    "io.gulimall.vo.search.SearchResult.NavVo": "gulimall-search"
+  }
+}

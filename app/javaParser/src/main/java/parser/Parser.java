@@ -30,6 +30,9 @@ public class Parser {
             JavaSymbolSolver symbolSolver = new JavaSymbolSolver(combinedTypeSolver);
 
             sr.getParserConfiguration().setSymbolResolver(symbolSolver);
+            // PATCH P3 (baseline harness): JavaParser defaults to JAVA_8 syntax; allow e.g. MR_LANG_LEVEL=JAVA_14
+            String languageLevel = System.getenv().getOrDefault("MR_LANG_LEVEL", "JAVA_8");
+            sr.getParserConfiguration().setLanguageLevel(com.github.javaparser.ParserConfiguration.LanguageLevel.valueOf(languageLevel));
             List<ParseResult<CompilationUnit>> parseResults = sr.tryToParse();
 
             for (ParseResult<CompilationUnit> parseResult : parseResults) {

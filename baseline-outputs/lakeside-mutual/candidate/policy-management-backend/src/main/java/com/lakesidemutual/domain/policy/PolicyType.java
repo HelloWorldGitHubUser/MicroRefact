@@ -1,0 +1,40 @@
+package com.lakesidemutual.domain.policy;
+ import java.util.Objects;
+import org.microserviceapipatterns.domaindrivendesign.ValueObject;
+public class PolicyType implements ValueObject{
+
+ private  String name;
+
+public PolicyType() {
+    this.name = "";
+}public PolicyType(String name) {
+    this.name = name;
+}
+public String getName(){
+    return name;
+}
+
+
+@Override
+public int hashCode(){
+    return Objects.hash(name);
+}
+
+
+@Override
+public boolean equals(Object obj){
+    if (this == obj) {
+        return true;
+    }
+    if (obj == null) {
+        return false;
+    }
+    if (getClass() != obj.getClass()) {
+        return false;
+    }
+    PolicyType other = (PolicyType) obj;
+    return Objects.equals(name, other.name);
+}
+
+
+}

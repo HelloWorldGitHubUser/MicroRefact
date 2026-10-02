@@ -1,0 +1,1 @@
+{"clusters": {"customers-service": 9, "visits-service": 3, "vets-service": 7, "api-gateway": 1, "shared": 17}, "dropped": 0, "moved_to_shared": 6}

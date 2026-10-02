@@ -1,0 +1,64 @@
+{
+  "cluster_index_to_service": {
+    "0": "newbee-mall-cloud-user-service",
+    "1": "newbee-mall-cloud-goods-service",
+    "2": "newbee-mall-cloud-recommend-service",
+    "3": "newbee-mall-cloud-shop-cart-service",
+    "4": "newbee-mall-cloud-order-service",
+    "5": "shared"
+  },
+  "cluster_sizes": {
+    "newbee-mall-cloud-user-service": 19,
+    "newbee-mall-cloud-goods-service": 20,
+    "newbee-mall-cloud-recommend-service": 18,
+    "newbee-mall-cloud-shop-cart-service": 7,
+    "newbee-mall-cloud-order-service": 22,
+    "shared": 25
+  },
+  "dropped_not_emitted_by_parser": [
+    {
+      "class": "ltd.newbee.mall.common.IndexConfigTypeEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "ltd.newbee.mall.common.NewBeeMallCategoryLevelEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "ltd.newbee.mall.common.NewBeeMallOrderStatusEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "ltd.newbee.mall.common.PayStatusEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "ltd.newbee.mall.common.PayTypeEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "ltd.newbee.mall.common.ServiceResultEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "ltd.newbee.mall.config.annotation.TokenToAdminUser",
+      "kind": "@interface"
+    },
+    {
+      "class": "ltd.newbee.mall.config.annotation.TokenToMallUser",
+      "kind": "@interface"
+    }
+  ],
+  "moved_to_shared": {
+    "ltd.newbee.mall.NewBeeMallAPIApplication": "not listed in decomposition",
+    "ltd.newbee.mall.config.NeeBeeMallWebMvcConfigurer": "not listed in decomposition",
+    "ltd.newbee.mall.config.Swagger3Config": "not listed in decomposition",
+    "ltd.newbee.mall.config.handler.TokenToAdminUserMethodArgumentResolver": "owned by several services: newbee-mall-cloud-user-service, newbee-mall-cloud-goods-service, newbee-mall-cloud-recommend-service, newbee-mall-cloud-order-service",
+    "ltd.newbee.mall.config.handler.TokenToMallUserMethodArgumentResolver": "owned by several services: newbee-mall-cloud-user-service, newbee-mall-cloud-shop-cart-service, newbee-mall-cloud-order-service",
+    "ltd.newbee.mall.util.BeanUtil.Callback": "inner class of ltd.newbee.mall.util.BeanUtil",
+    "ltd.newbee.mall.util.NewBeeMallUtils": "not listed in decomposition"
+  },
+  "inner_classes_following_outer": {
+    "ltd.newbee.mall.util.BeanUtil.Callback": "shared"
+  }
+}

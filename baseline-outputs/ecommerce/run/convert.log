@@ -1,0 +1,1 @@
+{"clusters": {"user-service": 35, "order-service": 19, "product-service": 20, "payment-service": 10, "shipping-service": 10, "favourite-service": 10, "inventory-service": 6, "notification-service": 16, "promotion-service": 11, "rating-service": 4, "tax-service": 8, "media-service": 13, "search-service": 6, "shared": 45}, "dropped": 37, "moved_to_shared": 15}

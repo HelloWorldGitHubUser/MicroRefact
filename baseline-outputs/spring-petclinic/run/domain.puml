@@ -1,0 +1,366 @@
+@startuml
+package java <<Folder>> {
+Class java.Owner {
+}
+Class java.Pet {
+}
+Class java.PetType {
+}
+Class java.OwnerRepository {
+}
+Class java.PetRepository {
+}
+Class java.OwnerResource {
+}
+Class java.PetResource {
+}
+Class java.PetRequest {
+}
+Class java.PetValidator {
+}
+Class java.AbstractResourceController {
+}
+Class java.NamedEntity {
+}
+Class java.BaseEntity {
+}
+Class java.Person {
+}
+Class java.org/springframework/samples/petclinic/DTO/Visit {
+}
+Class java.org/springframework/samples/petclinic/Request/Impl/VisitRequestImpl {
+}
+Class java.org/springframework/samples/petclinic/Request/VisitRequest {
+}
+Class java.org/springframework/samples/petclinic/NEW/PetVisitController {
+}
+Class java.org/springframework/samples/petclinic/NEW/PetVisitService {
+}
+Class java.org/springframework/samples/petclinic/Interface/ClinicServiceImpl {
+}
+Class java.org/springframework/samples/petclinic/Interface/ClinicService {
+}
+Class java.org/springframework/samples/petclinic/Interface/ClinicServiceImpl {
+}
+Class java.org/springframework/samples/petclinic/Interface/ClinicService {
+}
+Class java.org/springframework/samples/petclinic/NEWInstance/PetRepositoryController {
+}
+Class java.org/springframework/samples/petclinic/NEWInstance/OwnerRepositoryController {
+}
+Class java.org/springframework/samples/petclinic/Main {
+}
+}
+package java <<Folder>> {
+Class java.Visit {
+}
+Class java.VisitRepository {
+}
+Class java.VisitResource {
+}
+Class java.AbstractResourceController {
+}
+Class java.BaseEntity {
+}
+Class java.org/springframework/samples/petclinic/NEW/VisitPetController {
+}
+Class java.org/springframework/samples/petclinic/NEW/VisitPetService {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/Request/Impl/PetRequestImpl {
+}
+Class java.org/springframework/samples/petclinic/Request/PetRequest {
+}
+Class java.org/springframework/samples/petclinic/Interface/ClinicServiceImpl {
+}
+Class java.org/springframework/samples/petclinic/Interface/ClinicService {
+}
+Class java.org/springframework/samples/petclinic/NEWInstance/VisitRepositoryController {
+}
+Class java.org/springframework/samples/petclinic/Main {
+}
+}
+package java <<Folder>> {
+Class java.Specialty {
+}
+Class java.Vet {
+}
+Class java.Vets {
+}
+Class java.VetRepository {
+}
+Class java.VetResource {
+}
+Class java.SpecialtyDetails {
+}
+Class java.VetDetails {
+}
+Class java.AbstractResourceController {
+}
+Class java.Person {
+}
+Class java.BaseEntity {
+}
+Class java.NamedEntity {
+}
+Class java.org/springframework/samples/petclinic/Interface/ClinicServiceImpl {
+}
+Class java.org/springframework/samples/petclinic/Interface/ClinicService {
+}
+Class java.org/springframework/samples/petclinic/NEWInstance/VetRepositoryController {
+}
+Class java.org/springframework/samples/petclinic/Main {
+}
+}
+package java <<Folder>> {
+Class java.OwnerDetailsResource {
+}
+Class java.AbstractResourceController {
+}
+Class java.org/springframework/samples/petclinic/Interface/ClinicServiceImpl {
+}
+Class java.org/springframework/samples/petclinic/Interface/ClinicService {
+}
+Class java.org/springframework/samples/petclinic/Main {
+}
+}
+package java <<Folder>> {
+Class java.PetClinicApplication {
+}
+Class java.CacheConfig {
+}
+Class java.PetclinicProperties {
+}
+Class java.WebConfig {
+}
+Class java.BaseEntity {
+}
+Class java.NamedEntity {
+}
+Class java.Person {
+}
+Class java.ClinicService {
+}
+Class java.ClinicServiceImpl {
+}
+Class java.CallMonitoringAspect {
+}
+Class java.AbstractResourceController {
+}
+Class java.DtoMapper {
+}
+Class java.OwnerDetails {
+}
+Class java.PetDetails {
+}
+Class java.PetTypeDetails {
+}
+Class java.VisitDetails {
+}
+Class java.Visits {
+}
+Class java.org/springframework/samples/petclinic/NEWInstance/ClinicServiceController {
+}
+Class java.org/springframework/samples/petclinic/DTO/PetType {
+}
+Class java.org/springframework/samples/petclinic/Interface/PetRepositoryImpl {
+}
+Class java.org/springframework/samples/petclinic/Interface/PetRepository {
+}
+Class java.org/springframework/samples/petclinic/DTO/Vet {
+}
+Class java.org/springframework/samples/petclinic/Interface/VetRepositoryImpl {
+}
+Class java.org/springframework/samples/petclinic/Interface/VetRepository {
+}
+Class java.org/springframework/samples/petclinic/Interface/OwnerRepositoryImpl {
+}
+Class java.org/springframework/samples/petclinic/Interface/OwnerRepository {
+}
+Class java.org/springframework/samples/petclinic/DTO/Visit {
+}
+Class java.org/springframework/samples/petclinic/Interface/VisitRepositoryImpl {
+}
+Class java.org/springframework/samples/petclinic/Interface/VisitRepository {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Owner {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/DTO/Pet {
+}
+Class java.org/springframework/samples/petclinic/Main {
+}
+}
+@enduml

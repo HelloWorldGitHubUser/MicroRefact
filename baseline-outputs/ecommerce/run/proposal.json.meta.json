@@ -1,0 +1,202 @@
+{
+  "cluster_index_to_service": {
+    "0": "user-service",
+    "1": "order-service",
+    "2": "product-service",
+    "3": "payment-service",
+    "4": "shipping-service",
+    "5": "favourite-service",
+    "6": "inventory-service",
+    "7": "notification-service",
+    "8": "promotion-service",
+    "9": "rating-service",
+    "10": "tax-service",
+    "11": "media-service",
+    "12": "search-service",
+    "13": "shared"
+  },
+  "cluster_sizes": {
+    "user-service": 35,
+    "order-service": 19,
+    "product-service": 20,
+    "payment-service": 10,
+    "shipping-service": 10,
+    "favourite-service": 10,
+    "inventory-service": 6,
+    "notification-service": 16,
+    "promotion-service": 11,
+    "rating-service": 4,
+    "tax-service": 8,
+    "media-service": 13,
+    "search-service": 6,
+    "shared": 45
+  },
+  "dropped_not_emitted_by_parser": [
+    {
+      "class": "com.hoangtien2k3.ecommerce.constants.SortType",
+      "kind": "enum"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.BrandVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.CategoryGetVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.ErrorVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.MediaPostVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.NoFileMediaVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.OrderExistsByProductAndUserGetVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.ProductEsDetailVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.ProductGetVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.ProductListGetVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.ProductNameGetVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.ProductNameListVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.ProductVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.PromotionDetailVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.PromotionListVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.PromotionVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.RatingListVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.RatingPostVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.RatingVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.ResponeStatusVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.TaxClassListGetVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.TaxClassPostVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.TaxClassVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.TaxRateGetDetailVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.TaxRateListGetVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.TaxRatePostVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.dto.TaxRateVm",
+      "kind": "record"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.exception.CommonApiExceptionHandler",
+      "kind": "class"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.model.notification.PaymentRecordStatus",
+      "kind": "enum"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.model.payment.PaymentStatus",
+      "kind": "enum"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.model.promotion.enumeration.ApplyTo",
+      "kind": "enum"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.model.promotion.enumeration.DiscountType",
+      "kind": "enum"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.model.promotion.enumeration.UsageType",
+      "kind": "enum"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.model.user.RoleName",
+      "kind": "enum"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.utils.AuthenticationUtils",
+      "kind": "class"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.utils.ValidFileType",
+      "kind": "@interface"
+    },
+    {
+      "class": "com.hoangtien2k3.ecommerce.validation.PromotionConstraint",
+      "kind": "@interface"
+    }
+  ],
+  "moved_to_shared": {
+    "com.hoangtien2k3.ecommerce.EcommerceApplication": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.config.AsyncConfig": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.config.CorsConfig": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.config.JpaConfig": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.config.MapperConfig": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.config.OpenApiConfig": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.config.datasource.ElasticsearchConfig": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.config.datasource.MongoConfig": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.config.datasource.MySqlPersistenceConfig": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.config.datasource.PostgresPersistenceConfig": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.csv.BaseCsv": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.csv.CsvExporter": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.mapper.EntityCreateUpdateMapper": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.security.JwtKeyFactory": "not listed in decomposition",
+    "com.hoangtien2k3.ecommerce.utils.DateTimeUtils": "not listed in decomposition"
+  },
+  "inner_classes_following_outer": {}
+}

@@ -1,0 +1,1 @@
+{"app":"youlai-mall","exit_code":0,"seconds":6,"parser_language_level":"JAVA_14","compile_jdk":"17","services":["mall-oms", "mall-pms", "mall-sms", "mall-ums", "shared", "youlai-auth", "youlai-system"],"java_files":403}

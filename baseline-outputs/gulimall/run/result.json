@@ -1,0 +1,1 @@
+{"app":"gulimall","exit_code":0,"seconds":7,"parser_language_level":"JAVA_8","compile_jdk":"8","services":["gulimall-auth-server", "gulimall-cart", "gulimall-coupon", "gulimall-member", "gulimall-order", "gulimall-product", "gulimall-search", "gulimall-seckill", "gulimall-third-party", "gulimall-ware", "shared"],"java_files":476}

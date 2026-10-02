@@ -1,0 +1,21 @@
+package com.goodskill.ai;
+ import org.springframework.ai.chat.client.RequestResponseAdvisor;
+import org.springframework.ai.chat.client.advisor.api.AdvisedRequest;
+import java.util.Map;
+public class LoggingAdvisor implements RequestResponseAdvisor{
+
+
+@Override
+public int getOrder(){
+    return 0;
+}
+
+
+@Override
+public AdvisedRequest adviseRequest(AdvisedRequest request,Map<String,Object> context){
+    System.out.println("Request: " + request);
+    return request;
+}
+
+
+}

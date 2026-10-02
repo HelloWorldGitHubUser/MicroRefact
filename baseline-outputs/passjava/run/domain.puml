@@ -1,0 +1,236 @@
+@startuml
+package java <<Folder>> {
+Class java.AccessTokenController {
+}
+Class java.ChannelController {
+}
+Class java.AccessTokenDao {
+}
+Class java.ChannelDao {
+}
+Class java.AccessTokenEntity {
+}
+Class java.ChannelEntity {
+}
+Class java.AccessTokenService {
+}
+Class java.ChannelService {
+}
+Class java.AccessTokenServiceImpl {
+}
+Class java.ChannelServiceImpl {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conMain {
+}
+}
+package java <<Folder>> {
+Class java.BannerController {
+}
+Class java.NewsController {
+}
+Class java.BannerDao {
+}
+Class java.NewsDao {
+}
+Class java.BannerEntity {
+}
+Class java.NewsEntity {
+}
+Class java.BannerService {
+}
+Class java.NewsService {
+}
+Class java.BannerServiceImpl {
+}
+Class java.NewsServiceImpl {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conMain {
+}
+}
+package java <<Folder>> {
+Class java.GrowthChangeHistoryController {
+}
+Class java.MemberController {
+}
+Class java.GrowthChangeHistoryDao {
+}
+Class java.MemberDao {
+}
+Class java.GrowthChangeHistoryEntity {
+}
+Class java.MemberEntity {
+}
+Class java.GrowthChangeHistoryService {
+}
+Class java.MemberService {
+}
+Class java.GrowthChangeHistoryServiceImpl {
+}
+Class java.MemberServiceImpl {
+}
+Class java.com/passjava/conInterface/StudyTimeServiceImpl {
+}
+Class java.com/passjava/conInterface/StudyTimeService {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conMain {
+}
+}
+package java <<Folder>> {
+Class java.MyBatisConfig {
+}
+Class java.MyCacheConfig {
+}
+Class java.QuestionAppController {
+}
+Class java.QuestionController {
+}
+Class java.TypeController {
+}
+Class java.QuestionDao {
+}
+Class java.TypeDao {
+}
+Class java.QuestionEntity {
+}
+Class java.TypeEntity {
+}
+Class java.PassjavaExceptionControllerAdvice {
+}
+Class java.IQuestionService {
+}
+Class java.ITypeService {
+}
+Class java.QuestionServiceImpl {
+}
+Class java.TypeServiceImpl {
+}
+Class java.com/passjava/conInterface/SearchServiceImpl {
+}
+Class java.com/passjava/conInterface/SearchService {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conMain {
+}
+}
+package java <<Folder>> {
+Class java.PassJavaElasticsearchConfig {
+}
+Class java.SearchController {
+}
+Class java.SearchService {
+}
+Class java.SearchServiceImpl {
+}
+Class java.com/passjava/conNEWInstance/SearchServiceController {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conMain {
+}
+}
+package java <<Folder>> {
+Class java.StudyTimeController {
+}
+Class java.ViewLogController {
+}
+Class java.StudyTimeDao {
+}
+Class java.ViewLogDao {
+}
+Class java.StudyTimeEntity {
+}
+Class java.ViewLogEntity {
+}
+Class java.StudyTimeService {
+}
+Class java.ViewLogService {
+}
+Class java.StudyTimeServiceImpl {
+}
+Class java.ViewLogServiceImpl {
+}
+Class java.com/passjava/conNEWInstance/StudyTimeServiceController {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conMain {
+}
+}
+package java <<Folder>> {
+Class java.OssController {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conDTO/R {
+}
+Class java.com/passjava/conMain {
+}
+}
+package java <<Folder>> {
+Class java.PassJavaApplication {
+}
+Class java.PassJavaCorsConfiguration {
+}
+Class java.Constants {
+}
+Class java.QuestionEsModel {
+}
+Class java.CharsetKit {
+}
+Class java.Convert {
+}
+Class java.StrFormatter {
+}
+Class java.Constant {
+}
+Class java.PageUtils {
+}
+Class java.Query {
+}
+Class java.R {
+}
+Class java.RRException {
+}
+Class java.StringUtils {
+}
+Class java.SQLFilter {
+}
+Class java.com/passjava/conNEWInstance/RController {
+}
+Class java.com/passjava/conMain {
+}
+}
+@enduml

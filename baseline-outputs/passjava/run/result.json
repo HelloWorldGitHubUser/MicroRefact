@@ -1,0 +1,1 @@
+{"app":"passjava","exit_code":0,"seconds":2,"parser_language_level":"JAVA_8","compile_jdk":"8","services":["passjava-channel", "passjava-content", "passjava-member", "passjava-question", "passjava-search", "passjava-study", "passjava-thirdparty", "shared"],"java_files":95}

@@ -1,0 +1,1 @@
+{"app":"newbee-mall","exit_code":0,"seconds":2,"parser_language_level":"JAVA_8","compile_jdk":"8","services":["newbee-mall-cloud-goods-service", "newbee-mall-cloud-order-service", "newbee-mall-cloud-recommend-service", "newbee-mall-cloud-shop-cart-service", "newbee-mall-cloud-user-service", "shared"],"java_files":150}

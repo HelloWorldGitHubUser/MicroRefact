@@ -1,0 +1,604 @@
+@startuml
+package java <<Folder>> {
+Class java.UserAuth {
+}
+Class java.UserManager {
+}
+Class java.UserRole {
+}
+Class java.ChangePasswordRequest {
+}
+Class java.Login {
+}
+Class java.SignUp {
+}
+Class java.UserDto {
+}
+Class java.InformationMessage {
+}
+Class java.JwtResponseMessage {
+}
+Class java.ResponseMessage {
+}
+Class java.TokenValidationResponse {
+}
+Class java.UserProfileEvent {
+}
+Class java.EmailOrUsernameNotFoundException {
+}
+Class java.PasswordNotFoundException {
+}
+Class java.PhoneNumberNotFoundException {
+}
+Class java.RoleNotFoundException {
+}
+Class java.TokenErrorOrAccessTimeOut {
+}
+Class java.UserNotAuthenticatedException {
+}
+Class java.UserNotFoundException {
+}
+Class java.Role {
+}
+Class java.User {
+}
+Class java.RoleRepository {
+}
+Class java.UserRepository {
+}
+Class java.UserRepositoryPaging {
+}
+Class java.JwtEntryPoint {
+}
+Class java.JwtProvider {
+}
+Class java.UserDetailService {
+}
+Class java.UserPrinciple {
+}
+Class java.AuthorityTokenUtil {
+}
+Class java.TokenValidate {
+}
+Class java.RoleService {
+}
+Class java.UserService {
+}
+Class java.RoleServiceImpl {
+}
+Class java.UserServiceImpl {
+}
+Class java.HeaderGenerator {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/EmailDetailsImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/EmailDetails {
+}
+Class java.com/hoangtien2k3/ecommerce/NEWInstance/UserServiceController {
+}
+Class java.com/hoangtien2k3/ecommerce/NEWInstance/UserDetailServiceController {
+}
+Class java.com/hoangtien2k3/ecommerce/NEWInstance/JwtEntryPointController {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.CartController {
+}
+Class java.OrderController {
+}
+Class java.StorefrontOrderController {
+}
+Class java.CartDto {
+}
+Class java.OrderDto {
+}
+Class java.CartNotFoundException {
+}
+Class java.JwtAuthenticationException {
+}
+Class java.OrderNotFoundException {
+}
+Class java.CartMappingHelper {
+}
+Class java.OrderMappingHelper {
+}
+Class java.AbstractMappedEntity {
+}
+Class java.Cart {
+}
+Class java.Order {
+}
+Class java.CartRepository {
+}
+Class java.OrderRepository {
+}
+Class java.CartService {
+}
+Class java.OrderService {
+}
+Class java.CartServiceImpl {
+}
+Class java.OrderServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/UserResponseImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/UserResponse {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductResponseImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductResponse {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/UserServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/UserService {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductService {
+}
+Class java.com/hoangtien2k3/ecommerce/NEWInstance/OrderServiceController {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.CategoryController {
+}
+Class java.ProductBackofficeController {
+}
+Class java.ProductController {
+}
+Class java.CategoryDto {
+}
+Class java.ProductDto {
+}
+Class java.ProductDataChangeEvent {
+}
+Class java.CategoryNotFoundException {
+}
+Class java.ProductNotFoundException {
+}
+Class java.CategoryMappingHelper {
+}
+Class java.ProductMappingHelper {
+}
+Class java.AbstractMappedEntity {
+}
+Class java.Category {
+}
+Class java.Product {
+}
+Class java.CategoryRepository {
+}
+Class java.CategoryRepositoryPagingAndSorting {
+}
+Class java.ProductRepository {
+}
+Class java.CategoryService {
+}
+Class java.ProductService {
+}
+Class java.CategoryServiceImpl {
+}
+Class java.ProductServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/NEWInstance/ProductServiceController {
+}
+Class java.com/hoangtien2k3/ecommerce/NEWInstance/CategoryServiceController {
+}
+Class java.com/hoangtien2k3/ecommerce/NEWInstance/ProductRepositoryController {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.PaymentController {
+}
+Class java.PaymentDto {
+}
+Class java.PaymentSuccessEvent {
+}
+Class java.PaymentNotFoundException {
+}
+Class java.PaymentMappingHelper {
+}
+Class java.AbstractMappedEntity {
+}
+Class java.Payment {
+}
+Class java.PaymentRepository {
+}
+Class java.PaymentService {
+}
+Class java.PaymentServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/OrderResponseImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/OrderResponse {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/UserResponseImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/UserResponse {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/PaymentEventDtoImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/PaymentEventDto {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/OrderServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/OrderService {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/UserServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/UserService {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.OrderItemController {
+}
+Class java.OrderItemDto {
+}
+Class java.OrderItemNotFoundException {
+}
+Class java.OrderItemMappingHelper {
+}
+Class java.AbstractMappedEntity {
+}
+Class java.OrderItem {
+}
+Class java.OrderItemId {
+}
+Class java.OrderItemRepository {
+}
+Class java.OrderItemService {
+}
+Class java.OrderItemServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductResponseImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductResponse {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/OrderResponseImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/OrderResponse {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductService {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/OrderServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/OrderService {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.FavouriteController {
+}
+Class java.FavouriteDto {
+}
+Class java.FavouriteUserDto {
+}
+Class java.FavouriteNotFoundException {
+}
+Class java.FavouriteMappingHelper {
+}
+Class java.Favourite {
+}
+Class java.FavouriteId {
+}
+Class java.FavouriteRepository {
+}
+Class java.FavouriteService {
+}
+Class java.FavouriteServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductResponseImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductResponse {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/UserServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/UserService {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductService {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.InventoryController {
+}
+Class java.InventoryResponse {
+}
+Class java.Inventory {
+}
+Class java.InventoryRepository {
+}
+Class java.InventoryService {
+}
+Class java.DataLoader {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.EmailController {
+}
+Class java.NotificationController {
+}
+Class java.PaymentRecordController {
+}
+Class java.PaymentRecordDto {
+}
+Class java.PaymentRecordMappingHelper {
+}
+Class java.NotificationEventListener {
+}
+Class java.Notification {
+}
+Class java.PaymentRecord {
+}
+Class java.NotificationRepository {
+}
+Class java.PaymentRecordRepository {
+}
+Class java.EmailService {
+}
+Class java.NotificationService {
+}
+Class java.PaymentRecordService {
+}
+Class java.EmailServiceImpl {
+}
+Class java.NotificationServiceImpl {
+}
+Class java.PaymentRecordServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.PromotionController {
+}
+Class java.PromotionDto {
+}
+Class java.PromotionPostVm {
+}
+Class java.PromotionPutVm {
+}
+Class java.Promotion {
+}
+Class java.PromotionApply {
+}
+Class java.PromotionUsage {
+}
+Class java.PromotionRepository {
+}
+Class java.PromotionUsageRepository {
+}
+Class java.PromotionService {
+}
+Class java.PromotionValidator {
+}
+Class java.AbstractAuditEntity {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductService {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/CategoryServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/CategoryService {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.RatingController {
+}
+Class java.Rating {
+}
+Class java.RatingRepository {
+}
+Class java.RatingService {
+}
+Class java.AbstractAuditEntity {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.TaxClassController {
+}
+Class java.TaxRateController {
+}
+Class java.TaxClass {
+}
+Class java.TaxRate {
+}
+Class java.TaxClassRepository {
+}
+Class java.TaxRateRepository {
+}
+Class java.TaxClassService {
+}
+Class java.TaxRateService {
+}
+Class java.AbstractAuditEntity {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.FilesystemConfig {
+}
+Class java.YasConfig {
+}
+Class java.MediaController {
+}
+Class java.MediaDto {
+}
+Class java.MediaVm {
+}
+Class java.MediaVmMapper {
+}
+Class java.Media {
+}
+Class java.FileSystemRepository {
+}
+Class java.MediaRepository {
+}
+Class java.MediaService {
+}
+Class java.MediaServiceImpl {
+}
+Class java.FileTypeValidator {
+}
+Class java.StringUtils {
+}
+Class java.BaseMapper {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.ProductField {
+}
+Class java.CatalogSearchController {
+}
+Class java.ProductSyncEventListener {
+}
+Class java.ProductDocument {
+}
+Class java.ProductSearchRepository {
+}
+Class java.ProductSearchService {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductRepositoryImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/ProductRepository {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+package java <<Folder>> {
+Class java.EcommerceApplication {
+}
+Class java.AsyncConfig {
+}
+Class java.CorsConfig {
+}
+Class java.JpaConfig {
+}
+Class java.MapperConfig {
+}
+Class java.OpenApiConfig {
+}
+Class java.SecurityConfig {
+}
+Class java.ElasticsearchConfig {
+}
+Class java.MongoConfig {
+}
+Class java.MySqlPersistenceConfig {
+}
+Class java.PostgresPersistenceConfig {
+}
+Class java.ApiConstant {
+}
+Class java.AppConstant {
+}
+Class java.MessageCode {
+}
+Class java.PageableConstant {
+}
+Class java.BaseCsv {
+}
+Class java.CsvExporter {
+}
+Class java.DtoCollectionResponse {
+}
+Class java.EmailDetails {
+}
+Class java.PaymentEventDto {
+}
+Class java.CategoryResponse {
+}
+Class java.OrderResponse {
+}
+Class java.ProductResponse {
+}
+Class java.UserResponse {
+}
+Class java.AccessDeniedException {
+}
+Class java.BadRequestException {
+}
+Class java.CreateGuestUserException {
+}
+Class java.DuplicatedException {
+}
+Class java.Forbidden {
+}
+Class java.ForbiddenException {
+}
+Class java.InternalServerErrorException {
+}
+Class java.MultipartFileContentException {
+}
+Class java.NotFoundException {
+}
+Class java.ResourceExistedException {
+}
+Class java.SignInRequiredException {
+}
+Class java.StockExistingException {
+}
+Class java.UnsupportedMediaTypeException {
+}
+Class java.WrongEmailFormatException {
+}
+Class java.BaseMapper {
+}
+Class java.EntityCreateUpdateMapper {
+}
+Class java.AbstractAuditEntity {
+}
+Class java.CustomAuditingEntityListener {
+}
+Class java.JwtKeyFactory {
+}
+Class java.DateTimeUtils {
+}
+Class java.MessagesUtils {
+}
+Class java.com/hoangtien2k3/ecommerce/NEWInstance/EmailDetailsController {
+}
+Class java.com/hoangtien2k3/ecommerce/NEWInstance/UserResponseController {
+}
+Class java.com/hoangtien2k3/ecommerce/NEWInstance/ProductResponseController {
+}
+Class java.com/hoangtien2k3/ecommerce/NEWInstance/OrderResponseController {
+}
+Class java.com/hoangtien2k3/ecommerce/NEWInstance/PaymentEventDtoController {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/UserDetailServiceImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/UserDetailService {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/JwtEntryPointImpl {
+}
+Class java.com/hoangtien2k3/ecommerce/Interface/JwtEntryPoint {
+}
+Class java.com/hoangtien2k3/ecommerce/Main {
+}
+}
+@enduml

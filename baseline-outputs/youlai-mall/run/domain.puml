@@ -1,0 +1,1042 @@
+@startuml
+package java <<Folder>> {
+Class java.OrderCloseRabbitConfig {
+}
+Class java.ThreadPoolConfig {
+}
+Class java.WxPayConfiguration {
+}
+Class java.WxPayProperties {
+}
+Class java.OrderConstants {
+}
+Class java.CartController {
+}
+Class java.OmsOrderController {
+}
+Class java.OrderController {
+}
+Class java.WxPayCallbackController {
+}
+Class java.CartConverter {
+}
+Class java.OrderConverter {
+}
+Class java.OrderItemConverter {
+}
+Class java.NamedThreadFactory {
+}
+Class java.OrderCloseListener {
+}
+Class java.OrderDeliveryMapper {
+}
+Class java.OrderItemMapper {
+}
+Class java.OrderLogMapper {
+}
+Class java.OrderMapper {
+}
+Class java.OrderPayMapper {
+}
+Class java.OrderSettingMapper {
+}
+Class java.OrderBO {
+}
+Class java.OrderItem {
+}
+Class java.CartItemDto {
+}
+Class java.CartItemVo {
+}
+Class java.OrderDTO {
+}
+Class java.OrderItemDTO {
+}
+Class java.OmsOrder {
+}
+Class java.OmsOrderDelivery {
+}
+Class java.OmsOrderItem {
+}
+Class java.OmsOrderLog {
+}
+Class java.OmsOrderPay {
+}
+Class java.OmsOrderSetting {
+}
+Class java.OrderPaymentForm {
+}
+Class java.OrderSubmitForm {
+}
+Class java.OrderItem {
+}
+Class java.ShippingAddress {
+}
+Class java.OrderPageQuery {
+}
+Class java.OmsOrderPageVO {
+}
+Class java.OrderItem {
+}
+Class java.OrderConfirmVO {
+}
+Class java.OrderPageVO {
+}
+Class java.OrderItem {
+}
+Class java.WxPayResponseVO {
+}
+Class java.OmsOrderService {
+}
+Class java.OmsOrderServiceImpl {
+}
+Class java.CartService {
+}
+Class java.OrderDeliveryService {
+}
+Class java.OrderItemService {
+}
+Class java.OrderLogService {
+}
+Class java.OrderService {
+}
+Class java.OrderSettingService {
+}
+Class java.CartServiceImpl {
+}
+Class java.OrderDeliveryServiceImpl {
+}
+Class java.OrderItemServiceImpl {
+}
+Class java.OrderLogServiceImpl {
+}
+Class java.OrderServiceImpl {
+}
+Class java.OrderSettingServiceImpl {
+}
+Class java.BasePageQuery {
+}
+Class java.BaseEntity {
+}
+Class java.com/youlai/mall/Interface/SkuServiceImpl {
+}
+Class java.com/youlai/mall/Interface/SkuService {
+}
+Class java.com/youlai/mall/Interface/SkuServiceImpl {
+}
+Class java.com/youlai/mall/Interface/SkuService {
+}
+Class java.com/youlai/mall/Interface/UmsMemberServiceImpl {
+}
+Class java.com/youlai/mall/Interface/UmsMemberService {
+}
+Class java.com/youlai/mall/Interface/SkuServiceImpl {
+}
+Class java.com/youlai/mall/Interface/SkuService {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/Main {
+}
+}
+package java <<Folder>> {
+Class java.BaseVO {
+}
+Class java.ProductConstants {
+}
+Class java.CategoryController {
+}
+Class java.PmsAttributeController {
+}
+Class java.PmsBrandController {
+}
+Class java.PmsCategoryController {
+}
+Class java.PmsSkuController {
+}
+Class java.PmsSpuController {
+}
+Class java.SkuController {
+}
+Class java.SpuController {
+}
+Class java.SkuConverter {
+}
+Class java.SpuAttributeConverter {
+}
+Class java.SpuConverter {
+}
+Class java.PmsBrandMapper {
+}
+Class java.PmsCategoryAttributeMapper {
+}
+Class java.PmsCategoryBrandMapper {
+}
+Class java.PmsCategoryMapper {
+}
+Class java.PmsSkuMapper {
+}
+Class java.PmsSpuAttributeMapper {
+}
+Class java.PmsSpuMapper {
+}
+Class java.CheckPriceDTO {
+}
+Class java.OrderSku {
+}
+Class java.LockSkuDTO {
+}
+Class java.SkuInfoDTO {
+}
+Class java.PmsBrand {
+}
+Class java.PmsCategory {
+}
+Class java.PmsCategoryAttribute {
+}
+Class java.PmsCategoryBrand {
+}
+Class java.PmsSku {
+}
+Class java.PmsSpu {
+}
+Class java.PmsSpuAttribute {
+}
+Class java.PmsCategoryAttributeForm {
+}
+Class java.Attribute {
+}
+Class java.PmsSpuAttributeForm {
+}
+Class java.PmsSpuForm {
+}
+Class java.BrandPageQuery {
+}
+Class java.SpuPageQuery {
+}
+Class java.CategoryVO {
+}
+Class java.OrderItemVO {
+}
+Class java.PmsSpuDetailVO {
+}
+Class java.PmsSpuPageVO {
+}
+Class java.ProductHistoryVO {
+}
+Class java.SeckillingSpuVO {
+}
+Class java.SpuDetailVO {
+}
+Class java.Attribute {
+}
+Class java.GoodsInfo {
+}
+Class java.Sku {
+}
+Class java.Specification {
+}
+Class java.Value {
+}
+Class java.SpuPageVO {
+}
+Class java.AttributeService {
+}
+Class java.BrandService {
+}
+Class java.CategoryBrandService {
+}
+Class java.CategoryService {
+}
+Class java.SkuService {
+}
+Class java.SpuAttributeService {
+}
+Class java.SpuService {
+}
+Class java.AttributeServiceImpl {
+}
+Class java.BrandServiceImpl {
+}
+Class java.CategoryBrandServiceImpl {
+}
+Class java.CategoryServiceImpl {
+}
+Class java.SkuServiceImpl {
+}
+Class java.SpuAttributeServiceImpl {
+}
+Class java.SpuServiceImpl {
+}
+Class java.BasePageQuery {
+}
+Class java.BaseEntity {
+}
+Class java.com/youlai/mall/NEWInstance/SkuServiceController {
+}
+Class java.com/youlai/mall/Interface/UmsMemberServiceImpl {
+}
+Class java.com/youlai/mall/Interface/UmsMemberService {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/Main {
+}
+}
+package java <<Folder>> {
+Class java.AdvertController {
+}
+Class java.SmsAdvertController {
+}
+Class java.SmsCouponController {
+}
+Class java.AdvertConverter {
+}
+Class java.CouponConverter {
+}
+Class java.SmsAdvertMapper {
+}
+Class java.SmsCouponHistoryMapper {
+}
+Class java.SmsCouponMapper {
+}
+Class java.SmsCouponSpuCategoryMapper {
+}
+Class java.SmsCouponSpuMapper {
+}
+Class java.SmsAdvert {
+}
+Class java.SmsCoupon {
+}
+Class java.SmsCouponHistory {
+}
+Class java.SmsCouponSpu {
+}
+Class java.SmsCouponSpuCategory {
+}
+Class java.CouponForm {
+}
+Class java.AdvertPageQuery {
+}
+Class java.CouponPageQuery {
+}
+Class java.AdvertPageVO {
+}
+Class java.BannerVO {
+}
+Class java.CouponPageVO {
+}
+Class java.SmsAdvertService {
+}
+Class java.SmsCouponHistoryService {
+}
+Class java.SmsCouponService {
+}
+Class java.SmsCouponSpuCategoryService {
+}
+Class java.SmsCouponSpuService {
+}
+Class java.SmsAdvertServiceImpl {
+}
+Class java.SmsCouponHistoryServiceImpl {
+}
+Class java.SmsCouponServiceImpl {
+}
+Class java.SmsCouponSpuCategoryServiceImpl {
+}
+Class java.SmsCouponSpuServiceImpl {
+}
+Class java.CouponUtils {
+}
+Class java.BasePageQuery {
+}
+Class java.BaseEntity {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/Main {
+}
+}
+package java <<Folder>> {
+Class java.MemberConstants {
+}
+Class java.AddressController {
+}
+Class java.MemberController {
+}
+Class java.UmsMemberController {
+}
+Class java.AddressConvert {
+}
+Class java.MemberConvert {
+}
+Class java.UmsAddressMapper {
+}
+Class java.UmsMemberMapper {
+}
+Class java.MemberAddressDTO {
+}
+Class java.MemberAuthDTO {
+}
+Class java.MemberInfoDTO {
+}
+Class java.MemberRegisterDto {
+}
+Class java.RechargeDTO {
+}
+Class java.ResultPayDTO {
+}
+Class java.UmsAddress {
+}
+Class java.UmsMember {
+}
+Class java.AddressForm {
+}
+Class java.MemberVO {
+}
+Class java.UmsAddressService {
+}
+Class java.UmsMemberService {
+}
+Class java.UmsAddressServiceImpl {
+}
+Class java.UmsMemberServiceImpl {
+}
+Class java.CityEntity {
+}
+Class java.CityValidator {
+}
+Class java.BaseEntity {
+}
+Class java.com/youlai/mall/NEWInstance/UmsMemberServiceController {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/Main {
+}
+}
+package java <<Folder>> {
+Class java.AuthorizationServerConfig {
+}
+Class java.CaptchaConfig {
+}
+Class java.CaptchaProperties {
+}
+Class java.CodeProperties {
+}
+Class java.FontProperties {
+}
+Class java.SecurityConfig {
+}
+Class java.WxMiniAppConfig {
+}
+Class java.CaptchaAuthenticationConverter {
+}
+Class java.CaptchaAuthenticationProvider {
+}
+Class java.CaptchaAuthenticationToken {
+}
+Class java.CaptchaParameterNames {
+}
+Class java.PasswordAuthenticationConverter {
+}
+Class java.PasswordAuthenticationProvider {
+}
+Class java.PasswordAuthenticationToken {
+}
+Class java.SmsCodeAuthenticationConverter {
+}
+Class java.SmsCodeAuthenticationProvider {
+}
+Class java.SmsCodeAuthenticationToken {
+}
+Class java.SmsCodeParameterNames {
+}
+Class java.WechatAuthenticationConverter {
+}
+Class java.WechatAuthenticationProvider {
+}
+Class java.WechatAuthenticationToken {
+}
+Class java.MyAuthenticationFailureHandler {
+}
+Class java.MyAuthenticationSuccessHandler {
+}
+Class java.MemberMixin {
+}
+Class java.SysUserDeserializer {
+}
+Class java.SysUserMixin {
+}
+Class java.CustomOidcAuthenticationConverter {
+}
+Class java.CustomOidcAuthenticationProvider {
+}
+Class java.DefaultOidcUserInfoMapper {
+}
+Class java.CustomOidcToken {
+}
+Class java.CustomOidcUserInfo {
+}
+Class java.Builder {
+}
+Class java.CustomOidcUserInfoService {
+}
+Class java.AuthController {
+}
+Class java.TokenBlacklistFilter {
+}
+Class java.CaptchaResult {
+}
+Class java.LoginUserInfo {
+}
+Class java.MemberDetails {
+}
+Class java.SysUserDetails {
+}
+Class java.AuthService {
+}
+Class java.CaptchaService {
+}
+Class java.MemberDetailsService {
+}
+Class java.SysUserDetailsService {
+}
+Class java.OAuth2AuthenticationProviderUtils {
+}
+Class java.OAuth2EndpointUtils {
+}
+Class java.com/youlai/mall/Interface/SysUserServiceImpl {
+}
+Class java.com/youlai/mall/Interface/SysUserService {
+}
+Class java.com/youlai/mall/Interface/AliyunSmsPropertiesImpl {
+}
+Class java.com/youlai/mall/Interface/AliyunSmsProperties {
+}
+Class java.com/youlai/mall/Interface/SmsServiceImpl {
+}
+Class java.com/youlai/mall/Interface/SmsService {
+}
+Class java.com/youlai/mall/Interface/UmsMemberServiceImpl {
+}
+Class java.com/youlai/mall/Interface/UmsMemberService {
+}
+Class java.com/youlai/mall/Interface/SysUserServiceImpl {
+}
+Class java.com/youlai/mall/Interface/SysUserService {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/Main {
+}
+}
+package java <<Folder>> {
+Class java.PasswordEncoderConfig {
+}
+Class java.FileController {
+}
+Class java.SysDeptController {
+}
+Class java.SysDictController {
+}
+Class java.SysMenuController {
+}
+Class java.SysRoleController {
+}
+Class java.SysUserController {
+}
+Class java.DeptConverter {
+}
+Class java.DictConverter {
+}
+Class java.DictTypeConverter {
+}
+Class java.MenuConverter {
+}
+Class java.RoleConverter {
+}
+Class java.UserConverter {
+}
+Class java.CanalListener {
+}
+Class java.MyAnalysisEventListener {
+}
+Class java.UserImportListener {
+}
+Class java.SysDeptMapper {
+}
+Class java.SysDictMapper {
+}
+Class java.SysDictTypeMapper {
+}
+Class java.SysMenuMapper {
+}
+Class java.SysRoleMapper {
+}
+Class java.SysRoleMenuMapper {
+}
+Class java.SysUserMapper {
+}
+Class java.SysUserRoleMapper {
+}
+Class java.RolePermsBO {
+}
+Class java.RouteBO {
+}
+Class java.UserBO {
+}
+Class java.UserFormBO {
+}
+Class java.UserProfileBO {
+}
+Class java.UserAuthInfo {
+}
+Class java.SysDept {
+}
+Class java.SysDict {
+}
+Class java.SysDictType {
+}
+Class java.SysMenu {
+}
+Class java.SysRole {
+}
+Class java.SysRoleMenu {
+}
+Class java.SysUser {
+}
+Class java.SysUserRole {
+}
+Class java.DeptForm {
+}
+Class java.DictForm {
+}
+Class java.DictTypeForm {
+}
+Class java.MenuForm {
+}
+Class java.RoleForm {
+}
+Class java.UserForm {
+}
+Class java.UserRegisterForm {
+}
+Class java.DeptQuery {
+}
+Class java.DictPageQuery {
+}
+Class java.DictTypePageQuery {
+}
+Class java.MenuQuery {
+}
+Class java.PermPageQuery {
+}
+Class java.RolePageQuery {
+}
+Class java.UserPageQuery {
+}
+Class java.DeptVO {
+}
+Class java.DictPageVO {
+}
+Class java.DictTypePageVO {
+}
+Class java.FileInfoVO {
+}
+Class java.MenuVO {
+}
+Class java.RolePageVO {
+}
+Class java.RouteVO {
+}
+Class java.Meta {
+}
+Class java.UserExportVO {
+}
+Class java.UserImportVO {
+}
+Class java.UserInfoVO {
+}
+Class java.UserPageVO {
+}
+Class java.UserProfileVO {
+}
+Class java.OssService {
+}
+Class java.SysDeptService {
+}
+Class java.SysDictService {
+}
+Class java.SysDictTypeService {
+}
+Class java.SysMenuService {
+}
+Class java.SysRoleMenuService {
+}
+Class java.SysRoleService {
+}
+Class java.SysUserRoleService {
+}
+Class java.SysUserService {
+}
+Class java.SysDeptServiceImpl {
+}
+Class java.SysDictServiceImpl {
+}
+Class java.SysDictTypeServiceImpl {
+}
+Class java.SysMenuServiceImpl {
+}
+Class java.SysRoleMenuServiceImpl {
+}
+Class java.SysRoleServiceImpl {
+}
+Class java.SysUserRoleServiceImpl {
+}
+Class java.SysUserServiceImpl {
+}
+Class java.AliyunOssService {
+}
+Class java.MinioOssService {
+}
+Class java.BasePageQuery {
+}
+Class java.BaseEntity {
+}
+Class java.com/youlai/mall/NEWInstance/SysUserServiceController {
+}
+Class java.com/youlai/mall/Interface/PermissionServiceImpl {
+}
+Class java.com/youlai/mall/Interface/PermissionService {
+}
+Class java.com/youlai/mall/Interface/SmsServiceImpl {
+}
+Class java.com/youlai/mall/Interface/SmsService {
+}
+Class java.com/youlai/mall/Interface/AliyunSmsPropertiesImpl {
+}
+Class java.com/youlai/mall/Interface/AliyunSmsProperties {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/Result {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/DTO/PageResult {
+}
+Class java.com/youlai/mall/Main {
+}
+}
+package java <<Folder>> {
+Class java.MonolithApplication {
+}
+Class java.ApiDocInfoProperties {
+}
+Class java.Contact {
+}
+Class java.License {
+}
+Class java.OpenApiConfig {
+}
+Class java.BaseEntity {
+}
+Class java.BasePageQuery {
+}
+Class java.IBaseEnum {
+}
+Class java.CorsConfig {
+}
+Class java.GlobalConstants {
+}
+Class java.JwtClaimConstants {
+}
+Class java.RedisConstants {
+}
+Class java.SystemConstants {
+}
+Class java.AliyunSmsProperties {
+}
+Class java.SmsService {
+}
+Class java.AliyunSmsService {
+}
+Class java.MybatisPlusConfig {
+}
+Class java.ArrayObjectJsonTypeHandler {
+}
+Class java.IntegerArrayJsonTypeHandler {
+}
+Class java.LongArrayJsonTypeHandler {
+}
+Class java.MyDataPermissionHandler {
+}
+Class java.MyMetaObjectHandler {
+}
+Class java.StringArrayJsonTypeHandler {
+}
+Class java.RabbitConfig {
+}
+Class java.BusinessSnGenerator {
+}
+Class java.RedisCacheConfig {
+}
+Class java.RedisConfig {
+}
+Class java.IResultCode {
+}
+Class java.PageResult {
+}
+Class java.Data {
+}
+Class java.Result {
+}
+Class java.MyAccessDeniedHandler {
+}
+Class java.MyAuthenticationEntryPoint {
+}
+Class java.PermissionService {
+}
+Class java.BloomFilterUtils {
+}
+Class java.DuplicateSubmitAspect {
+}
+Class java.RestTemplateConfig {
+}
+Class java.ValidationConfig {
+}
+Class java.WebMvcConfig {
+}
+Class java.BizException {
+}
+Class java.GlobalExceptionHandler {
+}
+Class java.Option {
+}
+Class java.com/youlai/mall/NEWInstance/AliyunSmsPropertiesController {
+}
+Class java.com/youlai/mall/NEWInstance/SmsServiceController {
+}
+Class java.com/youlai/mall/NEWInstance/PermissionServiceController {
+}
+Class java.com/youlai/mall/NEWInstance/ResultController {
+}
+Class java.com/youlai/mall/NEWInstance/PageResultController {
+}
+Class java.com/youlai/mall/Main {
+}
+}
+@enduml

@@ -1,0 +1,28 @@
+{
+  "cluster_index_to_service": {
+    "0": "customers-service",
+    "1": "visits-service",
+    "2": "vets-service",
+    "3": "api-gateway",
+    "4": "shared"
+  },
+  "cluster_sizes": {
+    "customers-service": 9,
+    "visits-service": 3,
+    "vets-service": 7,
+    "api-gateway": 1,
+    "shared": 17
+  },
+  "dropped_not_emitted_by_parser": [],
+  "moved_to_shared": {
+    "org.springframework.samples.petclinic.PetClinicApplication": "not listed in decomposition",
+    "org.springframework.samples.petclinic.config.CacheConfig": "not listed in decomposition",
+    "org.springframework.samples.petclinic.config.PetclinicProperties": "not listed in decomposition",
+    "org.springframework.samples.petclinic.config.WebConfig": "not listed in decomposition",
+    "org.springframework.samples.petclinic.util.CallMonitoringAspect": "not listed in decomposition",
+    "org.springframework.samples.petclinic.web.AbstractResourceController": "not listed in decomposition"
+  },
+  "inner_classes_following_outer": {
+    "org.springframework.samples.petclinic.web.PetResource.PetRequest": "customers-service"
+  }
+}

@@ -1,0 +1,20 @@
+package io.bookingmonolith.flight.aircrafts.valueobjects;
+ import buildingblocks.utils.validation.ValidationUtils;
+import jakarta.persistence.Embeddable;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+@Embeddable
+@EqualsAndHashCode
+// Required by JPA
+@NoArgsConstructor
+@Getter
+public class ManufacturingYear {
+
+ private  int manufacturingYear;
+
+public ManufacturingYear(int value) {
+    ValidationUtils.notBeNegativeOrNull(value);
+    this.manufacturingYear = value;
+}
+}

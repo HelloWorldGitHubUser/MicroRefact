@@ -1,0 +1,11 @@
+# app	monolith path (under baseline-inputs/<app>/)	parser language level	JDK for compile check
+booking	monolith	JAVA_14	17
+ecommerce	monolith	JAVA_14	17
+goodskill	monolith	JAVA_14	21
+gulimall	monolith	JAVA_8	8
+lakeside-mutual	monolith	JAVA_14	17
+newbee-mall	monolith	JAVA_8	8
+passjava	monolith/passjava-monolith	JAVA_8	8
+spring-petclinic	monolith	JAVA_8	8
+youlai-mall	monolith	JAVA_14	17
+zlt-platform	monolith	JAVA_14	17

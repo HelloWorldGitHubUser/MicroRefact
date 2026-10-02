@@ -1,0 +1,28 @@
+package com.goodskill.handler;
+ import com.goodskill.dto.SeckillWebMockRequestDTO;
+import com.goodskill.service.impl.OrderServiceImpl;
+import jakarta.annotation.Resource;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.stereotype.Component;
+import com.goodskill.Interface.OrderServiceImpl;
+@Component
+@Slf4j
+public class MongoPreRequestHandler extends AbstractPreRequestHandler{
+
+@Resource
+ private  OrderServiceImpl orderService;
+
+
+@Override
+public int getOrder(){
+    return 3;
+}
+
+
+@Override
+public void handle(SeckillWebMockRequestDTO request){
+    orderService.deleteRecord(request.getSeckillId());
+}
+
+
+}

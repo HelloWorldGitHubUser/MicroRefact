@@ -1,0 +1,366 @@
+@startuml
+package java <<Folder>> {
+Class java.SysMenuController {
+}
+Class java.SysRoleController {
+}
+Class java.SysUserController {
+}
+Class java.SysRoleMenu {
+}
+Class java.SysRoleUser {
+}
+Class java.SysMenuMapper {
+}
+Class java.SysRoleMapper {
+}
+Class java.SysRoleMenuMapper {
+}
+Class java.SysUserMapper {
+}
+Class java.SysUserRoleMapper {
+}
+Class java.SysUserExcel {
+}
+Class java.ISysMenuService {
+}
+Class java.ISysRoleMenuService {
+}
+Class java.ISysRoleService {
+}
+Class java.ISysRoleUserService {
+}
+Class java.ISysUserService {
+}
+Class java.SysMenuServiceImpl {
+}
+Class java.SysRoleMenuServiceImpl {
+}
+Class java.SysRoleServiceImpl {
+}
+Class java.SysRoleUserServiceImpl {
+}
+Class java.SysUserServiceImpl {
+}
+Class java.ExcelUtil {
+}
+Class java.SuperServiceImpl {
+}
+Class java.ISuperService {
+}
+Class java.SuperMapper {
+}
+Class java.com/central/Interface/LogicDelDtoImpl {
+}
+Class java.com/central/Interface/LogicDelDto {
+}
+Class java.com/central/Interface/ISearchServiceImpl {
+}
+Class java.com/central/Interface/ISearchService {
+}
+Class java.com/central/Interface/KeyedLockImpl {
+}
+Class java.com/central/Interface/KeyedLock {
+}
+Class java.com/central/Interface/KeyedLockImpl {
+}
+Class java.com/central/Interface/KeyedLock {
+}
+Class java.com/central/NEWInstance/ISysUserServiceController {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/Main {
+}
+}
+package java <<Folder>> {
+Class java.FileController {
+}
+Class java.FileInfo {
+}
+Class java.FileMapper {
+}
+Class java.IFileService {
+}
+Class java.FileServiceImpl {
+}
+Class java.SuperServiceImpl {
+}
+Class java.ISuperService {
+}
+Class java.SuperMapper {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/Main {
+}
+}
+package java <<Folder>> {
+Class java.AuditLogController {
+}
+Class java.LogAggregationController {
+}
+Class java.SlowQueryLogController {
+}
+Class java.SysLogController {
+}
+Class java.com/central/Interface/ISearchServiceImpl {
+}
+Class java.com/central/Interface/ISearchService {
+}
+Class java.com/central/Interface/IAggregationServiceImpl {
+}
+Class java.com/central/Interface/IAggregationService {
+}
+Class java.com/central/Interface/ISearchServiceImpl {
+}
+Class java.com/central/Interface/ISearchService {
+}
+Class java.com/central/Interface/ISearchServiceImpl {
+}
+Class java.com/central/Interface/ISearchService {
+}
+Class java.com/central/Main {
+}
+}
+package java <<Folder>> {
+Class java.ClientController {
+}
+Class java.TokensController {
+}
+Class java.ValidateCodeController {
+}
+Class java.Client {
+}
+Class java.ClientMapper {
+}
+Class java.TokenVo {
+}
+Class java.IClientService {
+}
+Class java.ITokensService {
+}
+Class java.ClientServiceImpl {
+}
+Class java.TokensServiceImpl {
+}
+Class java.SuperServiceImpl {
+}
+Class java.ISuperService {
+}
+Class java.SuperMapper {
+}
+Class java.SuperEntity {
+}
+Class java.com/central/Interface/KeyedLockImpl {
+}
+Class java.com/central/Interface/KeyedLock {
+}
+Class java.com/central/Main {
+}
+}
+package java <<Folder>> {
+Class java.IndexController {
+}
+Class java.IndexDto {
+}
+Class java.LogicDelDto {
+}
+Class java.SearchDto {
+}
+Class java.AggItemVo {
+}
+Class java.IAggregationService {
+}
+Class java.IIndexService {
+}
+Class java.ISearchService {
+}
+Class java.AggregationServiceImpl {
+}
+Class java.IndexServiceImpl {
+}
+Class java.SearchServiceImpl {
+}
+Class java.JsonUtil {
+}
+Class java.com/central/NEWInstance/LogicDelDtoController {
+}
+Class java.com/central/NEWInstance/ISearchServiceController {
+}
+Class java.com/central/NEWInstance/IAggregationServiceController {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/DTO/Result {
+}
+Class java.com/central/Main {
+}
+}
+package java <<Folder>> {
+Class java.MonolithApplication {
+}
+Class java.CorsConfig {
+}
+Class java.ElasticsearchConfig {
+}
+Class java.MyBatisPlusConfig {
+}
+Class java.PasswordConfig {
+}
+Class java.RedisConfig {
+}
+Class java.SecurityConfig {
+}
+Class java.SecurityProperties {
+}
+Class java.AuthProperties {
+}
+Class java.IgnoreProperties {
+}
+Class java.UrlPermissionProperties {
+}
+Class java.CommonConstant {
+}
+Class java.SecurityConstants {
+}
+Class java.OAuthController {
+}
+Class java.CreatorDataScopeSqlHandler {
+}
+Class java.DataScopeInnerInterceptor {
+}
+Class java.TableConfig {
+}
+Class java.DataScopeProperties {
+}
+Class java.SqlHandler {
+}
+Class java.SuperEntity {
+}
+Class java.SysMenu {
+}
+Class java.SysRole {
+}
+Class java.SysUser {
+}
+Class java.ZltEnum {
+}
+Class java.BusinessException {
+}
+Class java.GlobalExceptionHandler {
+}
+Class java.IdempotencyException {
+}
+Class java.LockException {
+}
+Class java.KeyedLock {
+}
+Class java.LockAspect {
+}
+Class java.ReentrantKeyedLock {
+}
+Class java.LockWrapper {
+}
+Class java.ZLock {
+}
+Class java.ElasticsearchAppender {
+}
+Class java.AuditLogAspect {
+}
+Class java.Audit {
+}
+Class java.AuditLogProperties {
+}
+Class java.IAuditService {
+}
+Class java.LoggerAuditServiceImpl {
+}
+Class java.SuperMapper {
+}
+Class java.PageResult {
+}
+Class java.Result {
+}
+Class java.LoginAppUser {
+}
+Class java.LoginUserContextHolder {
+}
+Class java.TokenAuthenticationFilter {
+}
+Class java.ISuperService {
+}
+Class java.SuperServiceImpl {
+}
+Class java.MDCTraceUtils {
+}
+Class java.TraceProperties {
+}
+Class java.WebTraceFilter {
+}
+Class java.com/central/NEWInstance/KeyedLockController {
+}
+Class java.com/central/Interface/ISysUserServiceImpl {
+}
+Class java.com/central/Interface/ISysUserService {
+}
+Class java.com/central/Interface/ISysUserServiceImpl {
+}
+Class java.com/central/Interface/ISysUserService {
+}
+Class java.com/central/Interface/ISysUserServiceImpl {
+}
+Class java.com/central/Interface/ISysUserService {
+}
+Class java.com/central/NEWInstance/ResultController {
+}
+Class java.com/central/Main {
+}
+}
+@enduml

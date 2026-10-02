@@ -1,0 +1,1 @@
+{"clusters": {"gulimall-auth-server": 6, "gulimall-cart": 8, "gulimall-coupon": 75, "gulimall-member": 49, "gulimall-order": 55, "gulimall-product": 96, "gulimall-search": 14, "gulimall-seckill": 7, "gulimall-ware": 35, "gulimall-third-party": 3, "shared": 39}, "dropped": 5, "moved_to_shared": 9}

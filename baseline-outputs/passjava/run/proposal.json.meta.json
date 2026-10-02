@@ -1,0 +1,38 @@
+{
+  "cluster_index_to_service": {
+    "0": "passjava-channel",
+    "1": "passjava-content",
+    "2": "passjava-member",
+    "3": "passjava-question",
+    "4": "passjava-search",
+    "5": "passjava-study",
+    "6": "passjava-thirdparty",
+    "7": "shared"
+  },
+  "cluster_sizes": {
+    "passjava-channel": 10,
+    "passjava-content": 10,
+    "passjava-member": 10,
+    "passjava-question": 14,
+    "passjava-search": 4,
+    "passjava-study": 10,
+    "passjava-thirdparty": 1,
+    "shared": 14
+  },
+  "dropped_not_emitted_by_parser": [
+    {
+      "class": "com.passjava.exception.BizCodeEnum",
+      "kind": "enum"
+    }
+  ],
+  "moved_to_shared": {
+    "com.passjava.PassJavaApplication": "not listed in decomposition",
+    "com.passjava.config.PassJavaCorsConfiguration": "not listed in decomposition",
+    "com.passjava.constant.Constants": "not listed in decomposition",
+    "com.passjava.text.CharsetKit": "not listed in decomposition",
+    "com.passjava.text.Convert": "not listed in decomposition",
+    "com.passjava.text.StrFormatter": "not listed in decomposition",
+    "com.passjava.utils.StringUtils": "not listed in decomposition"
+  },
+  "inner_classes_following_outer": {}
+}

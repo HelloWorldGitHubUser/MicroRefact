@@ -1,0 +1,146 @@
+{
+  "cluster_index_to_service": {
+    "0": "mall-oms",
+    "1": "mall-pms",
+    "2": "mall-sms",
+    "3": "mall-ums",
+    "4": "youlai-auth",
+    "5": "youlai-system",
+    "6": "shared"
+  },
+  "cluster_sizes": {
+    "mall-oms": 57,
+    "mall-pms": 64,
+    "mall-sms": 32,
+    "mall-ums": 24,
+    "youlai-auth": 45,
+    "youlai-system": 84,
+    "shared": 42
+  },
+  "dropped_not_emitted_by_parser": [
+    {
+      "class": "com.youlai.mall.config.auth.JwtTokenCustomizerConfig",
+      "kind": "class"
+    },
+    {
+      "class": "com.youlai.mall.enums.AttributeTypeEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.CaptchaCodeTypeEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.CaptchaTypeEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.CouponApplicationScopeEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.CouponFaceValueTypeEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.CouponTypeEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.GenderEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.MenuTypeEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.OrderSourceEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.OrderStatusEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.PaymentMethodEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.PlatformEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.StatusEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.enums.ValidityPeriodTypeEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.result.ResultCode",
+      "kind": "enum"
+    },
+    {
+      "class": "com.youlai.mall.web.constraint.CheckCityValid",
+      "kind": "@interface"
+    },
+    {
+      "class": "com.youlai.mall.web.constraint.CityType",
+      "kind": "enum"
+    }
+  ],
+  "moved_to_shared": {
+    "com.youlai.mall.MonolithApplication": "not listed in decomposition",
+    "com.youlai.mall.apidoc.ApiDocInfoProperties": "not listed in decomposition",
+    "com.youlai.mall.apidoc.ApiDocInfoProperties.Contact": "inner class of com.youlai.mall.apidoc.ApiDocInfoProperties",
+    "com.youlai.mall.apidoc.ApiDocInfoProperties.License": "inner class of com.youlai.mall.apidoc.ApiDocInfoProperties",
+    "com.youlai.mall.apidoc.OpenApiConfig": "not listed in decomposition",
+    "com.youlai.mall.config.CorsConfig": "not listed in decomposition",
+    "com.youlai.mall.mybatis.config.MybatisPlusConfig": "not listed in decomposition",
+    "com.youlai.mall.mybatis.handler.ArrayObjectJsonTypeHandler": "not listed in decomposition",
+    "com.youlai.mall.mybatis.handler.IntegerArrayJsonTypeHandler": "not listed in decomposition",
+    "com.youlai.mall.mybatis.handler.LongArrayJsonTypeHandler": "not listed in decomposition",
+    "com.youlai.mall.mybatis.handler.MyDataPermissionHandler": "not listed in decomposition",
+    "com.youlai.mall.mybatis.handler.MyMetaObjectHandler": "not listed in decomposition",
+    "com.youlai.mall.mybatis.handler.StringArrayJsonTypeHandler": "not listed in decomposition",
+    "com.youlai.mall.rabbitmq.config.RabbitConfig": "not listed in decomposition",
+    "com.youlai.mall.redis.BusinessSnGenerator": "not listed in decomposition",
+    "com.youlai.mall.redis.RedisCacheConfig": "not listed in decomposition",
+    "com.youlai.mall.redis.RedisConfig": "not listed in decomposition",
+    "com.youlai.mall.result.PageResult.Data": "inner class of com.youlai.mall.result.PageResult",
+    "com.youlai.mall.security.exception.MyAccessDeniedHandler": "not listed in decomposition",
+    "com.youlai.mall.security.exception.MyAuthenticationEntryPoint": "not listed in decomposition",
+    "com.youlai.mall.security.service.PermissionService": "not listed in decomposition",
+    "com.youlai.mall.util.BloomFilterUtils": "not listed in decomposition",
+    "com.youlai.mall.web.aspect.DuplicateSubmitAspect": "not listed in decomposition",
+    "com.youlai.mall.web.config.RestTemplateConfig": "not listed in decomposition",
+    "com.youlai.mall.web.config.ValidationConfig": "not listed in decomposition",
+    "com.youlai.mall.web.config.WebMvcConfig": "not listed in decomposition",
+    "com.youlai.mall.web.exception.BizException": "not listed in decomposition",
+    "com.youlai.mall.web.exception.GlobalExceptionHandler": "not listed in decomposition"
+  },
+  "inner_classes_following_outer": {
+    "com.youlai.mall.apidoc.ApiDocInfoProperties.Contact": "shared",
+    "com.youlai.mall.apidoc.ApiDocInfoProperties.License": "shared",
+    "com.youlai.mall.config.auth.CaptchaProperties.CodeProperties": "youlai-auth",
+    "com.youlai.mall.config.auth.CaptchaProperties.FontProperties": "youlai-auth",
+    "com.youlai.mall.config.auth.oauth2.oidc.CustomOidcAuthenticationProvider.DefaultOidcUserInfoMapper": "youlai-auth",
+    "com.youlai.mall.config.auth.oauth2.oidc.CustomOidcUserInfo.Builder": "youlai-auth",
+    "com.youlai.mall.model.oms.bo.OrderBO.OrderItem": "mall-oms",
+    "com.youlai.mall.model.oms.form.OrderSubmitForm.OrderItem": "mall-oms",
+    "com.youlai.mall.model.oms.form.OrderSubmitForm.ShippingAddress": "mall-oms",
+    "com.youlai.mall.model.oms.vo.OmsOrderPageVO.OrderItem": "mall-oms",
+    "com.youlai.mall.model.oms.vo.OrderPageVO.OrderItem": "mall-oms",
+    "com.youlai.mall.model.pms.dto.CheckPriceDTO.OrderSku": "mall-pms",
+    "com.youlai.mall.model.pms.form.PmsCategoryAttributeForm.Attribute": "mall-pms",
+    "com.youlai.mall.model.pms.vo.SpuDetailVO.Attribute": "mall-pms",
+    "com.youlai.mall.model.pms.vo.SpuDetailVO.GoodsInfo": "mall-pms",
+    "com.youlai.mall.model.pms.vo.SpuDetailVO.Sku": "mall-pms",
+    "com.youlai.mall.model.pms.vo.SpuDetailVO.Specification": "mall-pms",
+    "com.youlai.mall.model.pms.vo.SpuDetailVO.Specification.Value": "mall-pms",
+    "com.youlai.mall.model.system.vo.RouteVO.Meta": "youlai-system",
+    "com.youlai.mall.result.PageResult.Data": "shared"
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "cluster_index_to_service": {
+    "0": "flight-service",
+    "1": "passenger-service",
+    "2": "booking-service",
+    "3": "shared"
+  },
+  "cluster_sizes": {
+    "flight-service": 74,
+    "passenger-service": 18,
+    "booking-service": 16,
+    "shared": 65
+  },
+  "dropped_not_emitted_by_parser": [
+    {
+      "class": "buildingblocks.contracts.booking.BookingCreated",
+      "kind": "record"
+    },
+    {
+      "class": "buildingblocks.contracts.flight.AircraftCreated",
+      "kind": "record"
+    },
+    {
+      "class": "buildingblocks.contracts.flight.AirportCreated",
+      "kind": "record"
+    },
+    {
+      "class": "buildingblocks.contracts.flight.FlightCreated",
+      "kind": "record"
+    },
+    {
+      "class": "buildingblocks.contracts.flight.FlightDeleted",
+      "kind": "record"
+    },
+    {
+      "class": "buildingblocks.contracts.flight.FlightUpdated",
+      "kind": "record"
+    },
+    {
+      "class": "buildingblocks.contracts.flight.SeatCreated",
+      "kind": "record"
+    },
+    {
+      "class": "buildingblocks.contracts.flight.SeatReserved",
+      "kind": "record"
+    },
+    {
+      "class": "buildingblocks.contracts.passenger.PassengerCreated",
+      "kind": "record"
+    },
+    {
+      "class": "buildingblocks.mediator.Mediator",
+      "kind": "class"
+    },
+    {
+      "class": "buildingblocks.problemdetails.CustomProblemDetailsHandler",
+      "kind": "class"
+    },
+    {
+      "class": "io.bookingmonolith.booking.bookings.dtos.BookingDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.booking.bookings.features.createbooking.BookingCreatedDomainEvent",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.booking.bookings.features.createbooking.CreateBookingCommand",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.booking.bookings.features.createbooking.CreateBookingRequestDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.aircrafts.dtos.AircraftDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.aircrafts.features.createaircraft.AircraftCreatedDomainEvent",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.aircrafts.features.createaircraft.CreateAircraftCommand",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.aircrafts.features.createaircraft.CreateAircraftRequestDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.airports.dtos.AirportDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.airports.features.createairport.AirportCreatedDomainEvent",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.airports.features.createairport.CreateAirportCommand",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.airports.features.createairport.CreateAirportRequestDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.flights.dtos.FlightDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.flights.enums.FlightStatus",
+      "kind": "enum"
+    },
+    {
+      "class": "io.bookingmonolith.flight.flights.features.createflight.CreateFlightCommand",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.flights.features.createflight.CreateFlightRequestDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.flights.features.createflight.FlightCreatedDomainEvent",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.flights.features.deleteflight.DeleteFlightCommand",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.flights.features.deleteflight.FlightDeletedDomainEvent",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.flights.features.getavailableflights.GetAvailableFlightsQuery",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.flights.features.getflightbyid.GetFlightByIdQuery",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.flights.features.updateflight.FlightUpdatedDomainEvent",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.flights.features.updateflight.UpdateFlightCommand",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.flights.features.updateflight.UpdateFlightRequestDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.seats.dtos.SeatDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.seats.enums.SeatClass",
+      "kind": "enum"
+    },
+    {
+      "class": "io.bookingmonolith.flight.seats.enums.SeatType",
+      "kind": "enum"
+    },
+    {
+      "class": "io.bookingmonolith.flight.seats.features.createseat.CreateSeatCommand",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.seats.features.createseat.CreateSeatRequestDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.seats.features.createseat.SeatCreatedDomainEvent",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.seats.features.getavailableseats.GetAvailableSeatsQuery",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.seats.features.reserveseat.ReserveSeatCommand",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.seats.features.reserveseat.ReserveSeatRequestDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.flight.seats.features.reserveseat.SeatReservedDomainEvent",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.passenger.passengers.dtos.PassengerDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.passenger.passengers.enums.PassengerType",
+      "kind": "enum"
+    },
+    {
+      "class": "io.bookingmonolith.passenger.passengers.features.createpassenger.CreatePassengerCommand",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.passenger.passengers.features.createpassenger.CreatePassengerRequestDto",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.passenger.passengers.features.createpassenger.PassengerCreatedDomainEvent",
+      "kind": "record"
+    },
+    {
+      "class": "io.bookingmonolith.passenger.passengers.features.getpassengerbyid.GetPassengerByIdQuery",
+      "kind": "record"
+    }
+  ],
+  "moved_to_shared": {
+    "buildingblocks.flyway.FlywayConfiguration": "not listed in decomposition",
+    "buildingblocks.jpa.HibernateGlobalFilter": "not listed in decomposition",
+    "buildingblocks.jpa.JpaAuditorAwareImpl": "not listed in decomposition",
+    "buildingblocks.jpa.JpaConfiguration": "not listed in decomposition",
+    "buildingblocks.keycloak.CustomAuthenticationEntryPoint": "not listed in decomposition",
+    "buildingblocks.keycloak.KeycloakConfiguration": "not listed in decomposition",
+    "buildingblocks.keycloak.KeycloakRoleConverter": "not listed in decomposition",
+    "buildingblocks.keycloak.KeycloakScopeConverter": "not listed in decomposition",
+    "buildingblocks.logger.LoggerConfiguration": "not listed in decomposition",
+    "buildingblocks.otel.collector.OtelCollectorConfiguration": "not listed in decomposition",
+    "buildingblocks.otel.collector.OtelCollectorOptions": "not listed in decomposition",
+    "buildingblocks.swagger.SwaggerConfiguration": "not listed in decomposition",
+    "io.bookingmonolith.MonolithApplication": "not listed in decomposition",
+    "io.bookingmonolith.MonolithConfigurations": "not listed in decomposition"
+  },
+  "inner_classes_following_outer": {}
+}

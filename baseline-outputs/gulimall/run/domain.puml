@@ -1,0 +1,1290 @@
+@startuml
+package java <<Folder>> {
+Class java.AuthWebConfig {
+}
+Class java.AuthApiController {
+}
+Class java.LoginController {
+}
+Class java.OauthController {
+}
+Class java.UserLoginVo {
+}
+Class java.UserRegisterVo {
+}
+Class java.io/gulimall/Interface/MemberServiceImpl {
+}
+Class java.io/gulimall/Interface/MemberService {
+}
+Class java.io/gulimall/Interface/MemberServiceImpl {
+}
+Class java.io/gulimall/Interface/MemberService {
+}
+Class java.io/gulimall/Interface/SmsComponentImpl {
+}
+Class java.io/gulimall/Interface/SmsComponent {
+}
+Class java.io/gulimall/Interface/MemberServiceImpl {
+}
+Class java.io/gulimall/Interface/MemberService {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/Main {
+}
+}
+package java <<Folder>> {
+Class java.CartController {
+}
+Class java.CartInterceptor {
+}
+Class java.CartService {
+}
+Class java.CartServiceImpl {
+}
+Class java.UserInfoTo {
+}
+Class java.CartItemVo {
+}
+Class java.CartVo {
+}
+Class java.SkuInfoVo {
+}
+Class java.io/gulimall/Interface/SkuInfoServiceImpl {
+}
+Class java.io/gulimall/Interface/SkuInfoService {
+}
+Class java.io/gulimall/Interface/SkuSaleAttrValueServiceImpl {
+}
+Class java.io/gulimall/Interface/SkuSaleAttrValueService {
+}
+Class java.io/gulimall/NEWInstance/CartServiceController {
+}
+Class java.io/gulimall/Main {
+}
+}
+package java <<Folder>> {
+Class java.CouponController {
+}
+Class java.CouponHistoryController {
+}
+Class java.CouponSpuCategoryRelationController {
+}
+Class java.CouponSpuRelationController {
+}
+Class java.HomeAdvController {
+}
+Class java.HomeSubjectController {
+}
+Class java.HomeSubjectSpuController {
+}
+Class java.MemberPriceController {
+}
+Class java.SeckillPromotionController {
+}
+Class java.SeckillSessionController {
+}
+Class java.SeckillSkuNoticeController {
+}
+Class java.SeckillSkuRelationController {
+}
+Class java.SkuFullReductionController {
+}
+Class java.SkuLadderController {
+}
+Class java.SpuBoundsController {
+}
+Class java.CouponDao {
+}
+Class java.CouponHistoryDao {
+}
+Class java.CouponSpuCategoryRelationDao {
+}
+Class java.CouponSpuRelationDao {
+}
+Class java.HomeAdvDao {
+}
+Class java.HomeSubjectDao {
+}
+Class java.HomeSubjectSpuDao {
+}
+Class java.MemberPriceDao {
+}
+Class java.SeckillPromotionDao {
+}
+Class java.SeckillSessionDao {
+}
+Class java.SeckillSkuNoticeDao {
+}
+Class java.SeckillSkuRelationDao {
+}
+Class java.SkuFullReductionDao {
+}
+Class java.SkuLadderDao {
+}
+Class java.SpuBoundsDao {
+}
+Class java.CouponEntity {
+}
+Class java.CouponHistoryEntity {
+}
+Class java.CouponSpuCategoryRelationEntity {
+}
+Class java.CouponSpuRelationEntity {
+}
+Class java.HomeAdvEntity {
+}
+Class java.HomeSubjectEntity {
+}
+Class java.HomeSubjectSpuEntity {
+}
+Class java.MemberPriceEntity {
+}
+Class java.SeckillPromotionEntity {
+}
+Class java.SeckillSessionEntity {
+}
+Class java.SeckillSkuNoticeEntity {
+}
+Class java.SeckillSkuRelationEntity {
+}
+Class java.SkuFullReductionEntity {
+}
+Class java.SkuLadderEntity {
+}
+Class java.SpuBoundsEntity {
+}
+Class java.CouponHistoryService {
+}
+Class java.CouponService {
+}
+Class java.CouponSpuCategoryRelationService {
+}
+Class java.CouponSpuRelationService {
+}
+Class java.HomeAdvService {
+}
+Class java.HomeSubjectService {
+}
+Class java.HomeSubjectSpuService {
+}
+Class java.MemberPriceService {
+}
+Class java.SeckillPromotionService {
+}
+Class java.SeckillSessionService {
+}
+Class java.SeckillSkuNoticeService {
+}
+Class java.SeckillSkuRelationService {
+}
+Class java.SkuFullReductionService {
+}
+Class java.SkuLadderService {
+}
+Class java.SpuBoundsService {
+}
+Class java.CouponHistoryServiceImpl {
+}
+Class java.CouponServiceImpl {
+}
+Class java.CouponSpuCategoryRelationServiceImpl {
+}
+Class java.CouponSpuRelationServiceImpl {
+}
+Class java.HomeAdvServiceImpl {
+}
+Class java.HomeSubjectServiceImpl {
+}
+Class java.HomeSubjectSpuServiceImpl {
+}
+Class java.MemberPriceServiceImpl {
+}
+Class java.SeckillPromotionServiceImpl {
+}
+Class java.SeckillSessionServiceImpl {
+}
+Class java.SeckillSkuNoticeServiceImpl {
+}
+Class java.SeckillSkuRelationServiceImpl {
+}
+Class java.SkuFullReductionServiceImpl {
+}
+Class java.SkuLadderServiceImpl {
+}
+Class java.SpuBoundsServiceImpl {
+}
+Class java.io/gulimall/NEWInstance/CouponServiceController {
+}
+Class java.io/gulimall/NEWInstance/SkuFullReductionServiceController {
+}
+Class java.io/gulimall/NEWInstance/SpuBoundsServiceController {
+}
+Class java.io/gulimall/NEWInstance/SeckillSessionServiceController {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/Main {
+}
+}
+package java <<Folder>> {
+Class java.GrowthChangeHistoryController {
+}
+Class java.IntegrationChangeHistoryController {
+}
+Class java.MemberCollectSpuController {
+}
+Class java.MemberCollectSubjectController {
+}
+Class java.MemberController {
+}
+Class java.MemberLevelController {
+}
+Class java.MemberLoginLogController {
+}
+Class java.MemberReceiveAddressController {
+}
+Class java.MemberStatisticsInfoController {
+}
+Class java.GrowthChangeHistoryDao {
+}
+Class java.IntegrationChangeHistoryDao {
+}
+Class java.MemberCollectSpuDao {
+}
+Class java.MemberCollectSubjectDao {
+}
+Class java.MemberDao {
+}
+Class java.MemberLevelDao {
+}
+Class java.MemberLoginLogDao {
+}
+Class java.MemberReceiveAddressDao {
+}
+Class java.MemberStatisticsInfoDao {
+}
+Class java.GrowthChangeHistoryEntity {
+}
+Class java.IntegrationChangeHistoryEntity {
+}
+Class java.MemberCollectSpuEntity {
+}
+Class java.MemberCollectSubjectEntity {
+}
+Class java.MemberEntity {
+}
+Class java.MemberLevelEntity {
+}
+Class java.MemberLoginLogEntity {
+}
+Class java.MemberReceiveAddressEntity {
+}
+Class java.MemberStatisticsInfoEntity {
+}
+Class java.PhoneNumExistException {
+}
+Class java.UserExistException {
+}
+Class java.GrowthChangeHistoryService {
+}
+Class java.IntegrationChangeHistoryService {
+}
+Class java.MemberCollectSpuService {
+}
+Class java.MemberCollectSubjectService {
+}
+Class java.MemberLevelService {
+}
+Class java.MemberLoginLogService {
+}
+Class java.MemberReceiveAddressService {
+}
+Class java.MemberService {
+}
+Class java.MemberStatisticsInfoService {
+}
+Class java.GrowthChangeHistoryServiceImpl {
+}
+Class java.IntegrationChangeHistoryServiceImpl {
+}
+Class java.MemberCollectSpuServiceImpl {
+}
+Class java.MemberCollectSubjectServiceImpl {
+}
+Class java.MemberLevelServiceImpl {
+}
+Class java.MemberLoginLogServiceImpl {
+}
+Class java.MemberReceiveAddressServiceImpl {
+}
+Class java.MemberServiceImpl {
+}
+Class java.MemberStatisticsInfoServiceImpl {
+}
+Class java.MemberLoginVo {
+}
+Class java.MemberRegisterVo {
+}
+Class java.io/gulimall/NEWInstance/MemberServiceController {
+}
+Class java.io/gulimall/Interface/CouponServiceImpl {
+}
+Class java.io/gulimall/Interface/CouponService {
+}
+Class java.io/gulimall/NEWInstance/MemberReceiveAddressServiceController {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/Main {
+}
+}
+package java <<Folder>> {
+Class java.AlipayTemplate {
+}
+Class java.OrderConstant {
+}
+Class java.PayConstant {
+}
+Class java.OrderController {
+}
+Class java.OrderItemController {
+}
+Class java.OrderOperateHistoryController {
+}
+Class java.OrderReturnApplyController {
+}
+Class java.OrderReturnReasonController {
+}
+Class java.OrderSettingController {
+}
+Class java.OrderWebController {
+}
+Class java.PayWebController {
+}
+Class java.PaymentInfoController {
+}
+Class java.RefundInfoController {
+}
+Class java.OrderDao {
+}
+Class java.OrderItemDao {
+}
+Class java.OrderOperateHistoryDao {
+}
+Class java.OrderReturnApplyDao {
+}
+Class java.OrderReturnReasonDao {
+}
+Class java.OrderSettingDao {
+}
+Class java.PaymentInfoDao {
+}
+Class java.RefundInfoDao {
+}
+Class java.OrderEntity {
+}
+Class java.OrderItemEntity {
+}
+Class java.OrderOperateHistoryEntity {
+}
+Class java.OrderReturnApplyEntity {
+}
+Class java.OrderReturnReasonEntity {
+}
+Class java.OrderSettingEntity {
+}
+Class java.PaymentInfoEntity {
+}
+Class java.RefundInfoEntity {
+}
+Class java.OrderPayedListener {
+}
+Class java.OrderTimeoutScheduler {
+}
+Class java.OrderItemService {
+}
+Class java.OrderOperateHistoryService {
+}
+Class java.OrderReturnApplyService {
+}
+Class java.OrderReturnReasonService {
+}
+Class java.OrderService {
+}
+Class java.OrderSettingService {
+}
+Class java.PaymentInfoService {
+}
+Class java.RefundInfoService {
+}
+Class java.OrderItemServiceImpl {
+}
+Class java.OrderOperateHistoryServiceImpl {
+}
+Class java.OrderReturnApplyServiceImpl {
+}
+Class java.OrderReturnReasonServiceImpl {
+}
+Class java.OrderServiceImpl {
+}
+Class java.OrderSettingServiceImpl {
+}
+Class java.PaymentInfoServiceImpl {
+}
+Class java.RefundInfoServiceImpl {
+}
+Class java.OrderCreateTo {
+}
+Class java.SpuInfoTo {
+}
+Class java.OrderConfirmVo {
+}
+Class java.OrderSubmitVo {
+}
+Class java.PayAsyncVo {
+}
+Class java.PayVo {
+}
+Class java.SeckillSkuInfoVo {
+}
+Class java.SubmitOrderResponseVo {
+}
+Class java.io/gulimall/Interface/CartServiceImpl {
+}
+Class java.io/gulimall/Interface/CartService {
+}
+Class java.io/gulimall/Interface/MemberReceiveAddressServiceImpl {
+}
+Class java.io/gulimall/Interface/MemberReceiveAddressService {
+}
+Class java.io/gulimall/Interface/WareSkuServiceImpl {
+}
+Class java.io/gulimall/Interface/WareSkuService {
+}
+Class java.io/gulimall/Interface/WareInfoServiceImpl {
+}
+Class java.io/gulimall/Interface/WareInfoService {
+}
+Class java.io/gulimall/Interface/SkuInfoServiceImpl {
+}
+Class java.io/gulimall/Interface/SkuInfoService {
+}
+Class java.io/gulimall/Interface/SpuInfoServiceImpl {
+}
+Class java.io/gulimall/Interface/SpuInfoService {
+}
+Class java.io/gulimall/NEWInstance/OrderServiceController {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/Main {
+}
+}
+package java <<Folder>> {
+Class java.MyCacheConfig {
+}
+Class java.MybatisPlusConfig {
+}
+Class java.AttrAttrgroupRelationController {
+}
+Class java.AttrController {
+}
+Class java.AttrGroupController {
+}
+Class java.BrandController {
+}
+Class java.CategoryBrandRelationController {
+}
+Class java.CategoryController {
+}
+Class java.CommentReplayController {
+}
+Class java.IndexController {
+}
+Class java.ItemController {
+}
+Class java.ProductAttrValueController {
+}
+Class java.SkuImagesController {
+}
+Class java.SkuInfoController {
+}
+Class java.SkuSaleAttrValueController {
+}
+Class java.SpuCommentController {
+}
+Class java.SpuImagesController {
+}
+Class java.SpuInfoController {
+}
+Class java.SpuInfoDescController {
+}
+Class java.AttrAttrgroupRelationDao {
+}
+Class java.AttrDao {
+}
+Class java.AttrGroupDao {
+}
+Class java.BrandDao {
+}
+Class java.CategoryBrandRelationDao {
+}
+Class java.CategoryDao {
+}
+Class java.CommentReplayDao {
+}
+Class java.ProductAttrValueDao {
+}
+Class java.SkuImagesDao {
+}
+Class java.SkuInfoDao {
+}
+Class java.SkuSaleAttrValueDao {
+}
+Class java.SpuCommentDao {
+}
+Class java.SpuImagesDao {
+}
+Class java.SpuInfoDao {
+}
+Class java.SpuInfoDescDao {
+}
+Class java.AttrAttrgroupRelationEntity {
+}
+Class java.AttrEntity {
+}
+Class java.AttrGroupEntity {
+}
+Class java.BrandEntity {
+}
+Class java.CategoryBrandRelationEntity {
+}
+Class java.CategoryEntity {
+}
+Class java.CommentReplayEntity {
+}
+Class java.ProductAttrValueEntity {
+}
+Class java.SkuImagesEntity {
+}
+Class java.SkuInfoEntity {
+}
+Class java.SkuSaleAttrValueEntity {
+}
+Class java.SpuCommentEntity {
+}
+Class java.SpuImagesEntity {
+}
+Class java.SpuInfoDescEntity {
+}
+Class java.SpuInfoEntity {
+}
+Class java.GulimallExceptionAdvice {
+}
+Class java.AttrAttrgroupRelationService {
+}
+Class java.AttrGroupService {
+}
+Class java.AttrService {
+}
+Class java.BrandService {
+}
+Class java.CategoryBrandRelationService {
+}
+Class java.CategoryService {
+}
+Class java.CommentReplayService {
+}
+Class java.ProductAttrValueService {
+}
+Class java.SkuImagesService {
+}
+Class java.SkuInfoService {
+}
+Class java.SkuSaleAttrValueService {
+}
+Class java.SpuCommentService {
+}
+Class java.SpuImagesService {
+}
+Class java.SpuInfoDescService {
+}
+Class java.SpuInfoService {
+}
+Class java.AttrAttrgroupRelationServiceImpl {
+}
+Class java.AttrGroupServiceImpl {
+}
+Class java.AttrServiceImpl {
+}
+Class java.BrandServiceImpl {
+}
+Class java.CategoryBrandRelationServiceImpl {
+}
+Class java.CategoryServiceImpl {
+}
+Class java.CommentReplayServiceImpl {
+}
+Class java.ProductAttrValueServiceImpl {
+}
+Class java.SkuImagesServiceImpl {
+}
+Class java.SkuInfoServiceImpl {
+}
+Class java.SkuSaleAttrValueServiceImpl {
+}
+Class java.SpuCommentServiceImpl {
+}
+Class java.SpuImagesServiceImpl {
+}
+Class java.SpuInfoDescServiceImpl {
+}
+Class java.SpuInfoServiceImpl {
+}
+Class java.Attr {
+}
+Class java.AttrGroupWithAttrVo {
+}
+Class java.AttrRespVo {
+}
+Class java.AttrValueWithSkuIdVo {
+}
+Class java.AttrVo {
+}
+Class java.BaseAttrs {
+}
+Class java.Bounds {
+}
+Class java.Catalog2Vo {
+}
+Class java.Catalog3Vo {
+}
+Class java.Images {
+}
+Class java.SeckillSkuVo {
+}
+Class java.SkuItemSaleAttrVo {
+}
+Class java.SkuItemVo {
+}
+Class java.Skus {
+}
+Class java.SpuItemAttrGroupVo {
+}
+Class java.SpuSaveVo {
+}
+Class java.io/gulimall/NEWInstance/SkuInfoServiceController {
+}
+Class java.io/gulimall/NEWInstance/SkuSaleAttrValueServiceController {
+}
+Class java.io/gulimall/NEWInstance/SpuInfoServiceController {
+}
+Class java.io/gulimall/Interface/CartServiceImpl {
+}
+Class java.io/gulimall/Interface/CartService {
+}
+Class java.io/gulimall/Interface/SeckillServiceImpl {
+}
+Class java.io/gulimall/Interface/SeckillService {
+}
+Class java.io/gulimall/Interface/SkuFullReductionServiceImpl {
+}
+Class java.io/gulimall/Interface/SkuFullReductionService {
+}
+Class java.io/gulimall/Interface/SpuBoundsServiceImpl {
+}
+Class java.io/gulimall/Interface/SpuBoundsService {
+}
+Class java.io/gulimall/Interface/WareSkuServiceImpl {
+}
+Class java.io/gulimall/Interface/WareSkuService {
+}
+Class java.io/gulimall/Interface/ProductSaveServiceImpl {
+}
+Class java.io/gulimall/Interface/ProductSaveService {
+}
+Class java.io/gulimall/NEWInstance/AttrServiceController {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/CartVo {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/DTO/PageUtils {
+}
+Class java.io/gulimall/Main {
+}
+}
+package java <<Folder>> {
+Class java.EsConstant {
+}
+Class java.ElasticSaveController {
+}
+Class java.SearchController {
+}
+Class java.ProductSaveService {
+}
+Class java.SearchService {
+}
+Class java.ProductSaveServiceimpl {
+}
+Class java.SearchServiceImpl {
+}
+Class java.AttrResponseVo {
+}
+Class java.SearchParam {
+}
+Class java.SearchResult {
+}
+Class java.AttrVo {
+}
+Class java.BrandVo {
+}
+Class java.CatalogVo {
+}
+Class java.NavVo {
+}
+Class java.io/gulimall/NEWInstance/ProductSaveServiceController {
+}
+Class java.io/gulimall/Interface/AttrServiceImpl {
+}
+Class java.io/gulimall/Interface/AttrService {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/Main {
+}
+}
+package java <<Folder>> {
+Class java.SchedulerConfig {
+}
+Class java.SeckillController {
+}
+Class java.SeckillSchedule {
+}
+Class java.SeckillService {
+}
+Class java.SeckillServiceImpl {
+}
+Class java.SeckillSkuRedisTo {
+}
+Class java.SkuInfoVo {
+}
+Class java.io/gulimall/NEWInstance/SeckillServiceController {
+}
+Class java.io/gulimall/DTO/SeckillSessionEntity {
+}
+Class java.io/gulimall/Interface/SeckillSessionServiceImpl {
+}
+Class java.io/gulimall/Interface/SeckillSessionService {
+}
+Class java.io/gulimall/Interface/SkuInfoServiceImpl {
+}
+Class java.io/gulimall/Interface/SkuInfoService {
+}
+Class java.io/gulimall/Interface/OrderServiceImpl {
+}
+Class java.io/gulimall/Interface/OrderService {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/Main {
+}
+}
+package java <<Folder>> {
+Class java.PurchaseController {
+}
+Class java.PurchaseDetailController {
+}
+Class java.WareInfoController {
+}
+Class java.WareOrderTaskController {
+}
+Class java.WareOrderTaskDetailController {
+}
+Class java.WareSkuController {
+}
+Class java.PurchaseDao {
+}
+Class java.PurchaseDetailDao {
+}
+Class java.WareInfoDao {
+}
+Class java.WareOrderTaskDao {
+}
+Class java.WareOrderTaskDetailDao {
+}
+Class java.WareSkuDao {
+}
+Class java.PurchaseDetailEntity {
+}
+Class java.PurchaseEntity {
+}
+Class java.WareInfoEntity {
+}
+Class java.WareOrderTaskDetailEntity {
+}
+Class java.WareOrderTaskEntity {
+}
+Class java.WareSkuEntity {
+}
+Class java.StockLockCleanupScheduler {
+}
+Class java.PurchaseDetailService {
+}
+Class java.PurchaseService {
+}
+Class java.WareInfoService {
+}
+Class java.WareOrderTaskDetailService {
+}
+Class java.WareOrderTaskService {
+}
+Class java.WareSkuService {
+}
+Class java.PurchaseDetailServiceImpl {
+}
+Class java.PurchaseServiceImpl {
+}
+Class java.WareInfoServiceImpl {
+}
+Class java.WareOrderTaskDetailServiceImpl {
+}
+Class java.WareOrderTaskServiceImpl {
+}
+Class java.WareSkuServiceImpl {
+}
+Class java.SkuLockVo {
+}
+Class java.MergeVo {
+}
+Class java.PurchaseDoneItemVo {
+}
+Class java.PurchaseDoneVo {
+}
+Class java.io/gulimall/NEWInstance/WareSkuServiceController {
+}
+Class java.io/gulimall/NEWInstance/WareInfoServiceController {
+}
+Class java.io/gulimall/Interface/MemberReceiveAddressServiceImpl {
+}
+Class java.io/gulimall/Interface/MemberReceiveAddressService {
+}
+Class java.io/gulimall/Interface/SkuInfoServiceImpl {
+}
+Class java.io/gulimall/Interface/SkuInfoService {
+}
+Class java.io/gulimall/Interface/OrderServiceImpl {
+}
+Class java.io/gulimall/Interface/OrderService {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/Main {
+}
+}
+package java <<Folder>> {
+Class java.SmsComponent {
+}
+Class java.OssConfig {
+}
+Class java.OssController {
+}
+Class java.io/gulimall/NEWInstance/SmsComponentController {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/DTO/R {
+}
+Class java.io/gulimall/Main {
+}
+}
+package java <<Folder>> {
+Class java.GulimallApplication {
+}
+Class java.GulimallWebConfig {
+}
+Class java.SecurityConfig {
+}
+Class java.ThymeleafConfig {
+}
+Class java.MyThreadPoolConfig {
+}
+Class java.ThreadPoolConfigProperties {
+}
+Class java.GulimallElasticSearchConfig {
+}
+Class java.AuthServerConstant {
+}
+Class java.CartConstant {
+}
+Class java.ProductConstant {
+}
+Class java.WareConstant {
+}
+Class java.ListValueConstraintValidator {
+}
+Class java.NoStockException {
+}
+Class java.RRException {
+}
+Class java.AddGroup {
+}
+Class java.UpdateGroup {
+}
+Class java.LoginInterceptor {
+}
+Class java.MemberPrice {
+}
+Class java.SkuReductionTo {
+}
+Class java.SkuEsModel {
+}
+Class java.Attr {
+}
+Class java.OrderTo {
+}
+Class java.SeckillOrderTo {
+}
+Class java.StockDetailTo {
+}
+Class java.StockLockedTo {
+}
+Class java.Constant {
+}
+Class java.HttpUtils {
+}
+Class java.PageUtils {
+}
+Class java.Query {
+}
+Class java.R {
+}
+Class java.FareVo {
+}
+Class java.MemberAddressVo {
+}
+Class java.MemberResponseVo {
+}
+Class java.OrderItemVo {
+}
+Class java.SkuHasStockVo {
+}
+Class java.SocialUser {
+}
+Class java.WareSkuLockVo {
+}
+Class java.HTMLFilter {
+}
+Class java.SQLFilter {
+}
+Class java.io/gulimall/NEWInstance/RController {
+}
+Class java.io/gulimall/Main {
+}
+}
+@enduml

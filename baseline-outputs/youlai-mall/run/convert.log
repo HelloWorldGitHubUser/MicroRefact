@@ -1,0 +1,1 @@
+{"clusters": {"mall-oms": 57, "mall-pms": 64, "mall-sms": 32, "mall-ums": 24, "youlai-auth": 45, "youlai-system": 84, "shared": 42}, "dropped": 18, "moved_to_shared": 28}

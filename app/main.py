@@ -470,7 +470,8 @@ def read_json_clusters(path_to_clusters, pathOfProject):
                 #comparar nome das classes para identificar a sub directory pai
 
                 class0 = re.sub('\'','', clusterClasses[0])
-                class1 = re.sub('\'','', clusterClasses[1])
+                # PATCH P1 (baseline harness): a single-class cluster made clusterClasses[1] raise IndexError
+                class1 = re.sub('\'','', clusterClasses[1] if len(clusterClasses) > 1 else clusterClasses[0])
                 print(class0)
                 print(class1)
                 
@@ -668,7 +669,8 @@ def main():
     print("NUMERO DE RELACIONAMENTOS ENTRE ENTIDADES DIFERENTES MS " + str(relations))
     print("NUMERO DE DEPEDENCIAS ENTRE CLASSES NAO ENTIDADES " + str(numDepends_Class))    
 
-    with open("/home/fracisco/Desktop/MicroRefact/count_classes.csv", 'a+', newline='') as write_obj:
+    # PATCH P0 (baseline harness): stats CSV path was hard-coded to the author's machine
+    with open(os.environ.get("MR_STATS_CSV", "count_classes.csv"), 'a+', newline='') as write_obj:
         # Create a writer object from csv module
         csv_writer = writer(write_obj)
         # Add contents of list as last row in the csv file

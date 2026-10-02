@@ -1,0 +1,37 @@
+{
+  "cluster_index_to_service": {
+    "0": "customer-core",
+    "1": "customer-management-backend",
+    "2": "customer-self-service-backend",
+    "3": "policy-management-backend",
+    "4": "shared"
+  },
+  "cluster_sizes": {
+    "customer-core": 16,
+    "customer-management-backend": 21,
+    "customer-self-service-backend": 54,
+    "policy-management-backend": 61,
+    "shared": 7
+  },
+  "dropped_not_emitted_by_parser": [
+    {
+      "class": "com.lakesidemutual.domain.policy.RequestStatus",
+      "kind": "enum"
+    },
+    {
+      "class": "com.lakesidemutual.domain.selfservice.RequestStatus",
+      "kind": "enum"
+    },
+    {
+      "class": "com.lakesidemutual.interfaces.validation.PhoneNumber",
+      "kind": "@interface"
+    }
+  ],
+  "moved_to_shared": {
+    "com.lakesidemutual.LakesideMutualApplication": "not listed in decomposition",
+    "com.lakesidemutual.interfaces.ErrorController": "owned by several services: customer-core, customer-management-backend, customer-self-service-backend, policy-management-backend",
+    "com.lakesidemutual.interfaces.configuration.SwaggerConfiguration": "owned by several services: customer-core, customer-management-backend, customer-self-service-backend, policy-management-backend",
+    "com.lakesidemutual.interfaces.configuration.WebConfiguration": "owned by several services: customer-core, customer-management-backend, customer-self-service-backend, policy-management-backend"
+  },
+  "inner_classes_following_outer": {}
+}

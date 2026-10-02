@@ -1,0 +1,1 @@
+{"app":"goodskill","exit_code":0,"seconds":3,"parser_language_level":"JAVA_14","compile_jdk":"21","services":["goodskill-ai", "goodskill-auth", "goodskill-chat", "goodskill-order", "goodskill-seckill", "goodskill-web", "shared"],"java_files":164}

@@ -1,0 +1,63 @@
+{
+  "cluster_index_to_service": {
+    "0": "goodskill-ai",
+    "1": "goodskill-chat",
+    "2": "goodskill-auth",
+    "3": "goodskill-order",
+    "4": "goodskill-seckill",
+    "5": "goodskill-web",
+    "6": "shared"
+  },
+  "cluster_sizes": {
+    "goodskill-ai": 6,
+    "goodskill-chat": 16,
+    "goodskill-auth": 33,
+    "goodskill-order": 13,
+    "goodskill-seckill": 50,
+    "goodskill-web": 6,
+    "shared": 15
+  },
+  "dropped_not_emitted_by_parser": [
+    {
+      "class": "com.goodskill.enums.Events",
+      "kind": "enum"
+    },
+    {
+      "class": "com.goodskill.enums.GoodsKillStrategyEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.goodskill.enums.OrderStatusEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.goodskill.enums.ResponseInfo",
+      "kind": "enum"
+    },
+    {
+      "class": "com.goodskill.enums.ResultCode",
+      "kind": "enum"
+    },
+    {
+      "class": "com.goodskill.enums.SeckillSolutionEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.goodskill.enums.States",
+      "kind": "enum"
+    }
+  ],
+  "moved_to_shared": {
+    "com.goodskill.GoodskillMonoApplication": "not listed in decomposition",
+    "com.goodskill.config.MinioConfig": "not listed in decomposition",
+    "com.goodskill.config.MinioProperties": "not listed in decomposition",
+    "com.goodskill.config.MybatisPlusConfig": "not listed in decomposition",
+    "com.goodskill.enums.CommonConstants": "not listed in decomposition",
+    "com.goodskill.handler.FieldMetaObjectHandler": "not listed in decomposition",
+    "com.goodskill.util.HeaderUtil": "not listed in decomposition",
+    "com.goodskill.util.UserInfoUtil": "not listed in decomposition"
+  },
+  "inner_classes_following_outer": {
+    "com.goodskill.dto.ChatRequestDTO.Message": "goodskill-ai"
+  }
+}

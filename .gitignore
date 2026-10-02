@@ -1,0 +1,6 @@
+# parser build output and per-run scratch files
+app/javaParser/target/
+app/count_classes.csv
+app/domain*.puml
+app/Results/ik__*/
+__pycache__/

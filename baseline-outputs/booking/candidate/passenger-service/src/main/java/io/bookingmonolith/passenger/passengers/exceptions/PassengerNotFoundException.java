@@ -1,0 +1,8 @@
+package io.bookingmonolith.passenger.passengers.exceptions;
+ import buildingblocks.core.exception.NotFoundException;
+public class PassengerNotFoundException extends NotFoundException{
+
+public PassengerNotFoundException() {
+    super("Passenger not found!");
+}
+}

@@ -1,0 +1,1 @@
+{"clusters": {"newbee-mall-cloud-user-service": 19, "newbee-mall-cloud-goods-service": 20, "newbee-mall-cloud-recommend-service": 18, "newbee-mall-cloud-shop-cart-service": 7, "newbee-mall-cloud-order-service": 22, "shared": 25}, "dropped": 8, "moved_to_shared": 7}

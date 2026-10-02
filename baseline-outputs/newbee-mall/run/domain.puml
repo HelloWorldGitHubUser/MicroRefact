@@ -1,0 +1,512 @@
+@startuml
+package java <<Folder>> {
+Class java.NewBeeAdminManageUserAPI {
+}
+Class java.AdminLoginParam {
+}
+Class java.UpdateAdminNameParam {
+}
+Class java.UpdateAdminPasswordParam {
+}
+Class java.NewBeeMallPersonalAPI {
+}
+Class java.MallUserLoginParam {
+}
+Class java.MallUserRegisterParam {
+}
+Class java.MallUserUpdateParam {
+}
+Class java.NewBeeMallUserVO {
+}
+Class java.AdminUserMapper {
+}
+Class java.MallUserMapper {
+}
+Class java.NewBeeAdminUserTokenMapper {
+}
+Class java.NewBeeMallUserTokenMapper {
+}
+Class java.AdminUser {
+}
+Class java.MallUser {
+}
+Class java.AdminUserService {
+}
+Class java.NewBeeMallUserService {
+}
+Class java.AdminUserServiceImpl {
+}
+Class java.NewBeeMallUserServiceImpl {
+}
+Class java.ltd/newbee/mall/api/NEWInstance/NewBeeAdminUserTokenMapperController {
+}
+Class java.ltd/newbee/mall/api/NEWInstance/MallUserMapperController {
+}
+Class java.ltd/newbee/mall/api/NEWInstance/NewBeeMallUserTokenMapperController {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/Main {
+}
+}
+package java <<Folder>> {
+Class java.NewBeeAdminGoodsCategoryAPI {
+}
+Class java.NewBeeAdminGoodsInfoAPI {
+}
+Class java.GoodsAddParam {
+}
+Class java.GoodsCategoryAddParam {
+}
+Class java.GoodsCategoryEditParam {
+}
+Class java.GoodsEditParam {
+}
+Class java.NewBeeMallGoodsAPI {
+}
+Class java.NewBeeMallGoodsCategoryAPI {
+}
+Class java.NewBeeMallGoodsDetailVO {
+}
+Class java.NewBeeMallSearchGoodsVO {
+}
+Class java.SearchPageCategoryVO {
+}
+Class java.GoodsCategoryMapper {
+}
+Class java.NewBeeMallGoodsMapper {
+}
+Class java.GoodsCategory {
+}
+Class java.NewBeeMallGoods {
+}
+Class java.StockNumDTO {
+}
+Class java.NewBeeMallCategoryService {
+}
+Class java.NewBeeMallGoodsService {
+}
+Class java.NewBeeMallCategoryServiceImpl {
+}
+Class java.NewBeeMallGoodsServiceImpl {
+}
+Class java.ltd/newbee/mall/api/NEWInstance/NewBeeMallGoodsMapperController {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/Main {
+}
+}
+package java <<Folder>> {
+Class java.NewBeeAdminCarouselAPI {
+}
+Class java.NewBeeAdminIndexConfigAPI {
+}
+Class java.CarouselAddParam {
+}
+Class java.CarouselEditParam {
+}
+Class java.IndexConfigAddParam {
+}
+Class java.IndexConfigEditParam {
+}
+Class java.NewBeeMallIndexAPI {
+}
+Class java.IndexInfoVO {
+}
+Class java.NewBeeMallIndexCarouselVO {
+}
+Class java.NewBeeMallIndexConfigGoodsVO {
+}
+Class java.CarouselMapper {
+}
+Class java.IndexConfigMapper {
+}
+Class java.Carousel {
+}
+Class java.IndexConfig {
+}
+Class java.NewBeeMallCarouselService {
+}
+Class java.NewBeeMallIndexConfigService {
+}
+Class java.NewBeeMallCarouselServiceImpl {
+}
+Class java.NewBeeMallIndexConfigServiceImpl {
+}
+Class java.ltd/newbee/mall/api/DTO/NewBeeMallGoods {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapper {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/Main {
+}
+}
+package java <<Folder>> {
+Class java.NewBeeMallShoppingCartAPI {
+}
+Class java.SaveCartItemParam {
+}
+Class java.UpdateCartItemParam {
+}
+Class java.NewBeeMallShoppingCartItemMapper {
+}
+Class java.NewBeeMallShoppingCartItem {
+}
+Class java.NewBeeMallShoppingCartService {
+}
+Class java.NewBeeMallShoppingCartServiceImpl {
+}
+Class java.ltd/newbee/mall/api/DTO/NewBeeMallGoods {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapper {
+}
+Class java.ltd/newbee/mall/api/NEWInstance/NewBeeMallShoppingCartServiceController {
+}
+Class java.ltd/newbee/mall/api/NEWInstance/NewBeeMallShoppingCartItemMapperController {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/Main {
+}
+}
+package java <<Folder>> {
+Class java.NewBeeAdminOrderAPI {
+}
+Class java.NewBeeMallOrderAPI {
+}
+Class java.NewBeeMallUserAddressAPI {
+}
+Class java.SaveMallUserAddressParam {
+}
+Class java.SaveOrderParam {
+}
+Class java.UpdateMallUserAddressParam {
+}
+Class java.NewBeeMallOrderDetailVO {
+}
+Class java.NewBeeMallOrderItemVO {
+}
+Class java.NewBeeMallOrderListVO {
+}
+Class java.NewBeeMallUserAddressVO {
+}
+Class java.MallUserAddressMapper {
+}
+Class java.NewBeeMallOrderAddressMapper {
+}
+Class java.NewBeeMallOrderItemMapper {
+}
+Class java.NewBeeMallOrderMapper {
+}
+Class java.MallUserAddress {
+}
+Class java.NewBeeMallOrder {
+}
+Class java.NewBeeMallOrderAddress {
+}
+Class java.NewBeeMallOrderItem {
+}
+Class java.NewBeeMallOrderService {
+}
+Class java.NewBeeMallUserAddressService {
+}
+Class java.NewBeeMallOrderServiceImpl {
+}
+Class java.NewBeeMallUserAddressServiceImpl {
+}
+Class java.ltd/newbee/mall/api/DTO/NewBeeMallShoppingCartItemVO {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeMallShoppingCartServiceImpl {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeMallShoppingCartService {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeMallShoppingCartItemMapperImpl {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeMallShoppingCartItemMapper {
+}
+Class java.ltd/newbee/mall/api/DTO/NewBeeMallGoods {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapperImpl {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeMallGoodsMapper {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/Result {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/DTO/PageQueryUtil {
+}
+Class java.ltd/newbee/mall/api/Main {
+}
+}
+package java <<Folder>> {
+Class java.NewBeeMallAPIApplication {
+}
+Class java.BatchIdParam {
+}
+Class java.NewBeeMallIndexCategoryVO {
+}
+Class java.NewBeeMallShoppingCartItemVO {
+}
+Class java.SecondLevelCategoryVO {
+}
+Class java.ThirdLevelCategoryVO {
+}
+Class java.Constants {
+}
+Class java.NewBeeMallException {
+}
+Class java.NeeBeeMallWebMvcConfigurer {
+}
+Class java.NewBeeMallExceptionHandler {
+}
+Class java.Swagger3Config {
+}
+Class java.TokenToAdminUserMethodArgumentResolver {
+}
+Class java.TokenToMallUserMethodArgumentResolver {
+}
+Class java.AdminUserToken {
+}
+Class java.MallUserToken {
+}
+Class java.BeanUtil {
+}
+Class java.Callback {
+}
+Class java.MD5Util {
+}
+Class java.NewBeeMallUtils {
+}
+Class java.NumberUtil {
+}
+Class java.PageQueryUtil {
+}
+Class java.PageResult {
+}
+Class java.Result {
+}
+Class java.ResultGenerator {
+}
+Class java.SystemUtil {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeAdminUserTokenMapperImpl {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeAdminUserTokenMapper {
+}
+Class java.ltd/newbee/mall/api/Interface/MallUserMapperImpl {
+}
+Class java.ltd/newbee/mall/api/Interface/MallUserMapper {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeMallUserTokenMapperImpl {
+}
+Class java.ltd/newbee/mall/api/Interface/NewBeeMallUserTokenMapper {
+}
+Class java.ltd/newbee/mall/api/Main {
+}
+}
+@enduml

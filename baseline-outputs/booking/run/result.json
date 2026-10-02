@@ -1,0 +1,1 @@
+{"app":"booking","exit_code":0,"seconds":3,"parser_language_level":"JAVA_14","compile_jdk":"17","services":["booking-service", "flight-service", "passenger-service", "shared"],"java_files":183}

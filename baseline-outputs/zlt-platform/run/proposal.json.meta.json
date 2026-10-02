@@ -1,0 +1,78 @@
+{
+  "cluster_index_to_service": {
+    "0": "user-center",
+    "1": "file-center",
+    "2": "log-center",
+    "3": "zlt-uaa",
+    "4": "search-center",
+    "5": "shared"
+  },
+  "cluster_sizes": {
+    "user-center": 22,
+    "file-center": 5,
+    "log-center": 4,
+    "zlt-uaa": 10,
+    "search-center": 12,
+    "shared": 50
+  },
+  "dropped_not_emitted_by_parser": [
+    {
+      "class": "com.central.enums.CodeEnum",
+      "kind": "enum"
+    },
+    {
+      "class": "com.central.enums.DataScope",
+      "kind": "enum"
+    },
+    {
+      "class": "com.central.enums.UserType",
+      "kind": "enum"
+    }
+  ],
+  "moved_to_shared": {
+    "com.central.MonolithApplication": "not listed in decomposition",
+    "com.central.config.CorsConfig": "not listed in decomposition",
+    "com.central.config.ElasticsearchConfig": "not listed in decomposition",
+    "com.central.config.MyBatisPlusConfig": "not listed in decomposition",
+    "com.central.config.PasswordConfig": "not listed in decomposition",
+    "com.central.config.RedisConfig": "not listed in decomposition",
+    "com.central.config.SecurityConfig": "not listed in decomposition",
+    "com.central.config.SecurityProperties": "not listed in decomposition",
+    "com.central.config.SecurityProperties.AuthProperties": "inner class of com.central.config.SecurityProperties",
+    "com.central.config.SecurityProperties.IgnoreProperties": "inner class of com.central.config.SecurityProperties",
+    "com.central.config.SecurityProperties.UrlPermissionProperties": "inner class of com.central.config.SecurityProperties",
+    "com.central.constant.SecurityConstants": "not listed in decomposition",
+    "com.central.controller.OAuthController": "not listed in decomposition",
+    "com.central.datascope.CreatorDataScopeSqlHandler": "not listed in decomposition",
+    "com.central.datascope.DataScopeInnerInterceptor": "not listed in decomposition",
+    "com.central.datascope.DataScopeInnerInterceptor.TableConfig": "inner class of com.central.datascope.DataScopeInnerInterceptor",
+    "com.central.datascope.DataScopeProperties": "not listed in decomposition",
+    "com.central.datascope.SqlHandler": "not listed in decomposition",
+    "com.central.exception.LockException": "not listed in decomposition",
+    "com.central.lock.KeyedLock": "not listed in decomposition",
+    "com.central.lock.LockAspect": "not listed in decomposition",
+    "com.central.lock.ReentrantKeyedLock": "not listed in decomposition",
+    "com.central.lock.ReentrantKeyedLock.LockWrapper": "inner class of com.central.lock.ReentrantKeyedLock",
+    "com.central.lock.ZLock": "not listed in decomposition",
+    "com.central.log.appender.ElasticsearchAppender": "not listed in decomposition",
+    "com.central.log.aspect.AuditLogAspect": "not listed in decomposition",
+    "com.central.log.model.Audit": "not listed in decomposition",
+    "com.central.log.properties.AuditLogProperties": "not listed in decomposition",
+    "com.central.log.service.IAuditService": "not listed in decomposition",
+    "com.central.log.service.impl.LoggerAuditServiceImpl": "not listed in decomposition",
+    "com.central.mapper.SuperMapper": "not listed in decomposition",
+    "com.central.security.LoginAppUser": "not listed in decomposition",
+    "com.central.security.LoginUserContextHolder": "not listed in decomposition",
+    "com.central.security.TokenAuthenticationFilter": "not listed in decomposition",
+    "com.central.trace.MDCTraceUtils": "not listed in decomposition",
+    "com.central.trace.TraceProperties": "not listed in decomposition",
+    "com.central.trace.WebTraceFilter": "not listed in decomposition"
+  },
+  "inner_classes_following_outer": {
+    "com.central.config.SecurityProperties.AuthProperties": "shared",
+    "com.central.config.SecurityProperties.IgnoreProperties": "shared",
+    "com.central.config.SecurityProperties.UrlPermissionProperties": "shared",
+    "com.central.datascope.DataScopeInnerInterceptor.TableConfig": "shared",
+    "com.central.lock.ReentrantKeyedLock.LockWrapper": "shared"
+  }
+}

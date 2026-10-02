@@ -1,0 +1,12 @@
+package com.hoangtien2k3.ecommerce.utils;
+ import lombok.experimental.UtilityClass;
+@UtilityClass
+public class StringUtils {
+
+
+public boolean hasText(String input){
+    return input != null && !input.trim().isEmpty();
+}
+
+
+}

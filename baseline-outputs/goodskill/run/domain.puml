@@ -1,0 +1,462 @@
+@startuml
+package java <<Folder>> {
+Class java.LoggingAdvisor {
+}
+Class java.UserSupportAssistant {
+}
+Class java.SeckillTools {
+}
+Class java.AssistantController {
+}
+Class java.ChatRequestDTO {
+}
+Class java.Message {
+}
+Class java.com/goodskill/Interface/SeckillMockControllerImpl {
+}
+Class java.com/goodskill/Interface/SeckillMockController {
+}
+Class java.com/goodskill/Main {
+}
+}
+package java <<Folder>> {
+Class java.ChatClient {
+}
+Class java.ChatHttpClient {
+}
+Class java.AiController {
+}
+Class java.ActorsFilmsDTO {
+}
+Class java.ChatMessageDto {
+}
+Class java.CompletionDTO {
+}
+Class java.ChatClientHandler {
+}
+Class java.ChatServerChannelInitializer {
+}
+Class java.ChatServerHandler {
+}
+Class java.HttpPipelineInitializer {
+}
+Class java.ChatServer {
+}
+Class java.User {
+}
+Class java.TongYiService {
+}
+Class java.AbstractTongYiServiceImpl {
+}
+Class java.TongYiSimpleServiceImpl {
+}
+Class java.JwtUtils {
+}
+Class java.BaseColEntity {
+}
+Class java.com/goodskill/Main {
+}
+}
+package java <<Folder>> {
+Class java.UserBO {
+}
+Class java.EncryptConfig {
+}
+Class java.LoginController {
+}
+Class java.UserController {
+}
+Class java.UserDTO {
+}
+Class java.Permission {
+}
+Class java.Role {
+}
+Class java.RolePermission {
+}
+Class java.User {
+}
+Class java.UserAuthAccount {
+}
+Class java.UserRole {
+}
+Class java.PermissionMapper {
+}
+Class java.RoleMapper {
+}
+Class java.RolePermissionMapper {
+}
+Class java.UserAuthAccountMapper {
+}
+Class java.UserMapper {
+}
+Class java.UserRoleMapper {
+}
+Class java.StpInterfaceImpl {
+}
+Class java.PermissionService {
+}
+Class java.RolePermissionService {
+}
+Class java.RoleService {
+}
+Class java.UserAccountService {
+}
+Class java.UserAuthAccountService {
+}
+Class java.UserRoleService {
+}
+Class java.UserService {
+}
+Class java.PermissionServiceImpl {
+}
+Class java.RolePermissionServiceImpl {
+}
+Class java.RoleServiceImpl {
+}
+Class java.UserAccountServiceImpl {
+}
+Class java.UserAuthAccountServiceImpl {
+}
+Class java.UserRoleServiceImpl {
+}
+Class java.UserServiceImpl {
+}
+Class java.UserInfoVO {
+}
+Class java.BaseColEntity {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/Main {
+}
+}
+package java <<Folder>> {
+Class java.AlipayConfig {
+}
+Class java.AdminOrderController {
+}
+Class java.AlipayController {
+}
+Class java.OrderController {
+}
+Class java.AlipayRequestDTO {
+}
+Class java.AlipayResponseDTO {
+}
+Class java.OrderDTO {
+}
+Class java.Order {
+}
+Class java.OrderRepository {
+}
+Class java.AlipayService {
+}
+Class java.AlipayServiceImpl {
+}
+Class java.OrderServiceImpl {
+}
+Class java.SeckillMockSaveVo {
+}
+Class java.com/goodskill/NEWInstance/OrderServiceImplController {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/Main {
+}
+}
+package java <<Folder>> {
+Class java.StateMachineConfig {
+}
+Class java.ThreadPoolConfig {
+}
+Class java.CommonConstant {
+}
+Class java.GoodsController {
+}
+Class java.SeckillController {
+}
+Class java.SeckillCustomerController {
+}
+Class java.SeckillGraphqlController {
+}
+Class java.ExposerDTO {
+}
+Class java.GoodsDTO {
+}
+Class java.ResponseDTO {
+}
+Class java.SeckillExecutionDTO {
+}
+Class java.SeckillInfoDTO {
+}
+Class java.SeckillMockRequestDTO {
+}
+Class java.SeckillMockResponseDTO {
+}
+Class java.SeckillResponseDTO {
+}
+Class java.SuccessKilledDTO {
+}
+Class java.Goods {
+}
+Class java.Goods {
+}
+Class java.Seckill {
+}
+Class java.SuccessKilled {
+}
+Class java.SeckillExecutor {
+}
+Class java.SeckillProcedureExecutor {
+}
+Class java.AbstractPreRequestHandler {
+}
+Class java.DatabasePreRequestHandler {
+}
+Class java.MongoPreRequestHandler {
+}
+Class java.PreRequestHandler {
+}
+Class java.PreRequestPipeline {
+}
+Class java.RedisPreRequestHandler {
+}
+Class java.StateMachinePreRequestHandler {
+}
+Class java.GoodsMapper {
+}
+Class java.SeckillMapper {
+}
+Class java.SuccessKilledMapper {
+}
+Class java.GoodsRepository {
+}
+Class java.GoodsEsService {
+}
+Class java.GoodsService {
+}
+Class java.RedisService {
+}
+Class java.SeckillService {
+}
+Class java.StateMachineService {
+}
+Class java.SuccessKilledService {
+}
+Class java.GoodsEsServiceImpl {
+}
+Class java.GoodsServiceImpl {
+}
+Class java.SeckillServiceImpl {
+}
+Class java.SuccessKilledServiceImpl {
+}
+Class java.GoodsKillStrategy {
+}
+Class java.SynchronizedLockStrategy {
+}
+Class java.UploadFileUtil {
+}
+Class java.GoodsVO {
+}
+Class java.PageVO {
+}
+Class java.SeckillVO {
+}
+Class java.UserVO {
+}
+Class java.com/goodskill/Interface/OrderServiceImplImpl {
+}
+Class java.com/goodskill/Interface/OrderServiceImpl {
+}
+Class java.com/goodskill/Interface/OrderServiceImplImpl {
+}
+Class java.com/goodskill/Interface/OrderServiceImpl {
+}
+Class java.com/goodskill/Interface/SeckillMockResponseListenerImpl {
+}
+Class java.com/goodskill/Interface/SeckillMockResponseListener {
+}
+Class java.com/goodskill/Interface/OrderServiceImplImpl {
+}
+Class java.com/goodskill/Interface/OrderServiceImpl {
+}
+Class java.com/goodskill/Interface/OrderServiceImplImpl {
+}
+Class java.com/goodskill/Interface/OrderServiceImpl {
+}
+Class java.com/goodskill/NEWInstance/SeckillServiceController {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/DTO/Result {
+}
+Class java.com/goodskill/Main {
+}
+}
+package java <<Folder>> {
+Class java.SeckillMockController {
+}
+Class java.ApiResult {
+}
+Class java.CommonException {
+}
+Class java.GlobalExceptionHandler {
+}
+Class java.SeckillMockResponseListener {
+}
+Class java.TaskTimeCaculateUtil {
+}
+Class java.com/goodskill/NEWInstance/SeckillMockControllerController {
+}
+Class java.com/goodskill/NEWInstance/SeckillMockResponseListenerController {
+}
+Class java.com/goodskill/Interface/SeckillServiceImpl {
+}
+Class java.com/goodskill/Interface/SeckillService {
+}
+Class java.com/goodskill/Interface/SeckillServiceImpl {
+}
+Class java.com/goodskill/Interface/SeckillService {
+}
+Class java.com/goodskill/Main {
+}
+}
+package java <<Folder>> {
+Class java.GoodskillMonoApplication {
+}
+Class java.MinioConfig {
+}
+Class java.MinioProperties {
+}
+Class java.MybatisPlusConfig {
+}
+Class java.SeckillStatusConstant {
+}
+Class java.Result {
+}
+Class java.SeckillWebMockRequestDTO {
+}
+Class java.BaseColEntity {
+}
+Class java.CommonConstants {
+}
+Class java.SeckillCloseException {
+}
+Class java.SeckillException {
+}
+Class java.FieldMetaObjectHandler {
+}
+Class java.HeaderUtil {
+}
+Class java.MD5Util {
+}
+Class java.UserInfoUtil {
+}
+Class java.com/goodskill/NEWInstance/ResultController {
+}
+Class java.com/goodskill/Main {
+}
+}
+@enduml

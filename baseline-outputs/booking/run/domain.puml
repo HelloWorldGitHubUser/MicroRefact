@@ -1,0 +1,376 @@
+@startuml
+package java <<Folder>> {
+Class java.AircraftAlreadyExistException {
+}
+Class java.InvalidAircraftIdException {
+}
+Class java.Mappings {
+}
+Class java.CreateAircraftCommandHandler {
+}
+Class java.CreateAircraftCommandValidator {
+}
+Class java.CreateAircraftController {
+}
+Class java.Aircraft {
+}
+Class java.AircraftId {
+}
+Class java.ManufacturingYear {
+}
+Class java.Model {
+}
+Class java.Name {
+}
+Class java.AirportAlreadyExistException {
+}
+Class java.InvalidAirportIdException {
+}
+Class java.Mappings {
+}
+Class java.CreateAirportCommandHandler {
+}
+Class java.CreateAirportCommandValidator {
+}
+Class java.CreateAirportController {
+}
+Class java.Airport {
+}
+Class java.Address {
+}
+Class java.AirportId {
+}
+Class java.Code {
+}
+Class java.Name {
+}
+Class java.AircraftEntity {
+}
+Class java.AirportEntity {
+}
+Class java.FlightEntity {
+}
+Class java.SeatEntity {
+}
+Class java.AircraftRepository {
+}
+Class java.AirportRepository {
+}
+Class java.FlightRepository {
+}
+Class java.SeatRepository {
+}
+Class java.FlightDataSeeder {
+}
+Class java.InitialData {
+}
+Class java.FlightAlreadyExistException {
+}
+Class java.FlightException {
+}
+Class java.FlightNotFoundException {
+}
+Class java.Mappings {
+}
+Class java.CreateFlightCommandHandler {
+}
+Class java.CreateFlightCommandValidator {
+}
+Class java.CreateFlightController {
+}
+Class java.DeleteFlightCommandHandler {
+}
+Class java.DeleteFlightCommandValidator {
+}
+Class java.DeleteFlightController {
+}
+Class java.GetAvailableFlightsController {
+}
+Class java.GetAvailableFlightsQueryHandler {
+}
+Class java.GetFlightByIdController {
+}
+Class java.GetFlightByIdQueryHandler {
+}
+Class java.GetFlightByIdQueryValidator {
+}
+Class java.UpdateFlightCommandHandler {
+}
+Class java.UpdateFlightCommandValidator {
+}
+Class java.UpdateFlightController {
+}
+Class java.Flight {
+}
+Class java.ArriveDate {
+}
+Class java.DepartureDate {
+}
+Class java.DurationMinutes {
+}
+Class java.FlightDate {
+}
+Class java.FlightId {
+}
+Class java.FlightNumber {
+}
+Class java.Price {
+}
+Class java.SeatAlreadyExistException {
+}
+Class java.SeatNumberAlreadyReservedException {
+}
+Class java.Mappings {
+}
+Class java.CrateSeatCommandHandler {
+}
+Class java.CreatSeatController {
+}
+Class java.CreateSeatCommandValidator {
+}
+Class java.GetAvailableSeatsController {
+}
+Class java.GetAvailableSeatsQueryHandler {
+}
+Class java.GetAvailableSeatsQueryValidator {
+}
+Class java.ReserveSeatCommandHandler {
+}
+Class java.ReserveSeatCommandValidator {
+}
+Class java.ReserveSeatController {
+}
+Class java.Seat {
+}
+Class java.FlightId {
+}
+Class java.SeatId {
+}
+Class java.SeatNumber {
+}
+Class java.AggregateRoot {
+}
+Class java.BaseEntity {
+}
+Class java.io/bookingmonolith/Main {
+}
+}
+package java <<Folder>> {
+Class java.PassengerEntity {
+}
+Class java.PassengerRepository {
+}
+Class java.InitialPassengerData {
+}
+Class java.PassengerDataSeeder {
+}
+Class java.PassengerAlreadyExistException {
+}
+Class java.PassengerNotFoundException {
+}
+Class java.Mappings {
+}
+Class java.CreatePassengerCommandHandler {
+}
+Class java.CreatePassengerCommandValidator {
+}
+Class java.PassengerController {
+}
+Class java.GetPassengerByIdController {
+}
+Class java.GetPassengerByIdQueryHandler {
+}
+Class java.GetPassengerByIdQueryValidator {
+}
+Class java.Passenger {
+}
+Class java.Age {
+}
+Class java.Name {
+}
+Class java.PassengerId {
+}
+Class java.PassportNumber {
+}
+Class java.AggregateRoot {
+}
+Class java.BaseEntity {
+}
+Class java.io/bookingmonolith/Main {
+}
+}
+package java <<Folder>> {
+Class java.BookingAlreadyExistException {
+}
+Class java.FlightNotFoundException {
+}
+Class java.PassengerNotFoundException {
+}
+Class java.SeatNumberIsNotAvailableException {
+}
+Class java.Mappings {
+}
+Class java.CreateBookingCommandHandler {
+}
+Class java.CreateBookingCommandValidator {
+}
+Class java.CreateBookingController {
+}
+Class java.Booking {
+}
+Class java.BookingId {
+}
+Class java.PassengerInfo {
+}
+Class java.Trip {
+}
+Class java.BookingEntity {
+}
+Class java.BookingRepository {
+}
+Class java.FlightDeletedListener {
+}
+Class java.FlightUpdatedListener {
+}
+Class java.BaseEntity {
+}
+Class java.AggregateRoot {
+}
+Class java.io/bookingmonolith/Main {
+}
+}
+package java <<Folder>> {
+Class java.DomainEvent {
+}
+Class java.EventDispatcher {
+}
+Class java.EventDispatcherConfiguration {
+}
+Class java.EventDispatcherImpl {
+}
+Class java.EventMapper {
+}
+Class java.IEvent {
+}
+Class java.IntegrationEvent {
+}
+Class java.InternalCommand {
+}
+Class java.AggregateNotFoundException {
+}
+Class java.AppException {
+}
+Class java.BadRequestException {
+}
+Class java.ConflictException {
+}
+Class java.CustomException {
+}
+Class java.InternalServerException {
+}
+Class java.NotFoundException {
+}
+Class java.ValidationException {
+}
+Class java.AggregateRoot {
+}
+Class java.BaseEntity {
+}
+Class java.FlywayConfiguration {
+}
+Class java.HibernateGlobalFilter {
+}
+Class java.JpaAuditorAwareImpl {
+}
+Class java.JpaConfiguration {
+}
+Class java.CustomAuthenticationEntryPoint {
+}
+Class java.KeycloakConfiguration {
+}
+Class java.KeycloakRoleConverter {
+}
+Class java.KeycloakScopeConverter {
+}
+Class java.LoggerConfiguration {
+}
+Class java.MediatorConfiguration {
+}
+Class java.MediatorProperties {
+}
+Class java.MediatorRoot {
+}
+Class java.IMediator {
+}
+Class java.IPublisher {
+}
+Class java.ISender {
+}
+Class java.IBaseCommand {
+}
+Class java.ICommand {
+}
+Class java.ICommandHandler {
+}
+Class java.ICommandUnit {
+}
+Class java.ICommandUnitHandler {
+}
+Class java.INotification {
+}
+Class java.INotificationHandler {
+}
+Class java.INotificationPipelineBehavior {
+}
+Class java.NotificationHandlerDelegate {
+}
+Class java.IBaseQuery {
+}
+Class java.IQuery {
+}
+Class java.IQueryHandler {
+}
+Class java.IBaseRequest {
+}
+Class java.IPipelineBehavior {
+}
+Class java.IRequest {
+}
+Class java.IRequestHandler {
+}
+Class java.IRequestUnit {
+}
+Class java.IRequestUnitHandler {
+}
+Class java.RequestHandlerDelegate {
+}
+Class java.Unit {
+}
+Class java.LogPipelineBehavior {
+}
+Class java.TransactionPipelineBehavior {
+}
+Class java.ValidationPipelineBehavior {
+}
+Class java.OtelCollectorConfiguration {
+}
+Class java.OtelCollectorOptions {
+}
+Class java.SwaggerConfiguration {
+}
+Class java.SpringBeanUtils {
+}
+Class java.JsonConverterUtils {
+}
+Class java.ReflectionUtils {
+}
+Class java.ValidationUtils {
+}
+Class java.MonolithApplication {
+}
+Class java.MonolithConfigurations {
+}
+Class java.io/bookingmonolith/Main {
+}
+}
+@enduml

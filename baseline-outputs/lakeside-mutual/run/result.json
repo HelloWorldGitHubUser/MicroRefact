@@ -1,0 +1,1 @@
+{"app":"lakeside-mutual","exit_code":0,"seconds":4,"parser_language_level":"JAVA_14","compile_jdk":"17","services":["customer-core", "customer-management-backend", "customer-self-service-backend", "policy-management-backend", "shared"],"java_files":209}

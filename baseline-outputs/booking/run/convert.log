@@ -1,0 +1,1 @@
+{"clusters": {"flight-service": 74, "passenger-service": 18, "booking-service": 16, "shared": 65}, "dropped": 51, "moved_to_shared": 14}
