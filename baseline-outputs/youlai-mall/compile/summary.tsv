@@ -1,0 +1,9 @@
+module	status	javac_errors	first_error
+monolith (control)	OK	0	
+mall-oms	javac	9	[ERROR] COMPILATION ERROR : 
+mall-pms	javac	9	[ERROR] COMPILATION ERROR : 
+mall-sms	javac	6	[ERROR] COMPILATION ERROR : 
+mall-ums	javac	7	[ERROR] COMPILATION ERROR : 
+shared	javac	16	[ERROR] COMPILATION ERROR : 
+youlai-auth	javac	6	[ERROR] COMPILATION ERROR : 
+youlai-system	javac	7	[ERROR] COMPILATION ERROR : 
